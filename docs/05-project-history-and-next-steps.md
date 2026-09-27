@@ -16,8 +16,11 @@ research ideas: fresh computation, explicit definitions, unweighted subgroup n,
 weighting choices, limited causal inference, and honest dataset boundaries.
 It separates the prompt and file configuration from the UI, adds fictional data,
 local setup checks, a chat reset, bounded pause continuation, and input checks.
-The SFO summary JSON, legacy engine, and historical evaluation artifacts are not
-required to run this version and are not included.
+The SFO summary JSON, legacy engine, and historical answer/grade artifacts are not
+required to run this version and are not included. The original question notes
+and full question battery are now included under `evaluation/`, along with the
+complete 29-question historical run mapping. See the
+[running guide](06-running-the-question-battery.md) to evaluate the current app.
 
 The source planning document proposed Render hosting. The observed current app
 is a local Streamlit application; this tutorial does not claim that hosting was

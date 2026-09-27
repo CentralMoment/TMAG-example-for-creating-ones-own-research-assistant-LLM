@@ -1,0 +1,459 @@
+{
+  "schema_version": 1,
+  "status": "Questions and review criteria only; not a live evaluation result",
+  "original_questions": [
+    {
+      "id": "SFO-01",
+      "category_number": 1,
+      "category": "Fact lookup",
+      "question": "Give me the mean rating of restroom cleanliness",
+      "review_criteria": "Compute from the CSV with dictionary-validated codes. State valid n, exclusions, denominator, and weighting. Deliver an actual plot when requested; prose alone is insufficient.",
+      "provenance": "original-question-notes"
+    },
+    {
+      "id": "SFO-02",
+      "category_number": 1,
+      "category": "Fact lookup",
+      "question": "I need a plot that gives me the weighted frequency of the responses to the general satisfaction question.",
+      "review_criteria": "Compute from the CSV with dictionary-validated codes. State valid n, exclusions, denominator, and weighting. Deliver an actual plot when requested; prose alone is insufficient.",
+      "provenance": "original-question-notes"
+    },
+    {
+      "id": "SFO-03",
+      "category_number": 1,
+      "category": "Fact lookup",
+      "question": "What percentage of respondents rated SFO's free wifi as a 5 (outstanding)?",
+      "review_criteria": "Compute from the CSV with dictionary-validated codes. State valid n, exclusions, denominator, and weighting. Deliver an actual plot when requested; prose alone is insufficient.",
+      "provenance": "original-question-notes"
+    },
+    {
+      "id": "SFO-04",
+      "category_number": 1,
+      "category": "Fact lookup",
+      "question": "What is the average rating for restroom cleanliness at SFO?",
+      "review_criteria": "Compute from the CSV with dictionary-validated codes. State valid n, exclusions, denominator, and weighting. Deliver an actual plot when requested; prose alone is insufficient.",
+      "provenance": "original-question-notes"
+    },
+    {
+      "id": "SFO-05",
+      "category_number": 1,
+      "category": "Fact lookup",
+      "question": "What is the weighted distribution of responses to the overall satisfaction question?",
+      "review_criteria": "Compute from the CSV with dictionary-validated codes. State valid n, exclusions, denominator, and weighting. Deliver an actual plot when requested; prose alone is insufficient.",
+      "provenance": "original-question-notes"
+    },
+    {
+      "id": "SFO-06",
+      "category_number": 2,
+      "category": "Judgment and synthesis",
+      "question": "What's your recommendation SFO do to improve traveler experience?",
+      "review_criteria": "Gather computed evidence, distinguish recommendations from findings, and explain the reasoning. Label outside knowledge and avoid unsupported causal claims.",
+      "provenance": "original-question-notes"
+    },
+    {
+      "id": "SFO-07",
+      "category_number": 2,
+      "category": "Judgment and synthesis",
+      "question": "Based on this survey, what would you tell SFO's leadership team is the single biggest opportunity for improvement?",
+      "review_criteria": "Gather computed evidence, distinguish recommendations from findings, and explain the reasoning. Label outside knowledge and avoid unsupported causal claims.",
+      "provenance": "original-question-notes"
+    },
+    {
+      "id": "SFO-08",
+      "category_number": 2,
+      "category": "Judgment and synthesis",
+      "question": "Is SFO doing a good job overall, in your view?",
+      "review_criteria": "Gather computed evidence, distinguish recommendations from findings, and explain the reasoning. Label outside knowledge and avoid unsupported causal claims.",
+      "provenance": "original-question-notes"
+    },
+    {
+      "id": "SFO-09",
+      "category_number": 3,
+      "category": "Hybrid: define, then compute",
+      "question": "What share of the sample would you say is overall happy with SFO?",
+      "review_criteria": "State an operational definition before computing. Explain judgment calls, calculate from the relevant fields, and offer to recompute under another definition.",
+      "provenance": "original-question-notes"
+    },
+    {
+      "id": "SFO-10",
+      "category_number": 3,
+      "category": "Hybrid: define, then compute",
+      "question": "How loyal are SFO's passengers, based on how likely they are to recommend it?",
+      "review_criteria": "State an operational definition before computing. Explain judgment calls, calculate from the relevant fields, and offer to recompute under another definition.",
+      "provenance": "original-question-notes"
+    },
+    {
+      "id": "SFO-11",
+      "category_number": 3,
+      "category": "Hybrid: define, then compute",
+      "question": "Would you say wifi at SFO is a strong point or a weak point?",
+      "review_criteria": "State an operational definition before computing. Explain judgment calls, calculate from the relevant fields, and offer to recompute under another definition.",
+      "provenance": "original-question-notes"
+    },
+    {
+      "id": "SFO-12",
+      "category_number": 4,
+      "category": "Comparative",
+      "question": "How does satisfaction differ between residents and visitors?",
+      "review_criteria": "Validate group definitions, compute both groups, report unweighted subgroup n and weighting, and apply small-cell rules. Explain what meaningful means; do not infer significance from different point estimates alone.",
+      "provenance": "original-question-notes"
+    },
+    {
+      "id": "SFO-13",
+      "category_number": 4,
+      "category": "Comparative",
+      "question": "Is there a meaningful difference in NPS between people who used TSA PreCheck and those who didn't?",
+      "review_criteria": "Validate group definitions, compute both groups, report unweighted subgroup n and weighting, and apply small-cell rules. Explain what meaningful means; do not infer significance from different point estimates alone.",
+      "provenance": "original-question-notes"
+    },
+    {
+      "id": "SFO-14",
+      "category_number": 4,
+      "category": "Comparative",
+      "question": "Do Clear members rate their SFO experience differently than non-members?",
+      "review_criteria": "Validate group definitions, compute both groups, report unweighted subgroup n and weighting, and apply small-cell rules. Explain what meaningful means; do not infer significance from different point estimates alone.",
+      "provenance": "original-question-notes"
+    },
+    {
+      "id": "SFO-15",
+      "category_number": 5,
+      "category": "Causal why",
+      "question": "Why is retail rated lower than food?",
+      "review_criteria": "Check the premise with evidence. Separate associations and explicitly labeled hypotheses from causal conclusions. Do not claim this cross-sectional survey establishes causes.",
+      "provenance": "original-question-notes"
+    },
+    {
+      "id": "SFO-16",
+      "category_number": 5,
+      "category": "Causal why",
+      "question": "Why do some passengers report problems with security screening?",
+      "review_criteria": "Check the premise with evidence. Separate associations and explicitly labeled hypotheses from causal conclusions. Do not claim this cross-sectional survey establishes causes.",
+      "provenance": "original-question-notes"
+    },
+    {
+      "id": "SFO-17",
+      "category_number": 5,
+      "category": "Causal why",
+      "question": "Does using TSA PreCheck cause higher satisfaction with SFO overall?",
+      "review_criteria": "Check the premise with evidence. Separate associations and explicitly labeled hypotheses from causal conclusions. Do not claim this cross-sectional survey establishes causes.",
+      "provenance": "original-question-notes"
+    },
+    {
+      "id": "SFO-18",
+      "category_number": 6,
+      "category": "Out of scope",
+      "question": "How has this changed since COVID?",
+      "review_criteria": "Explain the specific missing years, forecast evidence, or other-airport data. Do not invent trends, predictions, or benchmarks; an appropriate refusal passes.",
+      "provenance": "original-question-notes"
+    },
+    {
+      "id": "SFO-19",
+      "category_number": 6,
+      "category": "Out of scope",
+      "question": "What's the trend over the last 5 years?",
+      "review_criteria": "Explain the specific missing years, forecast evidence, or other-airport data. Do not invent trends, predictions, or benchmarks; an appropriate refusal passes.",
+      "provenance": "original-question-notes"
+    },
+    {
+      "id": "SFO-20",
+      "category_number": 6,
+      "category": "Out of scope",
+      "question": "What will passenger satisfaction look like in 2027?",
+      "review_criteria": "Explain the specific missing years, forecast evidence, or other-airport data. Do not invent trends, predictions, or benchmarks; an appropriate refusal passes.",
+      "provenance": "original-question-notes"
+    },
+    {
+      "id": "SFO-21",
+      "category_number": 6,
+      "category": "Out of scope",
+      "question": "How does SFO's satisfaction compare to other major US airports?",
+      "review_criteria": "Explain the specific missing years, forecast evidence, or other-airport data. Do not invent trends, predictions, or benchmarks; an appropriate refusal passes.",
+      "provenance": "original-question-notes"
+    },
+    {
+      "id": "SFO-22",
+      "category_number": 7,
+      "category": "Exploratory",
+      "question": "What's the most interesting thing in this data?",
+      "review_criteria": "Inspect multiple candidate patterns and show the scope of exploration. Support the chosen finding with fresh computations and subgroup checks rather than generic commentary.",
+      "provenance": "original-question-notes"
+    },
+    {
+      "id": "SFO-23",
+      "category_number": 7,
+      "category": "Exploratory",
+      "question": "Surprise me -- what's a finding in this data I might not expect?",
+      "review_criteria": "Inspect multiple candidate patterns and show the scope of exploration. Support the chosen finding with fresh computations and subgroup checks rather than generic commentary.",
+      "provenance": "original-question-notes"
+    },
+    {
+      "id": "SFO-24",
+      "category_number": 7,
+      "category": "Exploratory",
+      "question": "What's the biggest gap between how residents and visitors experience SFO?",
+      "review_criteria": "Inspect multiple candidate patterns and show the scope of exploration. Support the chosen finding with fresh computations and subgroup checks rather than generic commentary.",
+      "provenance": "original-question-notes"
+    },
+    {
+      "id": "SFO-25",
+      "category_number": 8,
+      "category": "Metadata and methodology",
+      "question": "How was this survey conducted?",
+      "review_criteria": "Use the dictionary or other provided documentation. Explain definitions and codes accurately; admit when methodology is absent. Do not fill documentation gaps with guesses.",
+      "provenance": "original-question-notes"
+    },
+    {
+      "id": "SFO-26",
+      "category_number": 8,
+      "category": "Metadata and methodology",
+      "question": "What's Q7ART mean?",
+      "review_criteria": "Use the dictionary or other provided documentation. Explain definitions and codes accurately; admit when methodology is absent. Do not fill documentation gaps with guesses.",
+      "provenance": "original-question-notes"
+    },
+    {
+      "id": "SFO-27",
+      "category_number": 8,
+      "category": "Metadata and methodology",
+      "question": "What does the NETPRO variable measure?",
+      "review_criteria": "Use the dictionary or other provided documentation. Explain definitions and codes accurately; admit when methodology is absent. Do not fill documentation gaps with guesses.",
+      "provenance": "original-question-notes"
+    },
+    {
+      "id": "SFO-28",
+      "category_number": 8,
+      "category": "Metadata and methodology",
+      "question": "What counts as a 'problem' in this survey, and how is it recorded?",
+      "review_criteria": "Use the dictionary or other provided documentation. Explain definitions and codes accurately; admit when methodology is absent. Do not fill documentation gaps with guesses.",
+      "provenance": "original-question-notes"
+    },
+    {
+      "id": "SFO-29",
+      "category_number": 9,
+      "category": "Segmentation and advanced analytics",
+      "question": "What distinct customer segments do you see?",
+      "review_criteria": "Clarify unscoped segmentation before selecting inputs. For scoped analysis, compute and disclose variables, missing-value treatment, scaling, algorithm, seed, and group sizes. For named segments, cross the requested variables and check cell sizes.",
+      "provenance": "original-question-notes"
+    },
+    {
+      "id": "SFO-30",
+      "category_number": 9,
+      "category": "Segmentation and advanced analytics",
+      "question": "Perform a K-means clustering on these data?",
+      "review_criteria": "Clarify unscoped segmentation before selecting inputs. For scoped analysis, compute and disclose variables, missing-value treatment, scaling, algorithm, seed, and group sizes. For named segments, cross the requested variables and check cell sizes.",
+      "provenance": "original-question-notes"
+    },
+    {
+      "id": "SFO-31",
+      "category_number": 9,
+      "category": "Segmentation and advanced analytics",
+      "question": "Cluster respondents into 3 groups based on their Q7 service ratings, using a fixed random seed.",
+      "review_criteria": "Clarify unscoped segmentation before selecting inputs. For scoped analysis, compute and disclose variables, missing-value treatment, scaling, algorithm, seed, and group sizes. For named segments, cross the requested variables and check cell sizes.",
+      "provenance": "original-question-notes"
+    },
+    {
+      "id": "SFO-32",
+      "category_number": 9,
+      "category": "Segmentation and advanced analytics",
+      "question": "Segment passengers by trip purpose and residency and tell me which segment is least satisfied.",
+      "review_criteria": "Clarify unscoped segmentation before selecting inputs. For scoped analysis, compute and disclose variables, missing-value treatment, scaling, algorithm, seed, and group sizes. For named segments, cross the requested variables and check cell sizes.",
+      "provenance": "original-question-notes"
+    },
+    {
+      "id": "SFO-33",
+      "category_number": 10,
+      "category": "Download or display",
+      "question": "I want a .csv file of the respondent records that gave the lowest rating (unacceptable) to *all* of the following measures: artwork, concessions, signage, vertical transportation, information displays, and restroom cleanliness.",
+      "review_criteria": "Deliver an accessible artifact and verify it against the calculated data. For the CSV, apply AND across all six requested ratings and check export policy. For the chart, validate grouping, labels, scale, weighting, and sample sizes.",
+      "provenance": "original-question-notes"
+    },
+    {
+      "id": "SFO-34",
+      "category_number": 10,
+      "category": "Download or display",
+      "question": "Give me a bar chart showing the distribution of total satisfaction by male and female travelers.",
+      "review_criteria": "Deliver an accessible artifact and verify it against the calculated data. For the CSV, apply AND across all six requested ratings and check export policy. For the chart, validate grouping, labels, scale, weighting, and sample sizes.",
+      "provenance": "original-question-notes"
+    }
+  ],
+  "historical_variants": [
+    {
+      "id": "HIST-01",
+      "category_number": 1,
+      "category": "Fact lookup",
+      "question": "What is the mean overall satisfaction score?",
+      "review_criteria": "Compute from the CSV with dictionary-validated codes. State valid n, exclusions, denominator, and weighting. Deliver an actual plot when requested; prose alone is insufficient.",
+      "provenance": "retired-r-runner"
+    },
+    {
+      "id": "HIST-02",
+      "category_number": 2,
+      "category": "Judgment and synthesis",
+      "question": "What's your recommendation for what SFO should do to improve traveler experience?",
+      "review_criteria": "Gather computed evidence, distinguish recommendations from findings, and explain the reasoning. Label outside knowledge and avoid unsupported causal claims.",
+      "provenance": "retired-r-runner"
+    },
+    {
+      "id": "HIST-03",
+      "category_number": 9,
+      "category": "Segmentation and advanced analytics",
+      "question": "What distinct customer segments do you see in this data?",
+      "review_criteria": "Clarify unscoped segmentation before selecting inputs. For scoped analysis, compute and disclose variables, missing-value treatment, scaling, algorithm, seed, and group sizes. For named segments, cross the requested variables and check cell sizes.",
+      "provenance": "retired-r-runner"
+    },
+    {
+      "id": "HIST-04",
+      "category_number": 9,
+      "category": "Segmentation and advanced analytics",
+      "question": "Perform a K-means clustering on these data.",
+      "review_criteria": "Clarify unscoped segmentation before selecting inputs. For scoped analysis, compute and disclose variables, missing-value treatment, scaling, algorithm, seed, and group sizes. For named segments, cross the requested variables and check cell sizes.",
+      "provenance": "retired-r-runner"
+    }
+  ],
+  "historical_run_mapping": [
+    {
+      "historical_id": "q01",
+      "battery_id": "HIST-01",
+      "question": "What is the mean overall satisfaction score?"
+    },
+    {
+      "historical_id": "q02",
+      "battery_id": "SFO-03",
+      "question": "What percentage of respondents rated SFO's free wifi as a 5 (outstanding)?"
+    },
+    {
+      "historical_id": "q03",
+      "battery_id": "SFO-04",
+      "question": "What is the average rating for restroom cleanliness at SFO?"
+    },
+    {
+      "historical_id": "q04",
+      "battery_id": "SFO-05",
+      "question": "What is the weighted distribution of responses to the overall satisfaction question?"
+    },
+    {
+      "historical_id": "q05",
+      "battery_id": "HIST-02",
+      "question": "What's your recommendation for what SFO should do to improve traveler experience?"
+    },
+    {
+      "historical_id": "q06",
+      "battery_id": "SFO-07",
+      "question": "Based on this survey, what would you tell SFO's leadership team is the single biggest opportunity for improvement?"
+    },
+    {
+      "historical_id": "q07",
+      "battery_id": "SFO-08",
+      "question": "Is SFO doing a good job overall, in your view?"
+    },
+    {
+      "historical_id": "q08",
+      "battery_id": "SFO-09",
+      "question": "What share of the sample would you say is overall happy with SFO?"
+    },
+    {
+      "historical_id": "q09",
+      "battery_id": "SFO-10",
+      "question": "How loyal are SFO's passengers, based on how likely they are to recommend it?"
+    },
+    {
+      "historical_id": "q10",
+      "battery_id": "SFO-11",
+      "question": "Would you say wifi at SFO is a strong point or a weak point?"
+    },
+    {
+      "historical_id": "q11",
+      "battery_id": "SFO-12",
+      "question": "How does satisfaction differ between residents and visitors?"
+    },
+    {
+      "historical_id": "q12",
+      "battery_id": "SFO-13",
+      "question": "Is there a meaningful difference in NPS between people who used TSA PreCheck and those who didn't?"
+    },
+    {
+      "historical_id": "q13",
+      "battery_id": "SFO-14",
+      "question": "Do Clear members rate their SFO experience differently than non-members?"
+    },
+    {
+      "historical_id": "q14",
+      "battery_id": "SFO-15",
+      "question": "Why is retail rated lower than food?"
+    },
+    {
+      "historical_id": "q15",
+      "battery_id": "SFO-16",
+      "question": "Why do some passengers report problems with security screening?"
+    },
+    {
+      "historical_id": "q16",
+      "battery_id": "SFO-17",
+      "question": "Does using TSA PreCheck cause higher satisfaction with SFO overall?"
+    },
+    {
+      "historical_id": "q17",
+      "battery_id": "SFO-18",
+      "question": "How has this changed since COVID?"
+    },
+    {
+      "historical_id": "q18",
+      "battery_id": "SFO-20",
+      "question": "What will passenger satisfaction look like in 2027?"
+    },
+    {
+      "historical_id": "q19",
+      "battery_id": "SFO-21",
+      "question": "How does SFO's satisfaction compare to other major US airports?"
+    },
+    {
+      "historical_id": "q20",
+      "battery_id": "SFO-22",
+      "question": "What's the most interesting thing in this data?"
+    },
+    {
+      "historical_id": "q21",
+      "battery_id": "SFO-23",
+      "question": "Surprise me -- what's a finding in this data I might not expect?"
+    },
+    {
+      "historical_id": "q22",
+      "battery_id": "SFO-24",
+      "question": "What's the biggest gap between how residents and visitors experience SFO?"
+    },
+    {
+      "historical_id": "q23",
+      "battery_id": "SFO-25",
+      "question": "How was this survey conducted?"
+    },
+    {
+      "historical_id": "q24",
+      "battery_id": "SFO-26",
+      "question": "What's Q7ART mean?"
+    },
+    {
+      "historical_id": "q25",
+      "battery_id": "SFO-27",
+      "question": "What does the NETPRO variable measure?"
+    },
+    {
+      "historical_id": "q26",
+      "battery_id": "SFO-28",
+      "question": "What counts as a 'problem' in this survey, and how is it recorded?"
+    },
+    {
+      "historical_id": "q27",
+      "battery_id": "HIST-03",
+      "question": "What distinct customer segments do you see in this data?"
+    },
+    {
+      "historical_id": "q28",
+      "battery_id": "HIST-04",
+      "question": "Perform a K-means clustering on these data."
+    },
+    {
+      "historical_id": "q29",
+      "battery_id": "SFO-31",
+      "question": "Cluster respondents into 3 groups based on their Q7 service ratings, using a fixed random seed."
+    }
+  ]
+}

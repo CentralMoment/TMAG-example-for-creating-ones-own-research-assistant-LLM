@@ -80,6 +80,12 @@ record of the original project's conversations. Share only approved data.
 > Review this app and explain which research rules are merely prompt instructions
 > and which are actually enforced in code. Do not claim prompt compliance is guaranteed.
 
+Use the [full SFO battery](../evaluation/sfo-question-battery.md) as a concrete
+example of that evaluation design. Preserve the ten kinds of questions when
+adapting it, then replace SFO fields and assumptions with your own. Follow the
+[running guide](06-running-the-question-battery.md) for independent references,
+fresh conversations, repeat trials, and grading.
+
 ## 6. Keep a reproducible record
 
 Record dataset version/hash, prompt version, model identifier, package versions,

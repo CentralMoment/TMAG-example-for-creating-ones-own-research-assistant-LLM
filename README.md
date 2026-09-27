@@ -49,6 +49,22 @@ may need document retrieval, page citations, and a different evaluation design.
 3. [Create your own assistant](docs/03-customize-your-assistant.md)
 4. [Check answers and troubleshoot](docs/04-evaluation-and-troubleshooting.md)
 5. [Understand the project choices and next steps](docs/05-project-history-and-next-steps.md)
+6. [Run the full test-question battery and grade the results](docs/06-running-the-question-battery.md)
+
+## Test it with the original research questions
+
+The [full SFO question battery](evaluation/sfo-question-battery.md) includes all
+34 original questions across 10 categories, plus four wording variants from the
+historical automated runner. It covers factual calculations, judgment, ambiguous
+concepts, comparisons, causality, out-of-scope requests, exploration, methodology,
+segmentation, and chart/file delivery.
+
+Use the [evaluation walkthrough](docs/06-running-the-question-battery.md) to run
+one question at a time, verify calculations independently, and grade the answers.
+Copy the [blank scorecard](evaluation/scorecard-template.md) for each run. The
+battery is also available as [JSON](evaluation/sfo-question-battery.json), with
+stable IDs and the complete historical 29-question mapping. These materials are
+test inputs and review criteria; they do not claim the current app has passed.
 
 ## Files you will edit
 
@@ -62,6 +78,7 @@ may need document retrieval, page citations, and a different evaluation design.
 | `data/private/` | Your local data; excluded from Git |
 | `streamlit_app.py` | The chat interface and API calls |
 | `scripts/check_setup.py` | Local checks without an API call |
+| `evaluation/scorecard-template.md` | Copy into `output/evaluation/` to record a run |
 
 Python 3.11 or 3.12 is the intended starting environment. Dependencies are pinned
 to versions present in the source project's environment. Paid API access is

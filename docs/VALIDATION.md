@@ -21,3 +21,13 @@ availability, billing, hosted execution, remote file retention, or the model's
 research accuracy. A clean installation on another computer, other operating
 systems, SFO downloads, and production hosting have not been tested. Complete
 the manual question checks before relying on this assistant.
+
+## Question-battery publication checks
+
+The published battery was checked for all 34 questions from the original notes
+and all 29 historical runner prompts, including four wording variants absent
+from the notes. The historical order matches the saved 2026-09-03_20-51-34 results.
+The source notes are copied byte-for-byte. Stable IDs, category counts, scorecard
+coverage, JSON structure, and relative documentation links were checked locally.
+This validates completeness of the published materials, not the assistant's
+answers. The new scorecard is intentionally NOT RUN throughout.

@@ -1,0 +1,63 @@
+
+### Some simple example questions the LLM should answer:
+1. A query that's a pure factual lookup and answers it using a computational solution. This likely involves code interpretation. For example, a user might ask
+- "Give me the mean rating of restroom cleanliness".
+- "I need a plot that gives me the weighted frequency of the responses to the general satisfaction question."
+- "What percentage of respondents rated SFO's free wifi as a 5 (outstanding)?"
+- "What is the average rating for restroom cleanliness at SFO?"
+- "What is the weighted distribution of responses to the overall satisfaction question?"
+It's important for these types of questions that the LLM give the same answer everytime the question's asked. I also can't precompute responses or anticipate every possible quantitative question.
+
+2. A query that needs interpretation and judgement--including perhaps intelligence that even stretches outside the data.  For example, I imagine a user may ask,
+- "What's your recommendation SFO do to improve traveler experience?"
+- "Based on this survey, what would you tell SFO's leadership team is the single biggest opportunity for improvement?"
+- "Is SFO doing a good job overall, in your view?"
+
+3. A query that's a hybrid of the two above.  These include queries that don't name an obvious variable in the study. Rather, the LLM needs to first apply a  qualitative interpretation and judgement to operationalize the question in study terms. Then the LLM can run the quantitative solution. For example, someone may ask,
+- "What share of the sample would you say is overall happy with SFO?"
+- "How loyal are SFO's passengers, based on how likely they are to recommend it?"
+- "Would you say wifi at SFO is a strong point or a weak point?"
+
+### More advanced questions the LLM should answer (or politely decline--with reasons):
+4. Comparative questions:
+- How does satisfaction differ between residents and visitors?"
+- "Is there a meaningful difference in NPS between people who used TSA PreCheck and those who didn't?"
+- "Do Clear members rate their SFO experience differently than non-members?"
+These look like fact-lookup, but it's a cross-tab with two subgroup n's that can get small fast (split Q7LTPARKING's n=649 by residency and you're in the low hundreds). When answering, it needs a reliability caveat, not just a number
+
+5. Causal "why" questions:
+- "Why is retail rated lower than food?"
+- "Why do some passengers report problems with security screening?"
+- "Does using TSA PreCheck cause higher satisfaction with SFO overall?"
+These could get dicey because this is cross-sectional survey data, not an experiment — no causal claim is actually supported. It might be okay to suggest hypotheses to later explore.  But if in doubt, it's okay to decline to answer (and say why)
+
+6. Out-of-scope / doesn't exist questions:
+- "How has this changed since COVID?"
+- "What's the trend over the last 5 years?"
+- "What will passenger satisfaction look like in 2027?"
+- "How does SFO's satisfaction compare to other major US airports?"
+These questions are all out of scope and the LLM should inform the user. Either no other-airport data is loaded.  Or the question asks about a time period beyond 2018 which is when the data stops. In these cases the model ought not confabulate a plausible-sounding answer. it's okay to say, "I don't have data past 2018"
+
+7. Exploratory/"surprise me" questions:
+- "What's the most interesting thing in this data?".
+- "Surprise me -- what's a finding in this data I might not expect?"
+- "What's the biggest gap between how residents and visitors experience SFO?"
+This isn't a simple lookup of a known thing — the model has to decide what to investigate (biggest resident/visitor gap, worst-scoring category, problem-NPS correlation) before it can answer. Needs a multi-query discovery loop, not a single tool call
+
+8. Metadata/methodology questions:
+- "How was this survey conducted?"
+- "What's Q7ART mean?".
+- "What does the NETPRO variable measure?"
+- "What counts as a 'problem' in this survey, and how is it recorded?"
+These are answerable from the data dictionary, not the response rows — different source than everything above.
+
+9. Segmentation/heavy analytic questions:
+- "What distinct customer segments do you see?"
+- "Perform a K-means clustering on these data?".
+- "Cluster respondents into 3 groups based on their Q7 service ratings, using a fixed random seed."
+- "Segment passengers by trip purpose and residency and tell me which segment is least satisfied."
+Again, these aren't simple tabular questions but take serious analytical chops. If the LLM can answer these questions with stated assumptions, then great.  Otherwise, the LLM should ask the user to be more specific or give more instruction before proceeding. For instance, the user may need to share specific hypotheses to explore or list the variables to include in a K-means.
+
+10. Questions involving download or display:
+- "I want a .csv file of the respondent records that gave the lowest rating (unacceptable) to *all* of the following measures: artwork, concessions, signage, vertical transportation, information displays, and restroom cleanliness."
+- "Give me a bar chart showing the distribution of total satisfaction by male and female travelers."

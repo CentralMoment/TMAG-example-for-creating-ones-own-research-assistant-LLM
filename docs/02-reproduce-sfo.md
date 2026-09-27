@@ -91,8 +91,12 @@ evidence and separate findings from recommendations. Ask `How has this changed
 since COVID?` It should explain the 2018-only scope. Ask for undefined customer
 segments; it should request variables or a research objective.
 
-Use the [evaluation checklist](04-evaluation-and-troubleshooting.md) before sharing
-results. Passing the synthetic example does not validate the SFO statistics.
+Next, run the [full question battery](../evaluation/sfo-question-battery.md) using
+the [running and grading instructions](06-running-the-question-battery.md). Save
+the first answer, execution evidence, and independent reference for each case in
+a copy of the scorecard. Passing the synthetic example does not validate the SFO
+statistics. The [short checklist](04-evaluation-and-troubleshooting.md) adds
+privacy and malicious-instruction checks.
 
 ## 7. Adapt the pattern
 

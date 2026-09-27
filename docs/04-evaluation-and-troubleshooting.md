@@ -1,5 +1,13 @@
 # Check answers and troubleshoot
 
+For the complete SFO evaluation, use the
+[full 34-question battery](../evaluation/sfo-question-battery.md) and the
+[step-by-step running and grading guide](06-running-the-question-battery.md).
+They include the original questions, historical wording variants, a run scorecard,
+independent-reference checks, and explicit handling of missing charts/downloads.
+The table below is a short starter checklist with additional safety checks;
+it is not a replacement for the full battery.
+
 ## Research evaluation
 
 For each test, save the question, app/model/prompt versions, actual answer,
