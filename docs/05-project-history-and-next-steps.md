@@ -1,5 +1,11 @@
 # Where this example came from
 
+Brent began by using the ChatGPT app, `grill-with-docs`, and ChatGPT Voice to
+talk through the idea one question at a time. The
+[opening chapter](00-start-with-a-conversation.md) teaches that planning workflow
+and provides a portable conference adaptation of the skill. The implementation
+history below describes the later code found in the source workspace.
+
 The source workspace contains an earlier R/plumber analytics engine and a current
 Python/Streamlit app. The R engine is explicitly marked retired on 2026-09-04.
 It had a planner, query DSL, compiler, executor, semantic catalog, and policy gate.

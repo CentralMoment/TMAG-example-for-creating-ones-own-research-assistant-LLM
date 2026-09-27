@@ -9,7 +9,16 @@ setup, then adapt the assistant to your own research. You do not need to train a
 model or understand machine learning to begin. Basic file editing is enough for
 the first walkthrough; adapting the statistics requires subject-matter judgment.
 
-**Start here: [the step-by-step beginner guide](docs/01-beginner-guide.md).**
+**Start here: [how I began—with ChatGPT, a grilling skill, and voice](docs/00-start-with-a-conversation.md).**
+
+The project began with a conversation in the ChatGPT app: use `grill-with-docs`,
+turn on ChatGPT Voice, and ask it to interview you **one question at a time**.
+That experience can feel almost surreal: you talk through a rough idea while the
+assistant challenges assumptions and helps turn your answers into a clear plan.
+The opening chapter includes skill setup for ChatGPT Work and Claude Cowork,
+a downloadable skill, and the exact kind of prompt attendees can try themselves.
+
+Ready to build? Continue to [the step-by-step app setup](docs/01-beginner-guide.md).
 
 ## What you are building
 
@@ -34,6 +43,7 @@ may need document retrieval, page citations, and a different evaluation design.
 
 ## Read in order
 
+0. [Begin with the voice interview and install grill-with-docs](docs/00-start-with-a-conversation.md)
 1. [Install, configure, and run the practice example](docs/01-beginner-guide.md)
 2. [Repeat the SFO project steps](docs/02-reproduce-sfo.md)
 3. [Create your own assistant](docs/03-customize-your-assistant.md)

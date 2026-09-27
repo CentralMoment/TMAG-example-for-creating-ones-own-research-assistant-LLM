@@ -1,5 +1,9 @@
 # Your first working assistant
 
+If you are starting with an idea, begin with the
+[ChatGPT Voice interview and grill-with-docs setup](00-start-with-a-conversation.md).
+This chapter picks up when you are ready to turn that plan into an application.
+
 ## 1. Understand the pieces
 
 Python runs the app. Streamlit makes its browser interface. An API is the service
