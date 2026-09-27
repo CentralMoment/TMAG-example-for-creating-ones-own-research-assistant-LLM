@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/private/*
+!data/private/.gitkeep
+output/
+logs/
+*API key*
+*.pem
+.DS_Store
+.streamlit/secrets.toml

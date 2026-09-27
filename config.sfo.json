@@ -1,0 +1,9 @@
+{
+  "title": "SFO Customer Survey \u2014 Ask a Question",
+  "description": "2018 SFO survey. This dataset covers 2018 only.",
+  "prompt_file": "prompts/sfo.md",
+  "files": [
+    "data/private/2018 SFO Customer Survey.csv",
+    "data/private/2018 SFO Customer Survey Data Dictionary.xlsx"
+  ]
+}

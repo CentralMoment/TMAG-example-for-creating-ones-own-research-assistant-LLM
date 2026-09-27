@@ -1,0 +1,6 @@
+{
+  "title": "My research assistant — practice survey",
+  "description": "A fictional survey for learning. These are not SFO findings.",
+  "prompt_file": "prompts/practice.md",
+  "files": ["data/example/survey.csv", "data/example/dictionary.md"]
+}
