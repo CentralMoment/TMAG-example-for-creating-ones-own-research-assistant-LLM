@@ -15,6 +15,58 @@ range. Include weights and their purpose, filters, denominator rules, known
 limitations, source, date, and ownership. Explain multiple-response fields so
 the assistant does not assume their percentages must sum to 100%.
 
+### Define recurring measures before loading the data
+
+If your project has a global definition of "satisfaction," "loyalty," "high value,"
+or another recurring concept, decide its meaning ahead of time and add a derived
+variable to the analysis dataset. Do the same for predefined segments, composite
+scores and eligibility flags. Otherwise, you leave the definition to whichever
+LLM you use and its interpretation of the question. It may choose a different
+threshold, item, composite or denominator from one query to the next.
+
+For example, an analyst could define **satisfied = Q7ALL is 4 or 5**:
+
+| Source Q7ALL | Derived `satisfied` | Meaning |
+|---|---|---|
+| 4 or 5 | 1 | Meets the project's satisfaction definition |
+| 1, 2 or 3 | 0 | Does not meet that definition |
+| Blank, BLANK, 0 or 6 | Missing | No valid overall rating; exclude from the valid-answer denominator |
+
+This is a proposed project definition, not an official SFO measure or a new column
+already present in the supplied files. Missing answers must not become zeroes.
+Under this definition, the SFO reference is 2,059 satisfied out of 2,625 valid
+answers (78.4381% unweighted), with 184 missing. Weighting changes the estimate,
+not the respondent-level definition of `satisfied`.
+
+To implement a fixed definition in your own project:
+
+1. Agree on the source fields, formula, thresholds, eligibility and missing-data
+   rules with the research owner. For a composite, also specify item direction,
+   item weights and the minimum number of answered items.
+2. Calculate the new column in a reproducible R or Python preparation script.
+   Preserve the original file and save a separate prepared dataset; do not ask
+   the LLM to recreate this variable independently for every question.
+3. Add the variable to the dictionary with its exact definition, codes, exclusions,
+   version and derivation script. For `satisfied`, use valid codes 0 and 1, and
+   document that zero is a valid answer while missing is excluded.
+4. Point both `data_file` and the matching entry in `files` at the prepared CSV.
+   Update the dictionary, field profile and expected column count. Approve the
+   percentage statistic for `satisfied`, using success code 1 and valid codes
+   [0, 1], so the fixed calculator can use the stored variable.
+5. In the assistant instructions, map "satisfaction" to this authoritative column
+   and definition. Require the assistant to use it across questions and fresh
+   conversations. An explicitly requested alternative must be named as a separate
+   measure; it must not silently replace the global definition.
+6. Check the derived column against its source, including boundary and missing
+   cases. Compare independent counts and weighted/unweighted percentages. Test
+   differently worded questions and fresh sessions, then restart the app with
+   the updated inputs. Version the data, dictionary, profile and instructions
+   together whenever the definition changes.
+
+A predefined column makes the definition stable and inspectable. It does not
+guarantee that the model will select the right field or describe it accurately;
+verify the field, filters, denominator and weighting in the calculation evidence.
+
 For documents, include readable source text and a source index. This app does not
 implement an indexed literature search or page-level citation verification; do
 not promise those capabilities merely by uploading PDFs. Scanned documents may
