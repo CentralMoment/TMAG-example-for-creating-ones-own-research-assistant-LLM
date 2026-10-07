@@ -20,6 +20,17 @@ response codes, exclusions, weight mode and unweighted valid n. Denominators def
 to valid answers to the specific item after filtering. An all-respondents denominator
 is a different estimand and must be requested and labeled explicitly.
 
+## Preserve definitions across queries
+
+Predefine recurring research measures and store them as columns in a prepared
+analysis dataset. A global "satisfaction" definition should not depend on the
+current model's interpretation of each question. Record the derivation, valid and
+missing codes, eligibility, denominator and version in the dictionary, and map
+the concept to that column in the assistant instructions and field profile.
+For example, `satisfied=1` for Q7ALL 4/5 and `satisfied=0` for 1/2/3, with missing
+overall ratings left missing, fixes one explicit definition. Alternative definitions
+must be separately named and disclosed. See the [preparation instructions](03-customize-your-assistant.md#define-recurring-measures-before-loading-the-data).
+
 ## Missing answers and scales
 
 Q7 and Q9 ratings use codes 1–5. Code 6 is not applicable and 0 is blank. The CSV's

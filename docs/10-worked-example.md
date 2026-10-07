@@ -13,6 +13,15 @@ The accompanying model outputs are observed trials, not idealized transcripts.
 rating, not a separate emotion. "Respondents" calls for an unweighted description.
 We choose valid answers as the denominator before asking the model.
 
+For a reusable assistant with a global satisfaction definition, take this one step
+further: calculate a `satisfied` column ahead of time and add it to the prepared
+data and dictionary. Then instruct the assistant to use that column consistently.
+Otherwise, "satisfaction" is left to the selected LLM's interpretation and may
+change between questions. This walkthrough explicitly supplies a definition in
+the question; the original SFO files do not contain that derived column. Follow
+the [predefined-variable instructions](03-customize-your-assistant.md#define-recurring-measures-before-loading-the-data)
+to preserve a definition across queries and fresh conversations.
+
 ## 2. Inspect the evidence
 
 The verified CSV has 2,809 rows and 97 columns. RESPNUM is unique. Both source
