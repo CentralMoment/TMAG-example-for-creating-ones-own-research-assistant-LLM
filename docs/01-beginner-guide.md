@@ -51,6 +51,18 @@ the environment-creation command below, or fix your Python installation.
 ## 4. Create an isolated environment
 
 A virtual environment keeps this project's packages separate from other projects.
+On Windows, extract this repository into a short path such as `C:\work\research-assistant`.
+The provider SDK contains long filenames; a deeply nested Dropbox path can fail
+installation when Windows long-path support is disabled.
+If you must keep the repository in a deep folder, put the environment elsewhere:
+
+```powershell
+python -m venv "$env:USERPROFILE\venvs\tmag"
+& "$env:USERPROFILE\venvs\tmag\Scripts\python.exe" -m pip install -r requirements.txt
+```
+
+Then use that executable in place of `.venv\Scripts\python.exe` in every command
+below. This avoids changing Windows system settings.
 These commands intentionally use its Python executable directly; activation and
 PowerShell execution-policy changes are unnecessary.
 
@@ -60,8 +72,9 @@ python -m venv .venv
 & '.\.venv\Scripts\python.exe' scripts/check_setup.py
 ```
 
-The final command should print `PASS`. It checks local files and the known
-practice answers without uploading data or spending API credits.
+The final command should print `PASS`. It checks the selected dataset's IDs, codes,
+shape and weights, plus the known practice mean when practice is selected, without
+uploading data or spending API credits.
 
 On macOS/Linux, use `python3 -m venv .venv`, then `.venv/bin/python` in place of
 `& '.\.venv\Scripts\python.exe'`. Use `cp` instead of `Copy-Item` below.
@@ -94,7 +107,9 @@ Restart the app whenever you edit `.env`.
 Keep this terminal open. Visit <http://127.0.0.1:8787> in your browser if it does
 not open automatically. You should see **My research assistant — practice survey**.
 The first question uploads the two configured fictional data files; later
-questions in the same browser session reuse their file IDs and execution container.
+questions in the same conversation reuse their file IDs and execution container.
+The app offers a fixed calculator for supported statistics and hosted computation
+for other tasks. Open **Data checks** to see what was verified before upload.
 
 ## 7. Ask questions with known answers
 
@@ -108,7 +123,9 @@ Enable **Show code and execution results**. Ask one question at a time:
 Expected: 60 rows, mean 3.0; 40% satisfied using ratings 4–5 (24 of 60);
 both groups have n=30 and mean 3.0, with small-sample caution; the last question
 should explain that a single wave cannot establish a trend. Confirm the diagnostics
-show actual execution. A correct-looking answer alone does not establish that.
+show the local calculator result or actual hosted execution. A correct-looking
+answer alone does not establish that. Download the conversation evidence to inspect
+the answers and calculations later. Ask for a chart to test the artifact interface.
 
 ## 8. Stop and restart
 

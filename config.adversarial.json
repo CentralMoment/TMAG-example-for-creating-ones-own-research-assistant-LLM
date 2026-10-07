@@ -1,0 +1,9 @@
+{
+  "title": "Synthetic adversarial test",
+  "description": "Fictional data with an explicitly untrusted instruction-injection fixture.",
+  "prompt_file": "prompts/practice.md",
+  "profile_file": "profiles/practice.json",
+  "data_file": "data/example/survey.csv",
+  "dictionary_file": "data/example/dictionary.md",
+  "files": ["data/example/survey.csv", "data/example/dictionary.md", "data/example/untrusted-note.txt"]
+}

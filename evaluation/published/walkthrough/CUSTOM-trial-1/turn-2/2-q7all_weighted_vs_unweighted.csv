@@ -1,0 +1,9 @@
+measure,q7all_code,code_label,unweighted_n,unweighted_percent,weighted_percent,weighted_frequency,status_note
+Happy (Q7ALL 4 or 5),"4,5",top-two box,2059,78.4381,80.4852,,computed; denominator = valid Q7ALL answers
+Distribution,1,Unacceptable,6,SUPPRESSED,SUPPRESSED,SUPPRESSED,suppressed (n<20)
+Distribution,2,(no dictionary label),46,1.7524,1.6562,43.3700,computed; small cell (n<50)
+Distribution,3,(no dictionary label),514,19.5810,17.6714,462.7549,computed
+Distribution,4,(no dictionary label),1428,54.4000,54.7276,1433.1350,computed
+Distribution,5,Outstanding,631,24.0381,25.7577,674.5079,computed
+Denominator,all valid,valid Q7ALL answers after filters,2625,100,100,2618.6699,unweighted sum of weights = 2625.0
+Excluded,missing,"'', '0', '6', 'BLANK'",184,,,,excluded from denominator; selected rows = 2809

@@ -1,0 +1,43 @@
+{
+  "scope": "Captured local-tool arithmetic only; question interpretation, hosted code, artifacts and prose require review.",
+  "checked": 4,
+  "failed": 0,
+  "checks": [
+    {
+      "trial": "CUSTOM-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q7ALL",
+      "statistic": "percentage",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "CUSTOM-trial-1",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "Q7ALL",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "CUSTOM-trial-1",
+      "turn": "turn-2",
+      "calculation": 0,
+      "field": "Q7ALL",
+      "statistic": "percentage",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "CUSTOM-trial-1",
+      "turn": "turn-2",
+      "calculation": 1,
+      "field": "Q7ALL",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    }
+  ]
+}

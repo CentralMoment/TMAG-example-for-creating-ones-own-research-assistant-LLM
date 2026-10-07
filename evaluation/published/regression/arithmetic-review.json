@@ -1,0 +1,169 @@
+{
+  "scope": "Captured local-tool arithmetic only; question interpretation, hosted code, artifacts and prose require review.",
+  "checked": 18,
+  "failed": 0,
+  "checks": [
+    {
+      "trial": "SFO-01-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q9Restroom",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-01-trial-1",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "Q9Restroom",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-01-trial-2",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q9Restroom",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-01-trial-2",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "Q9Restroom",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-01-trial-3",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q9Restroom",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-01-trial-3",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "Q9Restroom",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-03-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q7WIFI",
+      "statistic": "percentage",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-03-trial-1",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "Q7WIFI",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-03-trial-2",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q7WIFI",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-03-trial-2",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "Q7WIFI",
+      "statistic": "percentage",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-03-trial-3",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q7WIFI",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-03-trial-3",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "Q7WIFI",
+      "statistic": "percentage",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-05-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q7ALL",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-05-trial-1",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "Q7ALL",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-05-trial-2",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q7ALL",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-05-trial-2",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "Q7ALL",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-05-trial-3",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q7ALL",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-05-trial-3",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "Q7ALL",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    }
+  ]
+}

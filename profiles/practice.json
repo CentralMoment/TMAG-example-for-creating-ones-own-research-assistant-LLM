@@ -1,0 +1,32 @@
+{
+  "name": "Fictional practice survey",
+  "id_field": "respondent_id",
+  "weight_field": null,
+  "expected_shape": [
+    60,
+    4
+  ],
+  "fields": {
+    "satisfaction": {
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "missing_codes": [
+        "",
+        "0",
+        "6",
+        "BLANK"
+      ],
+      "statistics": [
+        "mean",
+        "percentage",
+        "distribution"
+      ],
+      "dictionary_reference": "data/example/dictionary.md"
+    }
+  }
+}

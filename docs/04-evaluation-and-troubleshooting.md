@@ -52,9 +52,9 @@ but only deterministic code checks can enforce numerical/suppression rules.
 | Port 8787 in use | Stop the old app with Ctrl+C or use `--server.port 8788` |
 | App uses old data | Stop and restart after editing inputs; start a fresh conversation |
 | Container expired / history too long | Start a new conversation; ask a narrower question |
-| Incomplete response | Narrow the question; starter limits pause continuations to three requests |
+| Incomplete response | Start a new conversation and narrow the question; each turn has a six-request limit |
 | Confident but wrong statistic | Inspect executed code, valid codes, denominator, weights, and dictionary |
-| Asked for a chart but cannot download it | This starter does not implement generated-file downloads |
+| Asked for a chart but cannot download it | Inspect artifact errors and execution evidence; the tool must capture the file from its output directory |
 
 Long chats send accumulated history and may cost more. First questions also need
 file uploads. The starter has a bounded continuation loop but no dollar-spend
@@ -63,11 +63,13 @@ enforcement. Check current usage and pricing in your provider account.
 ## Current limitations
 
 Session state is temporary. Uploaded files are not automatically removed when
-you stop the app or reset chat. The app attempts cleanup after partial upload
-failure, but cleanup can also fail. Use the provider's file-management tools/API
-and retention policies. Do not treat local file deletion as remote deletion.
+you stop the app or reset chat. Use **Delete this session's remote files** before
+closing the browser. Failed deletions remain available for retry. The CLI runner
+attempts cleanup after each trial and records failures. Container copies follow
+provider retention. Do not treat local deletion as remote deletion.
 
 No guarantee is made that the model always runs code, reads the correct dictionary,
 or obeys small-cell rules. Diagnostic blocks let you inspect behavior; they do
-not independently verify it. No production deployment or live API evaluation was
-performed as part of the repository's initial local validation.
+not independently verify it. The local calculator checks its own outputs, not all
+prose or hosted calculations. See [current validation](VALIDATION.md) for live
+evaluation evidence. No production hosting is claimed.

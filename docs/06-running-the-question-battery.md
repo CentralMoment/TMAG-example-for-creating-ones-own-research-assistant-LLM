@@ -80,6 +80,25 @@ your reference under that definition. Do not silently change the rubric to fit.
 
 ## 4. Run one question at a time
 
+The shared live runner automates capture and cleanup. It makes paid API calls with
+your configured key. Set provider spending controls first. From the repo root:
+
+```powershell
+& '.\.venv\Scripts\python.exe' scripts/run_battery.py
+& '.\.venv\Scripts\python.exe' scripts/run_battery.py --ids SFO-01 SFO-03 SFO-05 --repeat 3
+& '.\.venv\Scripts\python.exe' scripts/run_battery.py --ids HIST-01 HIST-02 HIST-03 HIST-04
+```
+
+Each command creates a distinct directory under `output/evaluation/`. The runner
+uses the same engine, configuration, profile and prompts as Streamlit. It records
+execution status separately from the unassigned research grade. Inspect each ZIP
+and answer before grading. It stops after a service or remote-cleanup failure,
+preserving the failure and owned IDs locally. Review raw bundles before publishing.
+
+Run `scripts/build_reference.py` for independent numerical references. Its stdlib
+CSV and arithmetic implementation does not import the application's calculator.
+Keep this answer key outside the assistant's uploads. For UI evaluation:
+
 1. Launch the SFO app and enable **Show code and execution results**.
 2. Click **Start a new conversation** before each independent test.
 3. Copy the question exactly from the full battery and send it alone.
@@ -136,9 +155,9 @@ not universal statistical guarantees. Check every reported cell, not just total 
 ## 6. Treat files and charts as real acceptance tests
 
 **SFO-02**, **SFO-33**, and **SFO-34** request a plot, downloadable CSV, or chart.
-The starter renders text and diagnostic blocks but does not fetch/display
-generated images or provide downloads. Keep these tests in the suite to expose
-that limitation. Saying "I created a chart" is not delivery of a chart.
+The app retrieves generated files, displays PNG/JPEG charts and offers downloads.
+Keep these tests in the suite to verify delivery. Saying "I created a chart" is
+not delivery of a chart.
 
 If the requested artifact is missing, record a capability gap and FAIL for
 artifact delivery (or PARTIAL for an otherwise useful answer, with the failed
@@ -185,7 +204,7 @@ than replace, Brent's original battery.
 
 The older 29-question run evaluated an R planner/policy-gate/DuckDB pipeline on
 2026-09-03. Its runner depends on the retired engine and is not an automated
-test command for this Streamlit app. The current repository provides questions,
-criteria, a mapping, and a manual scorecard; it does not include a live automated
-API battery runner. No new live model evaluation was performed when these
-materials were added. All scorecard rows start as NOT RUN.
+test command for this Streamlit app. The current repository provides a separate
+shared-engine live runner, independent references and results linked from
+[validation](VALIDATION.md). The blank scorecard remains NOT RUN so readers do not
+mistake the template for their own results.

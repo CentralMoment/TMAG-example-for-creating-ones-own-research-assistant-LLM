@@ -1,0 +1,3805 @@
+{
+  "method": "Independent Python stdlib csv + math.fsum; no app calculator imports.",
+  "source_sha256": "8d8e368dffb048679044159486bf89c5b838c7dbff731304ba02d4a8a2099c8b",
+  "rows": 2809,
+  "columns": 97,
+  "results": {
+    "Q7ART.unweighted": {
+      "field": "Q7ART",
+      "weighted": false,
+      "selected_n": 2809,
+      "valid_n": 2160,
+      "excluded_n": 649,
+      "sum_weights": 2160.0,
+      "mean": 3.950925925925926,
+      "top_two_percent": 69.35185185185185,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 12,
+          "weighted_frequency": 12.0,
+          "percent": 0.5555555555555556
+        },
+        {
+          "code": 2,
+          "n": 96,
+          "weighted_frequency": 96.0,
+          "percent": 4.444444444444445
+        },
+        {
+          "code": 3,
+          "n": 554,
+          "weighted_frequency": 554.0,
+          "percent": 25.64814814814815
+        },
+        {
+          "code": 4,
+          "n": 822,
+          "weighted_frequency": 822.0,
+          "percent": 38.05555555555556
+        },
+        {
+          "code": 5,
+          "n": 676,
+          "weighted_frequency": 676.0,
+          "percent": 31.296296296296298
+        }
+      ]
+    },
+    "Q7ART.weighted": {
+      "field": "Q7ART",
+      "weighted": true,
+      "selected_n": 2809,
+      "valid_n": 2160,
+      "excluded_n": 649,
+      "sum_weights": 2167.8531103,
+      "mean": 3.9994820230233015,
+      "top_two_percent": 71.278533133002,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 12,
+          "weighted_frequency": 8.6462539,
+          "percent": 0.39883947205276654
+        },
+        {
+          "code": 2,
+          "n": 96,
+          "weighted_frequency": 87.08312169999999,
+          "percent": 4.017021323365813
+        },
+        {
+          "code": 3,
+          "n": 554,
+          "weighted_frequency": 526.9098372,
+          "percent": 24.30560607157941
+        },
+        {
+          "code": 4,
+          "n": 822,
+          "weighted_frequency": 819.3219531999999,
+          "percent": 37.79416369620253
+        },
+        {
+          "code": 5,
+          "n": 676,
+          "weighted_frequency": 725.8919443,
+          "percent": 33.484369436799476
+        }
+      ]
+    },
+    "Q7FOOD.unweighted": {
+      "field": "Q7FOOD",
+      "weighted": false,
+      "selected_n": 2809,
+      "valid_n": 2342,
+      "excluded_n": 467,
+      "sum_weights": 2342.0,
+      "mean": 3.562339880444065,
+      "top_two_percent": 54.099060631938514,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 36,
+          "weighted_frequency": 36.0,
+          "percent": 1.5371477369769428
+        },
+        {
+          "code": 2,
+          "n": 229,
+          "weighted_frequency": 229.0,
+          "percent": 9.77796754910333
+        },
+        {
+          "code": 3,
+          "n": 810,
+          "weighted_frequency": 810.0,
+          "percent": 34.585824081981215
+        },
+        {
+          "code": 4,
+          "n": 916,
+          "weighted_frequency": 916.0,
+          "percent": 39.11187019641332
+        },
+        {
+          "code": 5,
+          "n": 351,
+          "weighted_frequency": 351.0,
+          "percent": 14.987190435525193
+        }
+      ]
+    },
+    "Q7FOOD.weighted": {
+      "field": "Q7FOOD",
+      "weighted": true,
+      "selected_n": 2809,
+      "valid_n": 2342,
+      "excluded_n": 467,
+      "sum_weights": 2362.2433551999998,
+      "mean": 3.6219169488046323,
+      "top_two_percent": 56.84186307664801,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 36,
+          "weighted_frequency": 29.2389556,
+          "percent": 1.237762211739801
+        },
+        {
+          "code": 2,
+          "n": 229,
+          "weighted_frequency": 203.8307657,
+          "percent": 8.62869463687168
+        },
+        {
+          "code": 3,
+          "n": 810,
+          "weighted_frequency": 786.4305004,
+          "percent": 33.29168007474051
+        },
+        {
+          "code": 4,
+          "n": 916,
+          "weighted_frequency": 954.0584103,
+          "percent": 40.38781221248157
+        },
+        {
+          "code": 5,
+          "n": 351,
+          "weighted_frequency": 388.6847232,
+          "percent": 16.454050864166447
+        }
+      ]
+    },
+    "Q7STORE.unweighted": {
+      "field": "Q7STORE",
+      "weighted": false,
+      "selected_n": 2809,
+      "valid_n": 2277,
+      "excluded_n": 532,
+      "sum_weights": 2277.0,
+      "mean": 3.54852876592007,
+      "top_two_percent": 51.2955643390426,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 27,
+          "weighted_frequency": 27.0,
+          "percent": 1.1857707509881423
+        },
+        {
+          "code": 2,
+          "n": 202,
+          "weighted_frequency": 202.0,
+          "percent": 8.871321914800175
+        },
+        {
+          "code": 3,
+          "n": 880,
+          "weighted_frequency": 880.0,
+          "percent": 38.64734299516908
+        },
+        {
+          "code": 4,
+          "n": 831,
+          "weighted_frequency": 831.0,
+          "percent": 36.49538866930171
+        },
+        {
+          "code": 5,
+          "n": 337,
+          "weighted_frequency": 337.0,
+          "percent": 14.800175669740888
+        }
+      ]
+    },
+    "Q7STORE.weighted": {
+      "field": "Q7STORE",
+      "weighted": true,
+      "selected_n": 2809,
+      "valid_n": 2277,
+      "excluded_n": 532,
+      "sum_weights": 2284.4524432,
+      "mean": 3.6192895440266963,
+      "top_two_percent": 54.69247063641391,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 27,
+          "weighted_frequency": 21.764940199999998,
+          "percent": 0.9527421008384946
+        },
+        {
+          "code": 2,
+          "n": 202,
+          "weighted_frequency": 169.1184619,
+          "percent": 7.403019590248217
+        },
+        {
+          "code": 3,
+          "n": 880,
+          "weighted_frequency": 844.1455594,
+          "percent": 36.95176767249939
+        },
+        {
+          "code": 4,
+          "n": 831,
+          "weighted_frequency": 871.4611092,
+          "percent": 38.14748307823299
+        },
+        {
+          "code": 5,
+          "n": 337,
+          "weighted_frequency": 377.9623725,
+          "percent": 16.544987558180917
+        }
+      ]
+    },
+    "Q7SIGN.unweighted": {
+      "field": "Q7SIGN",
+      "weighted": false,
+      "selected_n": 2809,
+      "valid_n": 2648,
+      "excluded_n": 161,
+      "sum_weights": 2648.0,
+      "mean": 4.038141993957704,
+      "top_two_percent": 76.66163141993958,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 25,
+          "weighted_frequency": 25.0,
+          "percent": 0.9441087613293051
+        },
+        {
+          "code": 2,
+          "n": 92,
+          "weighted_frequency": 92.0,
+          "percent": 3.474320241691843
+        },
+        {
+          "code": 3,
+          "n": 501,
+          "weighted_frequency": 501.0,
+          "percent": 18.919939577039276
+        },
+        {
+          "code": 4,
+          "n": 1169,
+          "weighted_frequency": 1169.0,
+          "percent": 44.146525679758305
+        },
+        {
+          "code": 5,
+          "n": 861,
+          "weighted_frequency": 861.0,
+          "percent": 32.51510574018127
+        }
+      ]
+    },
+    "Q7SIGN.weighted": {
+      "field": "Q7SIGN",
+      "weighted": true,
+      "selected_n": 2809,
+      "valid_n": 2648,
+      "excluded_n": 161,
+      "sum_weights": 2639.3464269,
+      "mean": 4.077870561933546,
+      "top_two_percent": 78.32931984332987,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 25,
+          "weighted_frequency": 20.1092476,
+          "percent": 0.7619025450788958
+        },
+        {
+          "code": 2,
+          "n": 92,
+          "weighted_frequency": 79.9140317,
+          "percent": 3.02779623339789
+        },
+        {
+          "code": 3,
+          "n": 501,
+          "weighted_frequency": 471.9410431,
+          "percent": 17.88098137819333
+        },
+        {
+          "code": 4,
+          "n": 1169,
+          "weighted_frequency": 1169.7578658,
+          "percent": 44.31998216974948
+        },
+        {
+          "code": 5,
+          "n": 861,
+          "weighted_frequency": 897.6242387,
+          "percent": 34.009337673580404
+        }
+      ]
+    },
+    "Q7WALKWAY.unweighted": {
+      "field": "Q7WALKWAY",
+      "weighted": false,
+      "selected_n": 2809,
+      "valid_n": 2537,
+      "excluded_n": 272,
+      "sum_weights": 2537.0,
+      "mean": 4.112731572723689,
+      "top_two_percent": 78.51793456838786,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 12,
+          "weighted_frequency": 12.0,
+          "percent": 0.4729996058336618
+        },
+        {
+          "code": 2,
+          "n": 48,
+          "weighted_frequency": 48.0,
+          "percent": 1.8919984233346472
+        },
+        {
+          "code": 3,
+          "n": 485,
+          "weighted_frequency": 485.0,
+          "percent": 19.11706740244383
+        },
+        {
+          "code": 4,
+          "n": 1089,
+          "weighted_frequency": 1089.0,
+          "percent": 42.924714229404806
+        },
+        {
+          "code": 5,
+          "n": 903,
+          "weighted_frequency": 903.0,
+          "percent": 35.59322033898305
+        }
+      ]
+    },
+    "Q7WALKWAY.weighted": {
+      "field": "Q7WALKWAY",
+      "weighted": true,
+      "selected_n": 2809,
+      "valid_n": 2537,
+      "excluded_n": 272,
+      "sum_weights": 2509.8254724,
+      "mean": 4.128141458454663,
+      "top_two_percent": 79.01558350205228,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 12,
+          "weighted_frequency": 11.5211641,
+          "percent": 0.4590424404683001
+        },
+        {
+          "code": 2,
+          "n": 48,
+          "weighted_frequency": 45.8198273,
+          "percent": 1.825618068023876
+        },
+        {
+          "code": 3,
+          "n": 485,
+          "weighted_frequency": 469.3312391,
+          "percent": 18.69975598945555
+        },
+        {
+          "code": 4,
+          "n": 1089,
+          "weighted_frequency": 1066.0061594,
+          "percent": 42.47331820967776
+        },
+        {
+          "code": 5,
+          "n": 903,
+          "weighted_frequency": 917.1470825,
+          "percent": 36.542265292374516
+        }
+      ]
+    },
+    "Q7SCREENS.unweighted": {
+      "field": "Q7SCREENS",
+      "weighted": false,
+      "selected_n": 2809,
+      "valid_n": 2611,
+      "excluded_n": 198,
+      "sum_weights": 2611.0,
+      "mean": 4.091535810034469,
+      "top_two_percent": 77.40329375718116,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 10,
+          "weighted_frequency": 10.0,
+          "percent": 0.38299502106472616
+        },
+        {
+          "code": 2,
+          "n": 59,
+          "weighted_frequency": 59.0,
+          "percent": 2.2596706242818843
+        },
+        {
+          "code": 3,
+          "n": 521,
+          "weighted_frequency": 521.0,
+          "percent": 19.954040597472233
+        },
+        {
+          "code": 4,
+          "n": 1113,
+          "weighted_frequency": 1113.0,
+          "percent": 42.62734584450402
+        },
+        {
+          "code": 5,
+          "n": 908,
+          "weighted_frequency": 908.0,
+          "percent": 34.77594791267713
+        }
+      ]
+    },
+    "Q7SCREENS.weighted": {
+      "field": "Q7SCREENS",
+      "weighted": true,
+      "selected_n": 2809,
+      "valid_n": 2611,
+      "excluded_n": 198,
+      "sum_weights": 2601.2695514,
+      "mean": 4.12006866052459,
+      "top_two_percent": 78.64154722831466,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 10,
+          "weighted_frequency": 9.2739534,
+          "percent": 0.3565164323323882
+        },
+        {
+          "code": 2,
+          "n": 59,
+          "weighted_frequency": 52.2114044,
+          "percent": 2.007150868770977
+        },
+        {
+          "code": 3,
+          "n": 521,
+          "weighted_frequency": 494.1055708,
+          "percent": 18.99478547058197
+        },
+        {
+          "code": 4,
+          "n": 1113,
+          "weighted_frequency": 1106.9974323,
+          "percent": 42.556044670734536
+        },
+        {
+          "code": 5,
+          "n": 908,
+          "weighted_frequency": 938.6811905,
+          "percent": 36.08550255758012
+        }
+      ]
+    },
+    "Q7INFODOWN.unweighted": {
+      "field": "Q7INFODOWN",
+      "weighted": false,
+      "selected_n": 2809,
+      "valid_n": 1518,
+      "excluded_n": 1291,
+      "sum_weights": 1518.0,
+      "mean": 3.847826086956522,
+      "top_two_percent": 65.48089591567853,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 26,
+          "weighted_frequency": 26.0,
+          "percent": 1.7127799736495388
+        },
+        {
+          "code": 2,
+          "n": 66,
+          "weighted_frequency": 66.0,
+          "percent": 4.3478260869565215
+        },
+        {
+          "code": 3,
+          "n": 432,
+          "weighted_frequency": 432.0,
+          "percent": 28.458498023715414
+        },
+        {
+          "code": 4,
+          "n": 583,
+          "weighted_frequency": 583.0,
+          "percent": 38.405797101449274
+        },
+        {
+          "code": 5,
+          "n": 411,
+          "weighted_frequency": 411.0,
+          "percent": 27.07509881422925
+        }
+      ]
+    },
+    "Q7INFODOWN.weighted": {
+      "field": "Q7INFODOWN",
+      "weighted": true,
+      "selected_n": 2809,
+      "valid_n": 1518,
+      "excluded_n": 1291,
+      "sum_weights": 1486.8108886,
+      "mean": 3.8830639389763206,
+      "top_two_percent": 66.94849101739354,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 26,
+          "weighted_frequency": 23.8403903,
+          "percent": 1.6034581454033077
+        },
+        {
+          "code": 2,
+          "n": 66,
+          "weighted_frequency": 62.1587807,
+          "percent": 4.180678334857333
+        },
+        {
+          "code": 3,
+          "n": 432,
+          "weighted_frequency": 405.4142634,
+          "percent": 27.26737250234582
+        },
+        {
+          "code": 4,
+          "n": 583,
+          "weighted_frequency": 568.0062673,
+          "percent": 38.202993511491016
+        },
+        {
+          "code": 5,
+          "n": 411,
+          "weighted_frequency": 427.3911869,
+          "percent": 28.74549750590251
+        }
+      ]
+    },
+    "Q7INFOUP.unweighted": {
+      "field": "Q7INFOUP",
+      "weighted": false,
+      "selected_n": 2809,
+      "valid_n": 1529,
+      "excluded_n": 1280,
+      "sum_weights": 1529.0,
+      "mean": 3.8718116415958144,
+      "top_two_percent": 66.77567037279267,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 25,
+          "weighted_frequency": 25.0,
+          "percent": 1.6350555918901242
+        },
+        {
+          "code": 2,
+          "n": 57,
+          "weighted_frequency": 57.0,
+          "percent": 3.7279267495094834
+        },
+        {
+          "code": 3,
+          "n": 426,
+          "weighted_frequency": 426.0,
+          "percent": 27.861347285807717
+        },
+        {
+          "code": 4,
+          "n": 602,
+          "weighted_frequency": 602.0,
+          "percent": 39.37213865271419
+        },
+        {
+          "code": 5,
+          "n": 419,
+          "weighted_frequency": 419.0,
+          "percent": 27.403531720078483
+        }
+      ]
+    },
+    "Q7INFOUP.weighted": {
+      "field": "Q7INFOUP",
+      "weighted": true,
+      "selected_n": 2809,
+      "valid_n": 1529,
+      "excluded_n": 1280,
+      "sum_weights": 1492.3258872,
+      "mean": 3.907878527552759,
+      "top_two_percent": 68.17826870972476,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 25,
+          "weighted_frequency": 22.9141838,
+          "percent": 1.5354678221787803
+        },
+        {
+          "code": 2,
+          "n": 57,
+          "weighted_frequency": 53.4763605,
+          "percent": 3.5834237654575483
+        },
+        {
+          "code": 3,
+          "n": 426,
+          "weighted_frequency": 398.4933895,
+          "percent": 26.70283970263891
+        },
+        {
+          "code": 4,
+          "n": 602,
+          "weighted_frequency": 580.7285496,
+          "percent": 38.91432525435856
+        },
+        {
+          "code": 5,
+          "n": 419,
+          "weighted_frequency": 436.7134038,
+          "percent": 29.263943455366203
+        }
+      ]
+    },
+    "Q7WIFI.unweighted": {
+      "field": "Q7WIFI",
+      "weighted": false,
+      "selected_n": 2809,
+      "valid_n": 2074,
+      "excluded_n": 735,
+      "sum_weights": 2074.0,
+      "mean": 3.98457087753134,
+      "top_two_percent": 72.22757955641273,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 66,
+          "weighted_frequency": 66.0,
+          "percent": 3.1822565091610415
+        },
+        {
+          "code": 2,
+          "n": 114,
+          "weighted_frequency": 114.0,
+          "percent": 5.496624879459981
+        },
+        {
+          "code": 3,
+          "n": 396,
+          "weighted_frequency": 396.0,
+          "percent": 19.09353905496625
+        },
+        {
+          "code": 4,
+          "n": 708,
+          "weighted_frequency": 708.0,
+          "percent": 34.13693346190935
+        },
+        {
+          "code": 5,
+          "n": 790,
+          "weighted_frequency": 790.0,
+          "percent": 38.09064609450338
+        }
+      ]
+    },
+    "Q7WIFI.weighted": {
+      "field": "Q7WIFI",
+      "weighted": true,
+      "selected_n": 2809,
+      "valid_n": 2074,
+      "excluded_n": 735,
+      "sum_weights": 2019.7453884,
+      "mean": 4.024318626487327,
+      "top_two_percent": 73.12456941763304,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 66,
+          "weighted_frequency": 54.8528268,
+          "percent": 2.715828792828846
+        },
+        {
+          "code": 2,
+          "n": 114,
+          "weighted_frequency": 99.3895831,
+          "percent": 4.920896647212269
+        },
+        {
+          "code": 3,
+          "n": 396,
+          "weighted_frequency": 388.57285989999997,
+          "percent": 19.23870514232585
+        },
+        {
+          "code": 4,
+          "n": 708,
+          "weighted_frequency": 675.9021784,
+          "percent": 33.46472195366346
+        },
+        {
+          "code": 5,
+          "n": 790,
+          "weighted_frequency": 801.0279402,
+          "percent": 39.659847463969584
+        }
+      ]
+    },
+    "Q7ROADS.unweighted": {
+      "field": "Q7ROADS",
+      "weighted": false,
+      "selected_n": 2809,
+      "valid_n": 1772,
+      "excluded_n": 1037,
+      "sum_weights": 1772.0,
+      "mean": 3.9367945823927766,
+      "top_two_percent": 71.6704288939052,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 20,
+          "weighted_frequency": 20.0,
+          "percent": 1.1286681715575622
+        },
+        {
+          "code": 2,
+          "n": 100,
+          "weighted_frequency": 100.0,
+          "percent": 5.643340857787811
+        },
+        {
+          "code": 3,
+          "n": 382,
+          "weighted_frequency": 382.0,
+          "percent": 21.557562076749434
+        },
+        {
+          "code": 4,
+          "n": 740,
+          "weighted_frequency": 740.0,
+          "percent": 41.760722347629795
+        },
+        {
+          "code": 5,
+          "n": 530,
+          "weighted_frequency": 530.0,
+          "percent": 29.909706546275395
+        }
+      ]
+    },
+    "Q7ROADS.weighted": {
+      "field": "Q7ROADS",
+      "weighted": true,
+      "selected_n": 2809,
+      "valid_n": 1772,
+      "excluded_n": 1037,
+      "sum_weights": 1732.7378854,
+      "mean": 3.952527569465008,
+      "top_two_percent": 71.80826231041672,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 20,
+          "weighted_frequency": 19.1406475,
+          "percent": 1.1046476019990414
+        },
+        {
+          "code": 2,
+          "n": 100,
+          "weighted_frequency": 89.1626429,
+          "percent": 5.145766341884821
+        },
+        {
+          "code": 3,
+          "n": 382,
+          "weighted_frequency": 380.18562909999997,
+          "percent": 21.941323745699407
+        },
+        {
+          "code": 4,
+          "n": 740,
+          "weighted_frequency": 710.5733874,
+          "percent": 41.00870612844973
+        },
+        {
+          "code": 5,
+          "n": 530,
+          "weighted_frequency": 533.6755785,
+          "percent": 30.799556181967002
+        }
+      ]
+    },
+    "Q7PARK.unweighted": {
+      "field": "Q7PARK",
+      "weighted": false,
+      "selected_n": 2809,
+      "valid_n": 1065,
+      "excluded_n": 1744,
+      "sum_weights": 1065.0,
+      "mean": 3.831924882629108,
+      "top_two_percent": 64.31924882629107,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 8,
+          "weighted_frequency": 8.0,
+          "percent": 0.7511737089201878
+        },
+        {
+          "code": 2,
+          "n": 65,
+          "weighted_frequency": 65.0,
+          "percent": 6.103286384976526
+        },
+        {
+          "code": 3,
+          "n": 307,
+          "weighted_frequency": 307.0,
+          "percent": 28.826291079812208
+        },
+        {
+          "code": 4,
+          "n": 403,
+          "weighted_frequency": 403.0,
+          "percent": 37.840375586854464
+        },
+        {
+          "code": 5,
+          "n": 282,
+          "weighted_frequency": 282.0,
+          "percent": 26.47887323943662
+        }
+      ]
+    },
+    "Q7PARK.weighted": {
+      "field": "Q7PARK",
+      "weighted": true,
+      "selected_n": 2809,
+      "valid_n": 1065,
+      "excluded_n": 1744,
+      "sum_weights": 1053.3782237,
+      "mean": 3.8571584787736675,
+      "top_two_percent": 64.85697725934486,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 8,
+          "weighted_frequency": 7.3410456,
+          "percent": 0.6969050085556653
+        },
+        {
+          "code": 2,
+          "n": 65,
+          "weighted_frequency": 66.9217447,
+          "percent": 6.353059441929301
+        },
+        {
+          "code": 3,
+          "n": 307,
+          "weighted_frequency": 295.9261584,
+          "percent": 28.09305829017016
+        },
+        {
+          "code": 4,
+          "n": 403,
+          "weighted_frequency": 381.8626383,
+          "percent": 36.251237182282374
+        },
+        {
+          "code": 5,
+          "n": 282,
+          "weighted_frequency": 301.3266367,
+          "percent": 28.6057400770625
+        }
+      ]
+    },
+    "Q7AIRTRAIN.unweighted": {
+      "field": "Q7AIRTRAIN",
+      "weighted": false,
+      "selected_n": 2809,
+      "valid_n": 1309,
+      "excluded_n": 1500,
+      "sum_weights": 1309.0,
+      "mean": 4.049656226126815,
+      "top_two_percent": 75.47746371275782,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 23,
+          "weighted_frequency": 23.0,
+          "percent": 1.757066462948816
+        },
+        {
+          "code": 2,
+          "n": 51,
+          "weighted_frequency": 51.0,
+          "percent": 3.896103896103896
+        },
+        {
+          "code": 3,
+          "n": 247,
+          "weighted_frequency": 247.0,
+          "percent": 18.869365928189456
+        },
+        {
+          "code": 4,
+          "n": 505,
+          "weighted_frequency": 505.0,
+          "percent": 38.5790679908327
+        },
+        {
+          "code": 5,
+          "n": 483,
+          "weighted_frequency": 483.0,
+          "percent": 36.898395721925134
+        }
+      ]
+    },
+    "Q7AIRTRAIN.weighted": {
+      "field": "Q7AIRTRAIN",
+      "weighted": true,
+      "selected_n": 2809,
+      "valid_n": 1309,
+      "excluded_n": 1500,
+      "sum_weights": 1265.7385761,
+      "mean": 4.048269972373167,
+      "top_two_percent": 75.75460351808424,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 23,
+          "weighted_frequency": 20.9997679,
+          "percent": 1.659092035000196
+        },
+        {
+          "code": 2,
+          "n": 51,
+          "weighted_frequency": 50.6613823,
+          "percent": 4.002515468565247
+        },
+        {
+          "code": 3,
+          "n": 247,
+          "weighted_frequency": 235.222186,
+          "percent": 18.583788978350313
+        },
+        {
+          "code": 4,
+          "n": 505,
+          "weighted_frequency": 498.2138195,
+          "percent": 39.361510260286046
+        },
+        {
+          "code": 5,
+          "n": 483,
+          "weighted_frequency": 460.6414204,
+          "percent": 36.39309325779819
+        }
+      ]
+    },
+    "Q7LTPARKING.unweighted": {
+      "field": "Q7LTPARKING",
+      "weighted": false,
+      "selected_n": 2809,
+      "valid_n": 649,
+      "excluded_n": 2160,
+      "sum_weights": 649.0,
+      "mean": 3.782742681047766,
+      "top_two_percent": 61.78736517719569,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 9,
+          "weighted_frequency": 9.0,
+          "percent": 1.386748844375963
+        },
+        {
+          "code": 2,
+          "n": 46,
+          "weighted_frequency": 46.0,
+          "percent": 7.0878274268104775
+        },
+        {
+          "code": 3,
+          "n": 193,
+          "weighted_frequency": 193.0,
+          "percent": 29.738058551617872
+        },
+        {
+          "code": 4,
+          "n": 230,
+          "weighted_frequency": 230.0,
+          "percent": 35.43913713405239
+        },
+        {
+          "code": 5,
+          "n": 171,
+          "weighted_frequency": 171.0,
+          "percent": 26.348228043143298
+        }
+      ]
+    },
+    "Q7LTPARKING.weighted": {
+      "field": "Q7LTPARKING",
+      "weighted": true,
+      "selected_n": 2809,
+      "valid_n": 649,
+      "excluded_n": 2160,
+      "sum_weights": 659.0842916,
+      "mean": 3.8269830661216746,
+      "top_two_percent": 63.263982469947244,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 9,
+          "weighted_frequency": 9.4614853,
+          "percent": 1.4355501140880171
+        },
+        {
+          "code": 2,
+          "n": 46,
+          "weighted_frequency": 46.6346382,
+          "percent": 7.07567132070304
+        },
+        {
+          "code": 3,
+          "n": 193,
+          "weighted_frequency": 186.0251974,
+          "percent": 28.22479609526169
+        },
+        {
+          "code": 4,
+          "n": 230,
+          "weighted_frequency": 223.3167843,
+          "percent": 33.88288677884794
+        },
+        {
+          "code": 5,
+          "n": 171,
+          "weighted_frequency": 193.6461864,
+          "percent": 29.381095691099308
+        }
+      ]
+    },
+    "Q7RENTAL.unweighted": {
+      "field": "Q7RENTAL",
+      "weighted": false,
+      "selected_n": 2809,
+      "valid_n": 910,
+      "excluded_n": 1899,
+      "sum_weights": 910.0,
+      "mean": 3.8230769230769233,
+      "top_two_percent": 64.28571428571429,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 21,
+          "weighted_frequency": 21.0,
+          "percent": 2.3076923076923075
+        },
+        {
+          "code": 2,
+          "n": 56,
+          "weighted_frequency": 56.0,
+          "percent": 6.153846153846154
+        },
+        {
+          "code": 3,
+          "n": 248,
+          "weighted_frequency": 248.0,
+          "percent": 27.252747252747252
+        },
+        {
+          "code": 4,
+          "n": 323,
+          "weighted_frequency": 323.0,
+          "percent": 35.494505494505496
+        },
+        {
+          "code": 5,
+          "n": 262,
+          "weighted_frequency": 262.0,
+          "percent": 28.791208791208792
+        }
+      ]
+    },
+    "Q7RENTAL.weighted": {
+      "field": "Q7RENTAL",
+      "weighted": true,
+      "selected_n": 2809,
+      "valid_n": 910,
+      "excluded_n": 1899,
+      "sum_weights": 897.3954086,
+      "mean": 3.840575699375157,
+      "top_two_percent": 65.52845332888413,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 21,
+          "weighted_frequency": 20.6867442,
+          "percent": 2.305198355346254
+        },
+        {
+          "code": 2,
+          "n": 56,
+          "weighted_frequency": 58.8266962,
+          "percent": 6.55527046787255
+        },
+        {
+          "code": 3,
+          "n": 248,
+          "weighted_frequency": 229.8326367,
+          "percent": 25.61107784789707
+        },
+        {
+          "code": 4,
+          "n": 323,
+          "weighted_frequency": 321.5697052,
+          "percent": 35.83366954168747
+        },
+        {
+          "code": 5,
+          "n": 262,
+          "weighted_frequency": 266.4796263,
+          "percent": 29.69478378719666
+        }
+      ]
+    },
+    "Q7ALL.unweighted": {
+      "field": "Q7ALL",
+      "weighted": false,
+      "selected_n": 2809,
+      "valid_n": 2625,
+      "excluded_n": 184,
+      "sum_weights": 2625.0,
+      "mean": 4.002666666666666,
+      "top_two_percent": 78.43809523809524,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 6,
+          "weighted_frequency": 6.0,
+          "percent": 0.22857142857142856
+        },
+        {
+          "code": 2,
+          "n": 46,
+          "weighted_frequency": 46.0,
+          "percent": 1.7523809523809524
+        },
+        {
+          "code": 3,
+          "n": 514,
+          "weighted_frequency": 514.0,
+          "percent": 19.580952380952382
+        },
+        {
+          "code": 4,
+          "n": 1428,
+          "weighted_frequency": 1428.0,
+          "percent": 54.4
+        },
+        {
+          "code": 5,
+          "n": 631,
+          "weighted_frequency": 631.0,
+          "percent": 24.038095238095238
+        }
+      ]
+    },
+    "Q7ALL.weighted": {
+      "field": "Q7ALL",
+      "weighted": true,
+      "selected_n": 2809,
+      "valid_n": 2625,
+      "excluded_n": 184,
+      "sum_weights": 2618.6699184,
+      "mean": 4.042123167690947,
+      "top_two_percent": 80.48524502804705,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 6,
+          "weighted_frequency": 4.9020781,
+          "percent": 0.18719725099966614
+        },
+        {
+          "code": 2,
+          "n": 46,
+          "weighted_frequency": 43.3700047,
+          "percent": 1.656184477289866
+        },
+        {
+          "code": 3,
+          "n": 514,
+          "weighted_frequency": 462.7549353,
+          "percent": 17.671373243663407
+        },
+        {
+          "code": 4,
+          "n": 1428,
+          "weighted_frequency": 1433.1350492,
+          "percent": 54.72759430771028
+        },
+        {
+          "code": 5,
+          "n": 631,
+          "weighted_frequency": 674.5078511,
+          "percent": 25.757650720336773
+        }
+      ]
+    },
+    "Q9Restroom.unweighted": {
+      "field": "Q9Restroom",
+      "weighted": false,
+      "selected_n": 2809,
+      "valid_n": 2589,
+      "excluded_n": 220,
+      "sum_weights": 2589.0,
+      "mean": 4.011973735032831,
+      "top_two_percent": 73.15565855542681,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 19,
+          "weighted_frequency": 19.0,
+          "percent": 0.7338740826573967
+        },
+        {
+          "code": 2,
+          "n": 109,
+          "weighted_frequency": 109.0,
+          "percent": 4.210119737350328
+        },
+        {
+          "code": 3,
+          "n": 567,
+          "weighted_frequency": 567.0,
+          "percent": 21.90034762456547
+        },
+        {
+          "code": 4,
+          "n": 1021,
+          "weighted_frequency": 1021.0,
+          "percent": 39.43607570490537
+        },
+        {
+          "code": 5,
+          "n": 873,
+          "weighted_frequency": 873.0,
+          "percent": 33.719582850521434
+        }
+      ]
+    },
+    "Q9Restroom.weighted": {
+      "field": "Q9Restroom",
+      "weighted": true,
+      "selected_n": 2809,
+      "valid_n": 2589,
+      "excluded_n": 220,
+      "sum_weights": 2585.1478402,
+      "mean": 4.044385400136776,
+      "top_two_percent": 74.23149283994285,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 19,
+          "weighted_frequency": 20.5418737,
+          "percent": 0.7946111777657862
+        },
+        {
+          "code": 2,
+          "n": 109,
+          "weighted_frequency": 93.7772681,
+          "percent": 3.6275398505930294
+        },
+        {
+          "code": 3,
+          "n": 567,
+          "weighted_frequency": 551.8348645,
+          "percent": 21.346356131698343
+        },
+        {
+          "code": 4,
+          "n": 1021,
+          "weighted_frequency": 1003.2359908,
+          "percent": 38.80768346008345
+        },
+        {
+          "code": 5,
+          "n": 873,
+          "weighted_frequency": 915.7578431,
+          "percent": 35.423809379859385
+        }
+      ]
+    },
+    "NETPRO.unweighted": {
+      "field": "NETPRO",
+      "weighted": false,
+      "selected_n": 2809,
+      "valid_n": 2650,
+      "excluded_n": 159,
+      "sum_weights": 2650.0,
+      "mean": 8.069433962264151,
+      "top_two_percent": 8.641509433962264,
+      "nps": 30.9811320754717,
+      "cells": [
+        {
+          "code": 0,
+          "n": 24,
+          "weighted_frequency": 24.0,
+          "percent": 0.9056603773584906
+        },
+        {
+          "code": 1,
+          "n": 11,
+          "weighted_frequency": 11.0,
+          "percent": 0.41509433962264153
+        },
+        {
+          "code": 2,
+          "n": 24,
+          "weighted_frequency": 24.0,
+          "percent": 0.9056603773584906
+        },
+        {
+          "code": 3,
+          "n": 26,
+          "weighted_frequency": 26.0,
+          "percent": 0.9811320754716981
+        },
+        {
+          "code": 4,
+          "n": 24,
+          "weighted_frequency": 24.0,
+          "percent": 0.9056603773584906
+        },
+        {
+          "code": 5,
+          "n": 205,
+          "weighted_frequency": 205.0,
+          "percent": 7.735849056603773
+        },
+        {
+          "code": 6,
+          "n": 133,
+          "weighted_frequency": 133.0,
+          "percent": 5.018867924528302
+        },
+        {
+          "code": 7,
+          "n": 334,
+          "weighted_frequency": 334.0,
+          "percent": 12.60377358490566
+        },
+        {
+          "code": 8,
+          "n": 601,
+          "weighted_frequency": 601.0,
+          "percent": 22.67924528301887
+        },
+        {
+          "code": 9,
+          "n": 498,
+          "weighted_frequency": 498.0,
+          "percent": 18.79245283018868
+        },
+        {
+          "code": 10,
+          "n": 770,
+          "weighted_frequency": 770.0,
+          "percent": 29.056603773584907
+        }
+      ]
+    },
+    "NETPRO.weighted": {
+      "field": "NETPRO",
+      "weighted": true,
+      "selected_n": 2809,
+      "valid_n": 2650,
+      "excluded_n": 159,
+      "sum_weights": 2648.9780041999998,
+      "mean": 8.165905189134527,
+      "top_two_percent": 8.047437935007675,
+      "nps": 35.11363210359722,
+      "cells": [
+        {
+          "code": 0,
+          "n": 24,
+          "weighted_frequency": 23.2889429,
+          "percent": 0.8791670924815148
+        },
+        {
+          "code": 1,
+          "n": 11,
+          "weighted_frequency": 8.632686,
+          "percent": 0.32588741719684833
+        },
+        {
+          "code": 2,
+          "n": 24,
+          "weighted_frequency": 24.8305543,
+          "percent": 0.9373635515519847
+        },
+        {
+          "code": 3,
+          "n": 26,
+          "weighted_frequency": 20.0960138,
+          "percent": 0.7586327167736927
+        },
+        {
+          "code": 4,
+          "n": 24,
+          "weighted_frequency": 20.4949587,
+          "percent": 0.7736930494517091
+        },
+        {
+          "code": 5,
+          "n": 205,
+          "weighted_frequency": 192.6799021,
+          "percent": 7.273744885555967
+        },
+        {
+          "code": 6,
+          "n": 133,
+          "weighted_frequency": 122.8389558,
+          "percent": 4.637220679267126
+        },
+        {
+          "code": 7,
+          "n": 334,
+          "weighted_frequency": 323.6999513,
+          "percent": 12.21980517719544
+        },
+        {
+          "code": 8,
+          "n": 601,
+          "weighted_frequency": 569.4016348,
+          "percent": 21.495143934649665
+        },
+        {
+          "code": 9,
+          "n": 498,
+          "weighted_frequency": 520.9484682,
+          "percent": 19.666017134684672
+        },
+        {
+          "code": 10,
+          "n": 770,
+          "weighted_frequency": 822.0659363,
+          "percent": 31.03332436119139
+        }
+      ]
+    },
+    "Q7ALL.Q17LIVE.resident.unweighted": {
+      "field": "Q7ALL",
+      "weighted": false,
+      "selected_n": 883,
+      "valid_n": 837,
+      "excluded_n": 46,
+      "sum_weights": 837.0,
+      "mean": 4.003584229390681,
+      "top_two_percent": 79.56989247311827,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 3,
+          "weighted_frequency": 3.0,
+          "percent": 0.35842293906810035
+        },
+        {
+          "code": 2,
+          "n": 11,
+          "weighted_frequency": 11.0,
+          "percent": 1.3142174432497014
+        },
+        {
+          "code": 3,
+          "n": 157,
+          "weighted_frequency": 157.0,
+          "percent": 18.75746714456392
+        },
+        {
+          "code": 4,
+          "n": 475,
+          "weighted_frequency": 475.0,
+          "percent": 56.75029868578255
+        },
+        {
+          "code": 5,
+          "n": 191,
+          "weighted_frequency": 191.0,
+          "percent": 22.819593787335723
+        }
+      ],
+      "filter": {
+        "Q17LIVE": [
+          "1"
+        ]
+      }
+    },
+    "Q7ALL.Q17LIVE.resident.weighted": {
+      "field": "Q7ALL",
+      "weighted": true,
+      "selected_n": 883,
+      "valid_n": 837,
+      "excluded_n": 46,
+      "sum_weights": 814.4666142,
+      "mean": 4.0470670193616884,
+      "top_two_percent": 81.91574437404361,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 3,
+          "weighted_frequency": 2.4583116,
+          "percent": 0.3018308617124407
+        },
+        {
+          "code": 2,
+          "n": 11,
+          "weighted_frequency": 12.5659185,
+          "percent": 1.5428402197114883
+        },
+        {
+          "code": 3,
+          "n": 157,
+          "weighted_frequency": 132.2659944,
+          "percent": 16.23958454453246
+        },
+        {
+          "code": 4,
+          "n": 475,
+          "weighted_frequency": 464.0691076,
+          "percent": 56.97828486878204
+        },
+        {
+          "code": 5,
+          "n": 191,
+          "weighted_frequency": 203.1072821,
+          "percent": 24.937459505261568
+        }
+      ],
+      "filter": {
+        "Q17LIVE": [
+          "1"
+        ]
+      }
+    },
+    "NETPRO.Q17LIVE.resident.unweighted": {
+      "field": "NETPRO",
+      "weighted": false,
+      "selected_n": 883,
+      "valid_n": 864,
+      "excluded_n": 19,
+      "sum_weights": 864.0,
+      "mean": 8.29050925925926,
+      "top_two_percent": 7.175925925925926,
+      "nps": 39.120370370370374,
+      "cells": [
+        {
+          "code": 0,
+          "n": 6,
+          "weighted_frequency": 6.0,
+          "percent": 0.6944444444444444
+        },
+        {
+          "code": 1,
+          "n": 3,
+          "weighted_frequency": 3.0,
+          "percent": 0.3472222222222222
+        },
+        {
+          "code": 2,
+          "n": 6,
+          "weighted_frequency": 6.0,
+          "percent": 0.6944444444444444
+        },
+        {
+          "code": 3,
+          "n": 5,
+          "weighted_frequency": 5.0,
+          "percent": 0.5787037037037037
+        },
+        {
+          "code": 4,
+          "n": 5,
+          "weighted_frequency": 5.0,
+          "percent": 0.5787037037037037
+        },
+        {
+          "code": 5,
+          "n": 57,
+          "weighted_frequency": 57.0,
+          "percent": 6.597222222222222
+        },
+        {
+          "code": 6,
+          "n": 29,
+          "weighted_frequency": 29.0,
+          "percent": 3.3564814814814814
+        },
+        {
+          "code": 7,
+          "n": 108,
+          "weighted_frequency": 108.0,
+          "percent": 12.5
+        },
+        {
+          "code": 8,
+          "n": 196,
+          "weighted_frequency": 196.0,
+          "percent": 22.685185185185187
+        },
+        {
+          "code": 9,
+          "n": 160,
+          "weighted_frequency": 160.0,
+          "percent": 18.51851851851852
+        },
+        {
+          "code": 10,
+          "n": 289,
+          "weighted_frequency": 289.0,
+          "percent": 33.449074074074076
+        }
+      ],
+      "filter": {
+        "Q17LIVE": [
+          "1"
+        ]
+      }
+    },
+    "NETPRO.Q17LIVE.resident.weighted": {
+      "field": "NETPRO",
+      "weighted": true,
+      "selected_n": 883,
+      "valid_n": 864,
+      "excluded_n": 19,
+      "sum_weights": 846.0257129,
+      "mean": 8.38512865463997,
+      "top_two_percent": 6.223920939649256,
+      "nps": 43.6354442153504,
+      "cells": [
+        {
+          "code": 0,
+          "n": 6,
+          "weighted_frequency": 4.8732825,
+          "percent": 0.5760206132855469
+        },
+        {
+          "code": 1,
+          "n": 3,
+          "weighted_frequency": 2.3038441,
+          "percent": 0.27231372106917434
+        },
+        {
+          "code": 2,
+          "n": 6,
+          "weighted_frequency": 7.6752239,
+          "percent": 0.9072092943476777
+        },
+        {
+          "code": 3,
+          "n": 5,
+          "weighted_frequency": 3.8674233,
+          "percent": 0.4571283403128822
+        },
+        {
+          "code": 4,
+          "n": 5,
+          "weighted_frequency": 4.1085255,
+          "percent": 0.4856265521666983
+        },
+        {
+          "code": 5,
+          "n": 57,
+          "weighted_frequency": 48.547446,
+          "percent": 5.738294387482558
+        },
+        {
+          "code": 6,
+          "n": 29,
+          "weighted_frequency": 24.0443114,
+          "percent": 2.842030807501241
+        },
+        {
+          "code": 7,
+          "n": 108,
+          "weighted_frequency": 105.8185715,
+          "percent": 12.507725224718758
+        },
+        {
+          "code": 8,
+          "n": 196,
+          "weighted_frequency": 180.19995,
+          "percent": 21.299583127599288
+        },
+        {
+          "code": 9,
+          "n": 160,
+          "weighted_frequency": 166.86026189999998,
+          "percent": 19.72283576678039
+        },
+        {
+          "code": 10,
+          "n": 289,
+          "weighted_frequency": 297.7268728,
+          "percent": 35.19123216473578
+        }
+      ],
+      "filter": {
+        "Q17LIVE": [
+          "1"
+        ]
+      }
+    },
+    "Q7ALL.Q17LIVE.elsewhere.unweighted": {
+      "field": "Q7ALL",
+      "weighted": false,
+      "selected_n": 1785,
+      "valid_n": 1673,
+      "excluded_n": 112,
+      "sum_weights": 1673.0,
+      "mean": 4.00418410041841,
+      "top_two_percent": 77.88404064554692,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 2,
+          "weighted_frequency": 2.0,
+          "percent": 0.1195457262402869
+        },
+        {
+          "code": 2,
+          "n": 31,
+          "weighted_frequency": 31.0,
+          "percent": 1.8529587567244472
+        },
+        {
+          "code": 3,
+          "n": 337,
+          "weighted_frequency": 337.0,
+          "percent": 20.143454871488345
+        },
+        {
+          "code": 4,
+          "n": 891,
+          "weighted_frequency": 891.0,
+          "percent": 53.257621040047816
+        },
+        {
+          "code": 5,
+          "n": 412,
+          "weighted_frequency": 412.0,
+          "percent": 24.626419605499102
+        }
+      ],
+      "filter": {
+        "Q17LIVE": [
+          "2",
+          "3"
+        ]
+      }
+    },
+    "Q7ALL.Q17LIVE.elsewhere.weighted": {
+      "field": "Q7ALL",
+      "weighted": true,
+      "selected_n": 1785,
+      "valid_n": 1673,
+      "excluded_n": 112,
+      "sum_weights": 1680.6645857,
+      "mean": 4.041263063843947,
+      "top_two_percent": 79.73822158820776,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 2,
+          "weighted_frequency": 1.7732823,
+          "percent": 0.10551077919342391
+        },
+        {
+          "code": 2,
+          "n": 31,
+          "weighted_frequency": 28.0376208,
+          "percent": 1.6682460640010615
+        },
+        {
+          "code": 3,
+          "n": 337,
+          "weighted_frequency": 310.7216311,
+          "percent": 18.48802156859775
+        },
+        {
+          "code": 4,
+          "n": 891,
+          "weighted_frequency": 898.6659618,
+          "percent": 53.470869169632905
+        },
+        {
+          "code": 5,
+          "n": 412,
+          "weighted_frequency": 441.4660897,
+          "percent": 26.267352418574852
+        }
+      ],
+      "filter": {
+        "Q17LIVE": [
+          "2",
+          "3"
+        ]
+      }
+    },
+    "NETPRO.Q17LIVE.elsewhere.unweighted": {
+      "field": "NETPRO",
+      "weighted": false,
+      "selected_n": 1785,
+      "valid_n": 1750,
+      "excluded_n": 35,
+      "sum_weights": 1750.0,
+      "mean": 7.967428571428571,
+      "top_two_percent": 9.371428571428572,
+      "nps": 27.142857142857142,
+      "cells": [
+        {
+          "code": 0,
+          "n": 17,
+          "weighted_frequency": 17.0,
+          "percent": 0.9714285714285714
+        },
+        {
+          "code": 1,
+          "n": 7,
+          "weighted_frequency": 7.0,
+          "percent": 0.4
+        },
+        {
+          "code": 2,
+          "n": 18,
+          "weighted_frequency": 18.0,
+          "percent": 1.0285714285714285
+        },
+        {
+          "code": 3,
+          "n": 21,
+          "weighted_frequency": 21.0,
+          "percent": 1.2
+        },
+        {
+          "code": 4,
+          "n": 18,
+          "weighted_frequency": 18.0,
+          "percent": 1.0285714285714285
+        },
+        {
+          "code": 5,
+          "n": 146,
+          "weighted_frequency": 146.0,
+          "percent": 8.342857142857143
+        },
+        {
+          "code": 6,
+          "n": 99,
+          "weighted_frequency": 99.0,
+          "percent": 5.6571428571428575
+        },
+        {
+          "code": 7,
+          "n": 223,
+          "weighted_frequency": 223.0,
+          "percent": 12.742857142857142
+        },
+        {
+          "code": 8,
+          "n": 400,
+          "weighted_frequency": 400.0,
+          "percent": 22.857142857142858
+        },
+        {
+          "code": 9,
+          "n": 330,
+          "weighted_frequency": 330.0,
+          "percent": 18.857142857142858
+        },
+        {
+          "code": 10,
+          "n": 471,
+          "weighted_frequency": 471.0,
+          "percent": 26.914285714285715
+        }
+      ],
+      "filter": {
+        "Q17LIVE": [
+          "2",
+          "3"
+        ]
+      }
+    },
+    "NETPRO.Q17LIVE.elsewhere.weighted": {
+      "field": "NETPRO",
+      "weighted": true,
+      "selected_n": 1785,
+      "valid_n": 1750,
+      "excluded_n": 35,
+      "sum_weights": 1756.8660623,
+      "mean": 8.058449480699494,
+      "top_two_percent": 9.010856837472874,
+      "nps": 30.943462291502197,
+      "cells": [
+        {
+          "code": 0,
+          "n": 17,
+          "weighted_frequency": 17.7451762,
+          "percent": 1.0100471846310761
+        },
+        {
+          "code": 1,
+          "n": 7,
+          "weighted_frequency": 6.0096771,
+          "percent": 0.34206802834659095
+        },
+        {
+          "code": 2,
+          "n": 18,
+          "weighted_frequency": 17.1553304,
+          "percent": 0.9764734357462123
+        },
+        {
+          "code": 3,
+          "n": 21,
+          "weighted_frequency": 16.2285905,
+          "percent": 0.9237238312153604
+        },
+        {
+          "code": 4,
+          "n": 18,
+          "weighted_frequency": 15.715949,
+          "percent": 0.8945445152162298
+        },
+        {
+          "code": 5,
+          "n": 146,
+          "weighted_frequency": 142.5927367,
+          "percent": 8.116312322256643
+        },
+        {
+          "code": 6,
+          "n": 99,
+          "weighted_frequency": 91.7331027,
+          "percent": 5.221405585119429
+        },
+        {
+          "code": 7,
+          "n": 223,
+          "weighted_frequency": 214.1091767,
+          "percent": 12.186994859454403
+        },
+        {
+          "code": 8,
+          "n": 400,
+          "weighted_frequency": 384.7605729,
+          "percent": 21.90039304398031
+        },
+        {
+          "code": 9,
+          "n": 330,
+          "weighted_frequency": 342.6221188,
+          "percent": 19.501891814761137
+        },
+        {
+          "code": 10,
+          "n": 471,
+          "weighted_frequency": 508.1936313,
+          "percent": 28.9261453792726
+        }
+      ],
+      "filter": {
+        "Q17LIVE": [
+          "2",
+          "3"
+        ]
+      }
+    },
+    "Q7ALL.Q11TSAPRE.yes.unweighted": {
+      "field": "Q7ALL",
+      "weighted": false,
+      "selected_n": 1005,
+      "valid_n": 934,
+      "excluded_n": 71,
+      "sum_weights": 934.0,
+      "mean": 4.0214132762312635,
+      "top_two_percent": 80.19271948608137,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 2,
+          "weighted_frequency": 2.0,
+          "percent": 0.21413276231263384
+        },
+        {
+          "code": 2,
+          "n": 13,
+          "weighted_frequency": 13.0,
+          "percent": 1.39186295503212
+        },
+        {
+          "code": 3,
+          "n": 170,
+          "weighted_frequency": 170.0,
+          "percent": 18.201284796573876
+        },
+        {
+          "code": 4,
+          "n": 527,
+          "weighted_frequency": 527.0,
+          "percent": 56.42398286937902
+        },
+        {
+          "code": 5,
+          "n": 222,
+          "weighted_frequency": 222.0,
+          "percent": 23.768736616702355
+        }
+      ],
+      "filter": {
+        "Q11TSAPRE": [
+          "1"
+        ]
+      }
+    },
+    "Q7ALL.Q11TSAPRE.yes.weighted": {
+      "field": "Q7ALL",
+      "weighted": true,
+      "selected_n": 1005,
+      "valid_n": 934,
+      "excluded_n": 71,
+      "sum_weights": 960.5533307,
+      "mean": 4.043794540038026,
+      "top_two_percent": 81.62309528702986,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 2,
+          "weighted_frequency": 1.7878274,
+          "percent": 0.18612474111116006
+        },
+        {
+          "code": 2,
+          "n": 13,
+          "weighted_frequency": 13.590787800000001,
+          "percent": 1.414891538619283
+        },
+        {
+          "code": 3,
+          "n": 170,
+          "weighted_frequency": 161.1413551,
+          "percent": 16.775888433239704
+        },
+        {
+          "code": 4,
+          "n": 527,
+          "weighted_frequency": 548.2799562,
+          "percent": 57.07959554941555
+        },
+        {
+          "code": 5,
+          "n": 222,
+          "weighted_frequency": 235.7534042,
+          "percent": 24.54349973761431
+        }
+      ],
+      "filter": {
+        "Q11TSAPRE": [
+          "1"
+        ]
+      }
+    },
+    "NETPRO.Q11TSAPRE.yes.unweighted": {
+      "field": "NETPRO",
+      "weighted": false,
+      "selected_n": 1005,
+      "valid_n": 965,
+      "excluded_n": 40,
+      "sum_weights": 965.0,
+      "mean": 8.262176165803108,
+      "top_two_percent": 6.94300518134715,
+      "nps": 39.067357512953365,
+      "cells": [
+        {
+          "code": 0,
+          "n": 6,
+          "weighted_frequency": 6.0,
+          "percent": 0.6217616580310881
+        },
+        {
+          "code": 1,
+          "n": 4,
+          "weighted_frequency": 4.0,
+          "percent": 0.41450777202072536
+        },
+        {
+          "code": 2,
+          "n": 7,
+          "weighted_frequency": 7.0,
+          "percent": 0.7253886010362695
+        },
+        {
+          "code": 3,
+          "n": 7,
+          "weighted_frequency": 7.0,
+          "percent": 0.7253886010362695
+        },
+        {
+          "code": 4,
+          "n": 8,
+          "weighted_frequency": 8.0,
+          "percent": 0.8290155440414507
+        },
+        {
+          "code": 5,
+          "n": 59,
+          "weighted_frequency": 59.0,
+          "percent": 6.1139896373057
+        },
+        {
+          "code": 6,
+          "n": 44,
+          "weighted_frequency": 44.0,
+          "percent": 4.5595854922279795
+        },
+        {
+          "code": 7,
+          "n": 115,
+          "weighted_frequency": 115.0,
+          "percent": 11.917098445595855
+        },
+        {
+          "code": 8,
+          "n": 203,
+          "weighted_frequency": 203.0,
+          "percent": 21.036269430051814
+        },
+        {
+          "code": 9,
+          "n": 206,
+          "weighted_frequency": 206.0,
+          "percent": 21.34715025906736
+        },
+        {
+          "code": 10,
+          "n": 306,
+          "weighted_frequency": 306.0,
+          "percent": 31.70984455958549
+        }
+      ],
+      "filter": {
+        "Q11TSAPRE": [
+          "1"
+        ]
+      }
+    },
+    "NETPRO.Q11TSAPRE.yes.weighted": {
+      "field": "NETPRO",
+      "weighted": true,
+      "selected_n": 1005,
+      "valid_n": 965,
+      "excluded_n": 40,
+      "sum_weights": 989.0238091,
+      "mean": 8.309288710327772,
+      "top_two_percent": 6.788041367891069,
+      "nps": 41.98171586767314,
+      "cells": [
+        {
+          "code": 0,
+          "n": 6,
+          "weighted_frequency": 6.1579008,
+          "percent": 0.6226241212133828
+        },
+        {
+          "code": 1,
+          "n": 4,
+          "weighted_frequency": 4.4426873,
+          "percent": 0.4491992264617768
+        },
+        {
+          "code": 2,
+          "n": 7,
+          "weighted_frequency": 6.7345898,
+          "percent": 0.6809330309376876
+        },
+        {
+          "code": 3,
+          "n": 7,
+          "weighted_frequency": 5.7014935,
+          "percent": 0.5764768701764917
+        },
+        {
+          "code": 4,
+          "n": 8,
+          "weighted_frequency": 9.4664504,
+          "percent": 0.9571509111205682
+        },
+        {
+          "code": 5,
+          "n": 59,
+          "weighted_frequency": 57.6688949,
+          "percent": 5.830890456770501
+        },
+        {
+          "code": 6,
+          "n": 44,
+          "weighted_frequency": 41.7270541,
+          "percent": 4.219014114328665
+        },
+        {
+          "code": 7,
+          "n": 115,
+          "weighted_frequency": 116.7655594,
+          "percent": 11.806142412916762
+        },
+        {
+          "code": 8,
+          "n": 203,
+          "weighted_frequency": 193.2509427,
+          "percent": 19.53956425739195
+        },
+        {
+          "code": 9,
+          "n": 206,
+          "weighted_frequency": 227.9533963,
+          "percent": 23.04832241677123
+        },
+        {
+          "code": 10,
+          "n": 306,
+          "weighted_frequency": 319.1548399,
+          "percent": 32.26968218191099
+        }
+      ],
+      "filter": {
+        "Q11TSAPRE": [
+          "1"
+        ]
+      }
+    },
+    "Q7ALL.Q11TSAPRE.no.unweighted": {
+      "field": "Q7ALL",
+      "weighted": false,
+      "selected_n": 1275,
+      "valid_n": 1221,
+      "excluded_n": 54,
+      "sum_weights": 1221.0,
+      "mean": 3.9926289926289926,
+      "top_two_percent": 77.88697788697789,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 2,
+          "weighted_frequency": 2.0,
+          "percent": 0.1638001638001638
+        },
+        {
+          "code": 2,
+          "n": 25,
+          "weighted_frequency": 25.0,
+          "percent": 2.0475020475020473
+        },
+        {
+          "code": 3,
+          "n": 243,
+          "weighted_frequency": 243.0,
+          "percent": 19.9017199017199
+        },
+        {
+          "code": 4,
+          "n": 661,
+          "weighted_frequency": 661.0,
+          "percent": 54.13595413595414
+        },
+        {
+          "code": 5,
+          "n": 290,
+          "weighted_frequency": 290.0,
+          "percent": 23.75102375102375
+        }
+      ],
+      "filter": {
+        "Q11TSAPRE": [
+          "2"
+        ]
+      }
+    },
+    "Q7ALL.Q11TSAPRE.no.weighted": {
+      "field": "Q7ALL",
+      "weighted": true,
+      "selected_n": 1275,
+      "valid_n": 1221,
+      "excluded_n": 54,
+      "sum_weights": 1183.0839683,
+      "mean": 4.041683007310851,
+      "top_two_percent": 80.05720614750385,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 2,
+          "weighted_frequency": 1.7732823,
+          "percent": 0.14988642797248528
+        },
+        {
+          "code": 2,
+          "n": 25,
+          "weighted_frequency": 24.316735,
+          "percent": 2.055368481997205
+        },
+        {
+          "code": 3,
+          "n": 243,
+          "weighted_frequency": 209.8499796,
+          "percent": 17.73753894252647
+        },
+        {
+          "code": 4,
+          "n": 661,
+          "weighted_frequency": 634.0261772,
+          "percent": 53.59097022598037
+        },
+        {
+          "code": 5,
+          "n": 290,
+          "weighted_frequency": 313.1177942,
+          "percent": 26.466235921523477
+        }
+      ],
+      "filter": {
+        "Q11TSAPRE": [
+          "2"
+        ]
+      }
+    },
+    "NETPRO.Q11TSAPRE.no.unweighted": {
+      "field": "NETPRO",
+      "weighted": false,
+      "selected_n": 1275,
+      "valid_n": 1228,
+      "excluded_n": 47,
+      "sum_weights": 1228.0,
+      "mean": 7.977198697068404,
+      "top_two_percent": 9.364820846905538,
+      "nps": 26.791530944625407,
+      "cells": [
+        {
+          "code": 0,
+          "n": 13,
+          "weighted_frequency": 13.0,
+          "percent": 1.0586319218241043
+        },
+        {
+          "code": 1,
+          "n": 6,
+          "weighted_frequency": 6.0,
+          "percent": 0.48859934853420195
+        },
+        {
+          "code": 2,
+          "n": 14,
+          "weighted_frequency": 14.0,
+          "percent": 1.1400651465798046
+        },
+        {
+          "code": 3,
+          "n": 10,
+          "weighted_frequency": 10.0,
+          "percent": 0.8143322475570033
+        },
+        {
+          "code": 4,
+          "n": 11,
+          "weighted_frequency": 11.0,
+          "percent": 0.8957654723127035
+        },
+        {
+          "code": 5,
+          "n": 104,
+          "weighted_frequency": 104.0,
+          "percent": 8.469055374592834
+        },
+        {
+          "code": 6,
+          "n": 64,
+          "weighted_frequency": 64.0,
+          "percent": 5.2117263843648205
+        },
+        {
+          "code": 7,
+          "n": 157,
+          "weighted_frequency": 157.0,
+          "percent": 12.785016286644952
+        },
+        {
+          "code": 8,
+          "n": 298,
+          "weighted_frequency": 298.0,
+          "percent": 24.267100977198698
+        },
+        {
+          "code": 9,
+          "n": 209,
+          "weighted_frequency": 209.0,
+          "percent": 17.019543973941367
+        },
+        {
+          "code": 10,
+          "n": 342,
+          "weighted_frequency": 342.0,
+          "percent": 27.850162866449512
+        }
+      ],
+      "filter": {
+        "Q11TSAPRE": [
+          "2"
+        ]
+      }
+    },
+    "NETPRO.Q11TSAPRE.no.weighted": {
+      "field": "NETPRO",
+      "weighted": true,
+      "selected_n": 1275,
+      "valid_n": 1228,
+      "excluded_n": 47,
+      "sum_weights": 1190.3213772,
+      "mean": 8.109292122944156,
+      "top_two_percent": 8.09092062402053,
+      "nps": 32.248140960296624,
+      "cells": [
+        {
+          "code": 0,
+          "n": 13,
+          "weighted_frequency": 12.2073428,
+          "percent": 1.0255501609754674
+        },
+        {
+          "code": 1,
+          "n": 6,
+          "weighted_frequency": 3.8708339,
+          "percent": 0.32519233663646246
+        },
+        {
+          "code": 2,
+          "n": 14,
+          "weighted_frequency": 15.268071299999999,
+          "percent": 1.2826847935735788
+        },
+        {
+          "code": 3,
+          "n": 10,
+          "weighted_frequency": 8.5043503,
+          "percent": 0.714458335613936
+        },
+        {
+          "code": 4,
+          "n": 11,
+          "weighted_frequency": 6.2994635,
+          "percent": 0.5292237559253338
+        },
+        {
+          "code": 5,
+          "n": 104,
+          "weighted_frequency": 90.0084943,
+          "percent": 7.561696868095196
+        },
+        {
+          "code": 6,
+          "n": 64,
+          "weighted_frequency": 55.0290505,
+          "percent": 4.623041436880278
+        },
+        {
+          "code": 7,
+          "n": 157,
+          "weighted_frequency": 147.679314,
+          "percent": 12.406675779224175
+        },
+        {
+          "code": 8,
+          "n": 298,
+          "weighted_frequency": 276.4103344,
+          "percent": 23.221487885078705
+        },
+        {
+          "code": 9,
+          "n": 209,
+          "weighted_frequency": 208.1499832,
+          "percent": 17.48687263683632
+        },
+        {
+          "code": 10,
+          "n": 342,
+          "weighted_frequency": 366.894139,
+          "percent": 30.823116011160554
+        }
+      ],
+      "filter": {
+        "Q11TSAPRE": [
+          "2"
+        ]
+      }
+    },
+    "Q7ALL.Q19Clear.yes.unweighted": {
+      "field": "Q7ALL",
+      "weighted": false,
+      "selected_n": 98,
+      "valid_n": 90,
+      "excluded_n": 8,
+      "sum_weights": 90.0,
+      "mean": 3.8555555555555556,
+      "top_two_percent": 76.66666666666667,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 1,
+          "weighted_frequency": 1.0,
+          "percent": 1.1111111111111112
+        },
+        {
+          "code": 2,
+          "n": 4,
+          "weighted_frequency": 4.0,
+          "percent": 4.444444444444445
+        },
+        {
+          "code": 3,
+          "n": 16,
+          "weighted_frequency": 16.0,
+          "percent": 17.77777777777778
+        },
+        {
+          "code": 4,
+          "n": 55,
+          "weighted_frequency": 55.0,
+          "percent": 61.111111111111114
+        },
+        {
+          "code": 5,
+          "n": 14,
+          "weighted_frequency": 14.0,
+          "percent": 15.555555555555555
+        }
+      ],
+      "filter": {
+        "Q19Clear": [
+          "1"
+        ]
+      }
+    },
+    "Q7ALL.Q19Clear.yes.weighted": {
+      "field": "Q7ALL",
+      "weighted": true,
+      "selected_n": 98,
+      "valid_n": 90,
+      "excluded_n": 8,
+      "sum_weights": 99.0353959,
+      "mean": 3.8812727187775096,
+      "top_two_percent": 78.59892707310317,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 1,
+          "weighted_frequency": 1.1789461,
+          "percent": 1.1904290272040001
+        },
+        {
+          "code": 2,
+          "n": 4,
+          "weighted_frequency": 4.8390918,
+          "percent": 4.886224522075143
+        },
+        {
+          "code": 3,
+          "n": 16,
+          "weighted_frequency": 15.1765994,
+          "percent": 15.324419377617696
+        },
+        {
+          "code": 4,
+          "n": 55,
+          "weighted_frequency": 61.2073406,
+          "percent": 61.80349969197225
+        },
+        {
+          "code": 5,
+          "n": 14,
+          "weighted_frequency": 16.633418,
+          "percent": 16.79542738113091
+        }
+      ],
+      "filter": {
+        "Q19Clear": [
+          "1"
+        ]
+      }
+    },
+    "NETPRO.Q19Clear.yes.unweighted": {
+      "field": "NETPRO",
+      "weighted": false,
+      "selected_n": 98,
+      "valid_n": 94,
+      "excluded_n": 4,
+      "sum_weights": 94.0,
+      "mean": 7.776595744680851,
+      "top_two_percent": 5.319148936170213,
+      "nps": 30.851063829787233,
+      "cells": [
+        {
+          "code": 0,
+          "n": 2,
+          "weighted_frequency": 2.0,
+          "percent": 2.127659574468085
+        },
+        {
+          "code": 1,
+          "n": 3,
+          "weighted_frequency": 3.0,
+          "percent": 3.1914893617021276
+        },
+        {
+          "code": 2,
+          "n": 2,
+          "weighted_frequency": 2.0,
+          "percent": 2.127659574468085
+        },
+        {
+          "code": 3,
+          "n": 1,
+          "weighted_frequency": 1.0,
+          "percent": 1.0638297872340425
+        },
+        {
+          "code": 4,
+          "n": 0,
+          "weighted_frequency": 0.0,
+          "percent": 0.0
+        },
+        {
+          "code": 5,
+          "n": 5,
+          "weighted_frequency": 5.0,
+          "percent": 5.319148936170213
+        },
+        {
+          "code": 6,
+          "n": 6,
+          "weighted_frequency": 6.0,
+          "percent": 6.382978723404255
+        },
+        {
+          "code": 7,
+          "n": 14,
+          "weighted_frequency": 14.0,
+          "percent": 14.893617021276595
+        },
+        {
+          "code": 8,
+          "n": 13,
+          "weighted_frequency": 13.0,
+          "percent": 13.829787234042554
+        },
+        {
+          "code": 9,
+          "n": 22,
+          "weighted_frequency": 22.0,
+          "percent": 23.404255319148938
+        },
+        {
+          "code": 10,
+          "n": 26,
+          "weighted_frequency": 26.0,
+          "percent": 27.659574468085108
+        }
+      ],
+      "filter": {
+        "Q19Clear": [
+          "1"
+        ]
+      }
+    },
+    "NETPRO.Q19Clear.yes.weighted": {
+      "field": "NETPRO",
+      "weighted": true,
+      "selected_n": 98,
+      "valid_n": 94,
+      "excluded_n": 4,
+      "sum_weights": 102.2099827,
+      "mean": 7.904660837986816,
+      "top_two_percent": 4.405357168698552,
+      "nps": 34.6734803820684,
+      "cells": [
+        {
+          "code": 0,
+          "n": 2,
+          "weighted_frequency": 2.2852783,
+          "percent": 2.235866047162534
+        },
+        {
+          "code": 1,
+          "n": 3,
+          "weighted_frequency": 2.0574683,
+          "percent": 2.012981751536878
+        },
+        {
+          "code": 2,
+          "n": 2,
+          "weighted_frequency": 1.7768164,
+          "percent": 1.7383981026737811
+        },
+        {
+          "code": 3,
+          "n": 1,
+          "weighted_frequency": 1.4869248,
+          "percent": 1.4547745344643326
+        },
+        {
+          "code": 4,
+          "n": 0,
+          "weighted_frequency": 0.0,
+          "percent": 0.0
+        },
+        {
+          "code": 5,
+          "n": 5,
+          "weighted_frequency": 4.5027148,
+          "percent": 4.405357168698552
+        },
+        {
+          "code": 6,
+          "n": 6,
+          "weighted_frequency": 5.2746204,
+          "percent": 5.160572637490525
+        },
+        {
+          "code": 7,
+          "n": 14,
+          "weighted_frequency": 17.0532485,
+          "percent": 16.68452341886562
+        },
+        {
+          "code": 8,
+          "n": 13,
+          "weighted_frequency": 14.9493299,
+          "percent": 14.626095715012777
+        },
+        {
+          "code": 9,
+          "n": 22,
+          "weighted_frequency": 23.5011161,
+          "percent": 22.992975323143266
+        },
+        {
+          "code": 10,
+          "n": 26,
+          "weighted_frequency": 29.3224652,
+          "percent": 28.688455300951738
+        }
+      ],
+      "filter": {
+        "Q19Clear": [
+          "1"
+        ]
+      }
+    },
+    "Q7ALL.Q19Clear.no.unweighted": {
+      "field": "Q7ALL",
+      "weighted": false,
+      "selected_n": 2279,
+      "valid_n": 2156,
+      "excluded_n": 123,
+      "sum_weights": 2156.0,
+      "mean": 4.009740259740259,
+      "top_two_percent": 78.7569573283859,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 1,
+          "weighted_frequency": 1.0,
+          "percent": 0.04638218923933209
+        },
+        {
+          "code": 2,
+          "n": 35,
+          "weighted_frequency": 35.0,
+          "percent": 1.6233766233766234
+        },
+        {
+          "code": 3,
+          "n": 422,
+          "weighted_frequency": 422.0,
+          "percent": 19.573283858998145
+        },
+        {
+          "code": 4,
+          "n": 1182,
+          "weighted_frequency": 1182.0,
+          "percent": 54.82374768089054
+        },
+        {
+          "code": 5,
+          "n": 516,
+          "weighted_frequency": 516.0,
+          "percent": 23.93320964749536
+        }
+      ],
+      "filter": {
+        "Q19Clear": [
+          "2"
+        ]
+      }
+    },
+    "Q7ALL.Q19Clear.no.weighted": {
+      "field": "Q7ALL",
+      "weighted": true,
+      "selected_n": 2279,
+      "valid_n": 2156,
+      "excluded_n": 123,
+      "sum_weights": 2141.3903383,
+      "mean": 4.048509601842356,
+      "top_two_percent": 80.85743015327958,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 1,
+          "weighted_frequency": 0.2863575,
+          "percent": 0.013372503596300548
+        },
+        {
+          "code": 2,
+          "n": 35,
+          "weighted_frequency": 34.062705799999996,
+          "percent": 1.5906817729943425
+        },
+        {
+          "code": 3,
+          "n": 422,
+          "weighted_frequency": 375.5680779,
+          "percent": 17.538515570129764
+        },
+        {
+          "code": 4,
+          "n": 1182,
+          "weighted_frequency": 1183.0426424,
+          "percent": 55.24647334213668
+        },
+        {
+          "code": 5,
+          "n": 516,
+          "weighted_frequency": 548.4305547,
+          "percent": 25.610956811142906
+        }
+      ],
+      "filter": {
+        "Q19Clear": [
+          "2"
+        ]
+      }
+    },
+    "NETPRO.Q19Clear.no.unweighted": {
+      "field": "NETPRO",
+      "weighted": false,
+      "selected_n": 2279,
+      "valid_n": 2237,
+      "excluded_n": 42,
+      "sum_weights": 2237.0,
+      "mean": 8.090746535538669,
+      "top_two_percent": 9.029950827000446,
+      "nps": 30.934286991506482,
+      "cells": [
+        {
+          "code": 0,
+          "n": 14,
+          "weighted_frequency": 14.0,
+          "percent": 0.6258381761287438
+        },
+        {
+          "code": 1,
+          "n": 7,
+          "weighted_frequency": 7.0,
+          "percent": 0.3129190880643719
+        },
+        {
+          "code": 2,
+          "n": 19,
+          "weighted_frequency": 19.0,
+          "percent": 0.8493518104604381
+        },
+        {
+          "code": 3,
+          "n": 22,
+          "weighted_frequency": 22.0,
+          "percent": 0.9834599910594546
+        },
+        {
+          "code": 4,
+          "n": 20,
+          "weighted_frequency": 20.0,
+          "percent": 0.894054537326777
+        },
+        {
+          "code": 5,
+          "n": 182,
+          "weighted_frequency": 182.0,
+          "percent": 8.13589628967367
+        },
+        {
+          "code": 6,
+          "n": 107,
+          "weighted_frequency": 107.0,
+          "percent": 4.783191774698256
+        },
+        {
+          "code": 7,
+          "n": 281,
+          "weighted_frequency": 281.0,
+          "percent": 12.561466249441215
+        },
+        {
+          "code": 8,
+          "n": 522,
+          "weighted_frequency": 522.0,
+          "percent": 23.33482342422888
+        },
+        {
+          "code": 9,
+          "n": 417,
+          "weighted_frequency": 417.0,
+          "percent": 18.641037103263297
+        },
+        {
+          "code": 10,
+          "n": 646,
+          "weighted_frequency": 646.0,
+          "percent": 28.877961555654895
+        }
+      ],
+      "filter": {
+        "Q19Clear": [
+          "2"
+        ]
+      }
+    },
+    "NETPRO.Q19Clear.no.weighted": {
+      "field": "NETPRO",
+      "weighted": true,
+      "selected_n": 2279,
+      "valid_n": 2237,
+      "excluded_n": 42,
+      "sum_weights": 2222.395475,
+      "mean": 8.178522458699662,
+      "top_two_percent": 8.37281527942276,
+      "nps": 35.06287709661576,
+      "cells": [
+        {
+          "code": 0,
+          "n": 14,
+          "weighted_frequency": 14.392876699999999,
+          "percent": 0.6476289599176762
+        },
+        {
+          "code": 1,
+          "n": 7,
+          "weighted_frequency": 6.2560529,
+          "percent": 0.28150043367056443
+        },
+        {
+          "code": 2,
+          "n": 19,
+          "weighted_frequency": 20.2258447,
+          "percent": 0.9100920573103669
+        },
+        {
+          "code": 3,
+          "n": 22,
+          "weighted_frequency": 16.9689502,
+          "percent": 0.7635432303064782
+        },
+        {
+          "code": 4,
+          "n": 20,
+          "weighted_frequency": 15.7442927,
+          "percent": 0.7084379390216317
+        },
+        {
+          "code": 5,
+          "n": 182,
+          "weighted_frequency": 170.3327752,
+          "percent": 7.664377340401128
+        },
+        {
+          "code": 6,
+          "n": 107,
+          "weighted_frequency": 97.1638737,
+          "percent": 4.372033456376616
+        },
+        {
+          "code": 7,
+          "n": 281,
+          "weighted_frequency": 270.2203573,
+          "percent": 12.158968119749256
+        },
+        {
+          "code": 8,
+          "n": 522,
+          "weighted_frequency": 490.7699915,
+          "percent": 22.08292794962607
+        },
+        {
+          "code": 9,
+          "n": 417,
+          "weighted_frequency": 440.2346116,
+          "percent": 19.809013137052037
+        },
+        {
+          "code": 10,
+          "n": 646,
+          "weighted_frequency": 680.0858485,
+          "percent": 30.601477376568184
+        }
+      ],
+      "filter": {
+        "Q19Clear": [
+          "2"
+        ]
+      }
+    },
+    "Q7ALL.Q21Gender.male.unweighted": {
+      "field": "Q7ALL",
+      "weighted": false,
+      "selected_n": 1217,
+      "valid_n": 1140,
+      "excluded_n": 77,
+      "sum_weights": 1140.0,
+      "mean": 3.9789473684210526,
+      "top_two_percent": 77.98245614035088,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 1,
+          "weighted_frequency": 1.0,
+          "percent": 0.08771929824561403
+        },
+        {
+          "code": 2,
+          "n": 21,
+          "weighted_frequency": 21.0,
+          "percent": 1.8421052631578947
+        },
+        {
+          "code": 3,
+          "n": 229,
+          "weighted_frequency": 229.0,
+          "percent": 20.087719298245613
+        },
+        {
+          "code": 4,
+          "n": 639,
+          "weighted_frequency": 639.0,
+          "percent": 56.05263157894737
+        },
+        {
+          "code": 5,
+          "n": 250,
+          "weighted_frequency": 250.0,
+          "percent": 21.92982456140351
+        }
+      ],
+      "filter": {
+        "Q21Gender": [
+          "1"
+        ]
+      }
+    },
+    "Q7ALL.Q21Gender.male.weighted": {
+      "field": "Q7ALL",
+      "weighted": true,
+      "selected_n": 1217,
+      "valid_n": 1140,
+      "excluded_n": 77,
+      "sum_weights": 1147.1450603,
+      "mean": 4.019611418885521,
+      "top_two_percent": 79.81590169255074,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 1,
+          "weighted_frequency": 1.1789461,
+          "percent": 0.10277218991743585
+        },
+        {
+          "code": 2,
+          "n": 21,
+          "weighted_frequency": 20.8003691,
+          "percent": 1.8132291913073586
+        },
+        {
+          "code": 3,
+          "n": 229,
+          "weighted_frequency": 209.56157149999999,
+          "percent": 18.268096926224455
+        },
+        {
+          "code": 4,
+          "n": 639,
+          "weighted_frequency": 638.4078833,
+          "percent": 55.65188792540712
+        },
+        {
+          "code": 5,
+          "n": 250,
+          "weighted_frequency": 277.1962903,
+          "percent": 24.16401376714362
+        }
+      ],
+      "filter": {
+        "Q21Gender": [
+          "1"
+        ]
+      }
+    },
+    "NETPRO.Q21Gender.male.unweighted": {
+      "field": "NETPRO",
+      "weighted": false,
+      "selected_n": 1217,
+      "valid_n": 1196,
+      "excluded_n": 21,
+      "sum_weights": 1196.0,
+      "mean": 8.001672240802675,
+      "top_two_percent": 8.528428093645484,
+      "nps": 27.50836120401338,
+      "cells": [
+        {
+          "code": 0,
+          "n": 8,
+          "weighted_frequency": 8.0,
+          "percent": 0.6688963210702341
+        },
+        {
+          "code": 1,
+          "n": 3,
+          "weighted_frequency": 3.0,
+          "percent": 0.2508361204013378
+        },
+        {
+          "code": 2,
+          "n": 10,
+          "weighted_frequency": 10.0,
+          "percent": 0.8361204013377926
+        },
+        {
+          "code": 3,
+          "n": 15,
+          "weighted_frequency": 15.0,
+          "percent": 1.254180602006689
+        },
+        {
+          "code": 4,
+          "n": 12,
+          "weighted_frequency": 12.0,
+          "percent": 1.0033444816053512
+        },
+        {
+          "code": 5,
+          "n": 90,
+          "weighted_frequency": 90.0,
+          "percent": 7.525083612040134
+        },
+        {
+          "code": 6,
+          "n": 63,
+          "weighted_frequency": 63.0,
+          "percent": 5.2675585284280935
+        },
+        {
+          "code": 7,
+          "n": 164,
+          "weighted_frequency": 164.0,
+          "percent": 13.7123745819398
+        },
+        {
+          "code": 8,
+          "n": 301,
+          "weighted_frequency": 301.0,
+          "percent": 25.16722408026756
+        },
+        {
+          "code": 9,
+          "n": 230,
+          "weighted_frequency": 230.0,
+          "percent": 19.23076923076923
+        },
+        {
+          "code": 10,
+          "n": 300,
+          "weighted_frequency": 300.0,
+          "percent": 25.08361204013378
+        }
+      ],
+      "filter": {
+        "Q21Gender": [
+          "1"
+        ]
+      }
+    },
+    "NETPRO.Q21Gender.male.weighted": {
+      "field": "NETPRO",
+      "weighted": true,
+      "selected_n": 1217,
+      "valid_n": 1196,
+      "excluded_n": 21,
+      "sum_weights": 1208.6255617,
+      "mean": 8.088771403402298,
+      "top_two_percent": 7.586703641368137,
+      "nps": 31.59974020099363,
+      "cells": [
+        {
+          "code": 0,
+          "n": 8,
+          "weighted_frequency": 9.512343,
+          "percent": 0.7870380456475167
+        },
+        {
+          "code": 1,
+          "n": 3,
+          "weighted_frequency": 2.8437051,
+          "percent": 0.23528420961080526
+        },
+        {
+          "code": 2,
+          "n": 10,
+          "weighted_frequency": 12.482691899999999,
+          "percent": 1.0328005873417396
+        },
+        {
+          "code": 3,
+          "n": 15,
+          "weighted_frequency": 11.4198597,
+          "percent": 0.9448633275583981
+        },
+        {
+          "code": 4,
+          "n": 12,
+          "weighted_frequency": 8.7740389,
+          "percent": 0.7259517900365122
+        },
+        {
+          "code": 5,
+          "n": 90,
+          "weighted_frequency": 82.92080059999999,
+          "percent": 6.860751851331624
+        },
+        {
+          "code": 6,
+          "n": 63,
+          "weighted_frequency": 56.0745341,
+          "percent": 4.63952905489836
+        },
+        {
+          "code": 7,
+          "n": 164,
+          "weighted_frequency": 162.529309,
+          "percent": 13.447449247341202
+        },
+        {
+          "code": 8,
+          "n": 301,
+          "weighted_frequency": 296.1177686,
+          "percent": 24.500372818815254
+        },
+        {
+          "code": 9,
+          "n": 230,
+          "weighted_frequency": 238.0725701,
+          "percent": 19.697793729030316
+        },
+        {
+          "code": 10,
+          "n": 300,
+          "weighted_frequency": 327.8779407,
+          "percent": 27.12816533838828
+        }
+      ],
+      "filter": {
+        "Q21Gender": [
+          "1"
+        ]
+      }
+    },
+    "Q7ALL.Q21Gender.female.unweighted": {
+      "field": "Q7ALL",
+      "weighted": false,
+      "selected_n": 1414,
+      "valid_n": 1334,
+      "excluded_n": 80,
+      "sum_weights": 1334.0,
+      "mean": 4.031484257871065,
+      "top_two_percent": 79.16041979010495,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 3,
+          "weighted_frequency": 3.0,
+          "percent": 0.22488755622188905
+        },
+        {
+          "code": 2,
+          "n": 19,
+          "weighted_frequency": 19.0,
+          "percent": 1.424287856071964
+        },
+        {
+          "code": 3,
+          "n": 256,
+          "weighted_frequency": 256.0,
+          "percent": 19.1904047976012
+        },
+        {
+          "code": 4,
+          "n": 711,
+          "weighted_frequency": 711.0,
+          "percent": 53.29835082458771
+        },
+        {
+          "code": 5,
+          "n": 345,
+          "weighted_frequency": 345.0,
+          "percent": 25.862068965517242
+        }
+      ],
+      "filter": {
+        "Q21Gender": [
+          "2"
+        ]
+      }
+    },
+    "Q7ALL.Q21Gender.female.weighted": {
+      "field": "Q7ALL",
+      "weighted": true,
+      "selected_n": 1414,
+      "valid_n": 1334,
+      "excluded_n": 80,
+      "sum_weights": 1318.6499326,
+      "mean": 4.072286149904892,
+      "top_two_percent": 81.48795581260244,
+      "nps": null,
+      "cells": [
+        {
+          "code": 1,
+          "n": 3,
+          "weighted_frequency": 2.4437664999999997,
+          "percent": 0.18532337048556868
+        },
+        {
+          "code": 2,
+          "n": 19,
+          "weighted_frequency": 17.6457612,
+          "percent": 1.338168740903631
+        },
+        {
+          "code": 3,
+          "n": 256,
+          "weighted_frequency": 224.0195305,
+          "percent": 16.98855207600835
+        },
+        {
+          "code": 4,
+          "n": 711,
+          "weighted_frequency": 712.5783953,
+          "percent": 54.03848115284088
+        },
+        {
+          "code": 5,
+          "n": 345,
+          "weighted_frequency": 361.9624791,
+          "percent": 27.449474659761567
+        }
+      ],
+      "filter": {
+        "Q21Gender": [
+          "2"
+        ]
+      }
+    },
+    "NETPRO.Q21Gender.female.unweighted": {
+      "field": "NETPRO",
+      "weighted": false,
+      "selected_n": 1414,
+      "valid_n": 1380,
+      "excluded_n": 34,
+      "sum_weights": 1380.0,
+      "mean": 8.16231884057971,
+      "top_two_percent": 8.695652173913043,
+      "nps": 34.85507246376812,
+      "cells": [
+        {
+          "code": 0,
+          "n": 13,
+          "weighted_frequency": 13.0,
+          "percent": 0.9420289855072463
+        },
+        {
+          "code": 1,
+          "n": 7,
+          "weighted_frequency": 7.0,
+          "percent": 0.5072463768115942
+        },
+        {
+          "code": 2,
+          "n": 12,
+          "weighted_frequency": 12.0,
+          "percent": 0.8695652173913043
+        },
+        {
+          "code": 3,
+          "n": 10,
+          "weighted_frequency": 10.0,
+          "percent": 0.7246376811594203
+        },
+        {
+          "code": 4,
+          "n": 10,
+          "weighted_frequency": 10.0,
+          "percent": 0.7246376811594203
+        },
+        {
+          "code": 5,
+          "n": 110,
+          "weighted_frequency": 110.0,
+          "percent": 7.971014492753623
+        },
+        {
+          "code": 6,
+          "n": 62,
+          "weighted_frequency": 62.0,
+          "percent": 4.492753623188406
+        },
+        {
+          "code": 7,
+          "n": 163,
+          "weighted_frequency": 163.0,
+          "percent": 11.81159420289855
+        },
+        {
+          "code": 8,
+          "n": 288,
+          "weighted_frequency": 288.0,
+          "percent": 20.869565217391305
+        },
+        {
+          "code": 9,
+          "n": 254,
+          "weighted_frequency": 254.0,
+          "percent": 18.405797101449274
+        },
+        {
+          "code": 10,
+          "n": 451,
+          "weighted_frequency": 451.0,
+          "percent": 32.68115942028985
+        }
+      ],
+      "filter": {
+        "Q21Gender": [
+          "2"
+        ]
+      }
+    },
+    "NETPRO.Q21Gender.female.weighted": {
+      "field": "NETPRO",
+      "weighted": true,
+      "selected_n": 1414,
+      "valid_n": 1380,
+      "excluded_n": 34,
+      "sum_weights": 1364.8437324,
+      "mean": 8.256507763848086,
+      "top_two_percent": 8.387667150633868,
+      "nps": 38.86418885239407,
+      "cells": [
+        {
+          "code": 0,
+          "n": 13,
+          "weighted_frequency": 12.1511142,
+          "percent": 0.8902934388417462
+        },
+        {
+          "code": 1,
+          "n": 7,
+          "weighted_frequency": 4.3020561,
+          "percent": 0.31520503028101826
+        },
+        {
+          "code": 2,
+          "n": 12,
+          "weighted_frequency": 11.3910207,
+          "percent": 0.8346025577572562
+        },
+        {
+          "code": 3,
+          "n": 10,
+          "weighted_frequency": 8.005669900000001,
+          "percent": 0.5865631141465907
+        },
+        {
+          "code": 4,
+          "n": 10,
+          "weighted_frequency": 9.9441034,
+          "percent": 0.7285891537571015
+        },
+        {
+          "code": 5,
+          "n": 110,
+          "weighted_frequency": 104.534446,
+          "percent": 7.659077996876767
+        },
+        {
+          "code": 6,
+          "n": 62,
+          "weighted_frequency": 59.7024393,
+          "percent": 4.374305855148462
+        },
+        {
+          "code": 7,
+          "n": 163,
+          "weighted_frequency": 153.5487302,
+          "percent": 11.250279175183909
+        },
+        {
+          "code": 8,
+          "n": 288,
+          "weighted_frequency": 260.7978573,
+          "percent": 19.108257678804137
+        },
+        {
+          "code": 9,
+          "n": 254,
+          "weighted_frequency": 268.8084364,
+          "percent": 19.695180482480268
+        },
+        {
+          "code": 10,
+          "n": 451,
+          "weighted_frequency": 471.6578589,
+          "percent": 34.55764551672275
+        }
+      ],
+      "filter": {
+        "Q21Gender": [
+          "2"
+        ]
+      }
+    }
+  },
+  "all_six_lowest": {
+    "fields": [
+      "Q7ART",
+      "Q7STORE",
+      "Q7SIGN",
+      "Q7WALKWAY",
+      "Q7SCREENS",
+      "Q9Restroom"
+    ],
+    "condition": "ALL fields equal 1",
+    "n": 1
+  },
+  "purpose_by_residency": [
+    {
+      "purpose": 1,
+      "residency": "resident",
+      "valid_n": 193,
+      "weighted_mean": 3.944132221829862
+    },
+    {
+      "purpose": 1,
+      "residency": "elsewhere",
+      "valid_n": 522,
+      "weighted_mean": 3.967890308978037
+    },
+    {
+      "purpose": 2,
+      "residency": "resident",
+      "valid_n": 335,
+      "weighted_mean": 4.032116699676562
+    },
+    {
+      "purpose": 2,
+      "residency": "elsewhere",
+      "valid_n": 724,
+      "weighted_mean": 4.063541799957211
+    },
+    {
+      "purpose": 3,
+      "residency": "resident",
+      "valid_n": 273,
+      "weighted_mean": 4.154304480087034
+    },
+    {
+      "purpose": 3,
+      "residency": "elsewhere",
+      "valid_n": 334,
+      "weighted_mean": 4.072567126131467
+    },
+    {
+      "purpose": 4,
+      "residency": "resident",
+      "valid_n": 17,
+      "weighted_mean": null
+    },
+    {
+      "purpose": 4,
+      "residency": "elsewhere",
+      "valid_n": 28,
+      "weighted_mean": 4.091618576808535
+    },
+    {
+      "purpose": 5,
+      "residency": "resident",
+      "valid_n": 8,
+      "weighted_mean": null
+    },
+    {
+      "purpose": 5,
+      "residency": "elsewhere",
+      "valid_n": 56,
+      "weighted_mean": 4.03683511230118
+    },
+    {
+      "purpose": 6,
+      "residency": "resident",
+      "valid_n": 41,
+      "weighted_mean": 4.159098739382071
+    },
+    {
+      "purpose": 6,
+      "residency": "elsewhere",
+      "valid_n": 41,
+      "weighted_mean": 3.936425140989005
+    },
+    {
+      "purpose": 7,
+      "residency": "resident",
+      "valid_n": 2,
+      "weighted_mean": null
+    },
+    {
+      "purpose": 7,
+      "residency": "elsewhere",
+      "valid_n": 4,
+      "weighted_mean": null
+    },
+    {
+      "purpose": 10,
+      "residency": "resident",
+      "valid_n": 0,
+      "weighted_mean": null
+    },
+    {
+      "purpose": 10,
+      "residency": "elsewhere",
+      "valid_n": 2,
+      "weighted_mean": null
+    },
+    {
+      "purpose": 11,
+      "residency": "resident",
+      "valid_n": 0,
+      "weighted_mean": null
+    },
+    {
+      "purpose": 11,
+      "residency": "elsewhere",
+      "valid_n": 0,
+      "weighted_mean": null
+    },
+    {
+      "purpose": 12,
+      "residency": "resident",
+      "valid_n": 0,
+      "weighted_mean": null
+    },
+    {
+      "purpose": 12,
+      "residency": "elsewhere",
+      "valid_n": 0,
+      "weighted_mean": null
+    },
+    {
+      "purpose": 13,
+      "residency": "resident",
+      "valid_n": 2,
+      "weighted_mean": null
+    },
+    {
+      "purpose": 13,
+      "residency": "elsewhere",
+      "valid_n": 6,
+      "weighted_mean": null
+    }
+  ],
+  "note": "Reference cells include small counts for verification. The assistant must suppress small-cell percentages. No respondent records included."
+}

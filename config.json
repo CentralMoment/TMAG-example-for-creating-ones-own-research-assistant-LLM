@@ -1,6 +1,12 @@
 {
-  "title": "My research assistant — practice survey",
+  "title": "My research assistant \u2014 practice survey",
   "description": "A fictional survey for learning. These are not SFO findings.",
   "prompt_file": "prompts/practice.md",
-  "files": ["data/example/survey.csv", "data/example/dictionary.md"]
+  "files": [
+    "data/example/survey.csv",
+    "data/example/dictionary.md"
+  ],
+  "profile_file": "profiles/practice.json",
+  "data_file": "data/example/survey.csv",
+  "dictionary_file": "data/example/dictionary.md"
 }
