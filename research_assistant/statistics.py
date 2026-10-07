@@ -61,6 +61,9 @@ def calculate(frame, profile, *, field, statistic, weighted=False, filters=None,
         scores = (values.ge(9).astype(int) - values.le(6).astype(int)) * 100
         result["value"] = float(np.average(scores, weights=weights))
     elif statistic == "distribution":
+        # A distribution has cells, not a scalar mean; absent means are not suppressed means.
+        result.pop("value")
+        result["result_note"] = "This request computed a distribution only. Request mean separately if needed."
         cells = []
         for code in spec["valid_codes"]:
             members = values.eq(code)

@@ -1,0 +1,525 @@
+{
+  "model": "claude-opus-5",
+  "commit": "eb3076f6be8cff426ba0de9f265aa0d80103c6eb",
+  "working_tree_modified": true,
+  "hashes": {
+    "prompts/sfo.md": "3c5e7ee48acf0ad55765b7682e5416155b68b7d4f2c1392b9ce3fd94fad8942e",
+    "data/private/2018 SFO Customer Survey.csv": "8d8e368dffb048679044159486bf89c5b838c7dbff731304ba02d4a8a2099c8b",
+    "data/private/2018 SFO Customer Survey Data Dictionary.xlsx": "63b264f9215516c012991f13b08a4567d54166751997efd592e1a3962d65fbe2",
+    "profiles/sfo.json": "1240cff6abc71272b2bf04eb5eb62d3fca21da9ed317d01b597ecd04f07cc929",
+    "config.sfo.json": "c237c455fa7856322189ee6040904e82782558dfb29f0f52cecfff6d1260ad27",
+    "prompts/research-policy.md": "0201b06b622c023ad8f995b878c60cee83706d892c8b733b2dab41e55c79ddd5"
+  },
+  "trials": [
+    {
+      "id": "SFO-01-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 10.425,
+      "artifact_count": 0,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 19951,
+          "output_tokens": 745
+        }
+      ]
+    },
+    {
+      "id": "SFO-02-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 56.45,
+      "artifact_count": 2,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 45402,
+          "output_tokens": 3403
+        }
+      ]
+    },
+    {
+      "id": "SFO-03-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 10.456,
+      "artifact_count": 0,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 19986,
+          "output_tokens": 745
+        }
+      ]
+    },
+    {
+      "id": "SFO-04-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 11.681,
+      "artifact_count": 0,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 19988,
+          "output_tokens": 888
+        }
+      ]
+    },
+    {
+      "id": "SFO-05-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 15.508,
+      "artifact_count": 0,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 19974,
+          "output_tokens": 1125
+        }
+      ]
+    },
+    {
+      "id": "SFO-06-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 111.224,
+      "artifact_count": 0,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 155349,
+          "output_tokens": 8688
+        }
+      ]
+    },
+    {
+      "id": "SFO-07-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 100.628,
+      "artifact_count": 0,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 173290,
+          "output_tokens": 7982
+        }
+      ]
+    },
+    {
+      "id": "SFO-08-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 44.998,
+      "artifact_count": 0,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 52756,
+          "output_tokens": 4134
+        }
+      ]
+    },
+    {
+      "id": "SFO-09-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 17.824,
+      "artifact_count": 0,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 20232,
+          "output_tokens": 1270
+        }
+      ]
+    },
+    {
+      "id": "SFO-10-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 28.246,
+      "artifact_count": 0,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 21107,
+          "output_tokens": 2094
+        }
+      ]
+    },
+    {
+      "id": "SFO-11-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 40.214,
+      "artifact_count": 0,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 24242,
+          "output_tokens": 3547
+        }
+      ]
+    },
+    {
+      "id": "SFO-12-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 46.897,
+      "artifact_count": 0,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 38420,
+          "output_tokens": 4475
+        }
+      ]
+    },
+    {
+      "id": "SFO-13-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 36.976,
+      "artifact_count": 0,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 49741,
+          "output_tokens": 2754
+        }
+      ]
+    },
+    {
+      "id": "SFO-14-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 54.644,
+      "artifact_count": 0,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 64240,
+          "output_tokens": 3917
+        }
+      ]
+    },
+    {
+      "id": "SFO-15-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 75.492,
+      "artifact_count": 0,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 129989,
+          "output_tokens": 5394
+        }
+      ]
+    },
+    {
+      "id": "SFO-16-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 137.856,
+      "artifact_count": 0,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 427489,
+          "output_tokens": 9736
+        }
+      ]
+    },
+    {
+      "id": "SFO-17-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 56.751,
+      "artifact_count": 0,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 85094,
+          "output_tokens": 4457
+        }
+      ]
+    },
+    {
+      "id": "SFO-18-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 21.342,
+      "artifact_count": 0,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 20380,
+          "output_tokens": 1493
+        }
+      ]
+    },
+    {
+      "id": "SFO-19-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 8.383,
+      "artifact_count": 0,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 9515,
+          "output_tokens": 497
+        }
+      ]
+    },
+    {
+      "id": "SFO-20-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 23.206,
+      "artifact_count": 0,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 20318,
+          "output_tokens": 1638
+        }
+      ]
+    },
+    {
+      "id": "SFO-21-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 26.04,
+      "artifact_count": 0,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 20838,
+          "output_tokens": 1858
+        }
+      ]
+    },
+    {
+      "id": "SFO-22-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 90.274,
+      "artifact_count": 0,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 127178,
+          "output_tokens": 7495
+        }
+      ]
+    },
+    {
+      "id": "SFO-23-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 119.623,
+      "artifact_count": 0,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 169297,
+          "output_tokens": 8905
+        }
+      ]
+    },
+    {
+      "id": "SFO-24-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 85.101,
+      "artifact_count": 0,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 107593,
+          "output_tokens": 6395
+        }
+      ]
+    },
+    {
+      "id": "SFO-25-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 48.38,
+      "artifact_count": 0,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 68468,
+          "output_tokens": 3296
+        }
+      ]
+    },
+    {
+      "id": "SFO-26-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 22.671,
+      "artifact_count": 0,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 45227,
+          "output_tokens": 1541
+        }
+      ]
+    },
+    {
+      "id": "SFO-27-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 28.005,
+      "artifact_count": 0,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 42215,
+          "output_tokens": 1582
+        }
+      ]
+    },
+    {
+      "id": "SFO-28-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 59.698,
+      "artifact_count": 0,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 101436,
+          "output_tokens": 4524
+        }
+      ]
+    },
+    {
+      "id": "SFO-29-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 75.392,
+      "artifact_count": 0,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 44405,
+          "output_tokens": 2479
+        }
+      ]
+    },
+    {
+      "id": "SFO-30-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 37.877,
+      "artifact_count": 0,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 34028,
+          "output_tokens": 2842
+        }
+      ]
+    },
+    {
+      "id": "SFO-31-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 96.891,
+      "artifact_count": 2,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 118864,
+          "output_tokens": 7165
+        }
+      ]
+    },
+    {
+      "id": "SFO-32-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 78.378,
+      "artifact_count": 2,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 127577,
+          "output_tokens": 6204
+        }
+      ]
+    },
+    {
+      "id": "SFO-33-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 59.03,
+      "artifact_count": 0,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 67663,
+          "output_tokens": 4348
+        }
+      ]
+    },
+    {
+      "id": "SFO-34-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 69.18,
+      "artifact_count": 2,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 65236,
+          "output_tokens": 4254
+        }
+      ]
+    }
+  ]
+}

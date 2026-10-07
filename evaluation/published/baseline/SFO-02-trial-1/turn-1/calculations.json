@@ -1,0 +1,102 @@
+{
+  "question": "I need a plot that gives me the weighted frequency of the responses to the general satisfaction question.",
+  "model": "claude-opus-5",
+  "started_utc": "2026-10-07T01:12:47.650839+00:00",
+  "hashes": {
+    "prompts/sfo.md": "3c5e7ee48acf0ad55765b7682e5416155b68b7d4f2c1392b9ce3fd94fad8942e",
+    "data/private/2018 SFO Customer Survey.csv": "8d8e368dffb048679044159486bf89c5b838c7dbff731304ba02d4a8a2099c8b",
+    "data/private/2018 SFO Customer Survey Data Dictionary.xlsx": "63b264f9215516c012991f13b08a4567d54166751997efd592e1a3962d65fbe2",
+    "profiles/sfo.json": "1240cff6abc71272b2bf04eb5eb62d3fca21da9ed317d01b597ecd04f07cc929",
+    "config.sfo.json": "c237c455fa7856322189ee6040904e82782558dfb29f0f52cecfff6d1260ad27",
+    "prompts/research-policy.md": "0201b06b622c023ad8f995b878c60cee83706d892c8b733b2dab41e55c79ddd5"
+  },
+  "status": "completed",
+  "elapsed_seconds": 56.45,
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 45402,
+    "output_tokens": 3403
+  },
+  "calculations": [
+    {
+      "field": "Q7ALL",
+      "statistic": "distribution",
+      "weighted": true,
+      "filters": [],
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "selected_n": 2809,
+      "valid_n": 2625,
+      "excluded_n": 184,
+      "denominator": "valid answers after filters",
+      "sum_weights": 2618.6699184,
+      "dictionary_reference": "Code List!A234:C255",
+      "value": null,
+      "status": "computed",
+      "caution": "",
+      "cells": [
+        {
+          "code": 1,
+          "n": 6,
+          "percent": null,
+          "weighted_frequency": null,
+          "status": "suppressed",
+          "caution": "Small cell (n<50)."
+        },
+        {
+          "code": 2,
+          "n": 46,
+          "percent": 1.6561844772898657,
+          "weighted_frequency": 43.370004699999996,
+          "status": "computed",
+          "caution": "Small cell (n<50)."
+        },
+        {
+          "code": 3,
+          "n": 514,
+          "percent": 17.671373243663407,
+          "weighted_frequency": 462.7549353,
+          "status": "computed",
+          "caution": ""
+        },
+        {
+          "code": 4,
+          "n": 1428,
+          "percent": 54.72759430771029,
+          "weighted_frequency": 1433.1350492000001,
+          "status": "computed",
+          "caution": ""
+        },
+        {
+          "code": 5,
+          "n": 631,
+          "percent": 25.757650720336773,
+          "weighted_frequency": 674.5078510999999,
+          "status": "computed",
+          "caution": ""
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "name": "q7all_weighted.png",
+      "mime": "image/png",
+      "sha256": "58520dbf2e9a3b71fc69bd3181add9a669f4776f1e71d2d921abfb74c22c63e0",
+      "size_bytes": 148266
+    },
+    {
+      "name": "q7all_weighted.csv",
+      "mime": "application/vnd.ms-excel",
+      "sha256": "48ed4bdca9b5f82732b0ef99f28caba4934ef2decfb8b66b414442570143b322",
+      "size_bytes": 363
+    }
+  ],
+  "artifact_errors": []
+}

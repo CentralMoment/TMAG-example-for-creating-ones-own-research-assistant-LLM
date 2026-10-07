@@ -50,8 +50,8 @@ The local calculator withholds summary statistics for n<20, adds strong caution
 for n<30 and caution for n<50. Distribution cells use the same count thresholds;
 their weighted frequencies and percentages are withheld when n<20. Counts remain
 visible. A percentage request also withholds the percentage when its numerator
-cell has fewer than 20 observations, matching the distribution rule. Counts remain
-visible. This is a reporting/reliability convention, **not a privacy guarantee**:
+cell has fewer than 20 observations, matching the distribution rule.
+This is a reporting/reliability convention, **not a privacy guarantee**:
 counts, totals, repeated filters and other outputs can disclose information.
 
 Different means do not prove statistical significance or practical importance.

@@ -78,6 +78,10 @@ Copy the [blank scorecard](evaluation/scorecard-template.md) for each run. The
 battery is also available as [JSON](evaluation/sfo-question-battery.json), with
 stable IDs and the complete historical 29-question mapping. These materials are
 test inputs and review criteria; they do not claim the current app has passed.
+See the [completed development scorecard](evaluation/published/scorecard.md) for
+all 34 observed outcomes, failures, targeted repairs, latency and token usage.
+The example demonstrates the evaluation process; unrestricted research synthesis
+and small-group exports have unresolved failures documented in that report.
 
 ## Files you will edit
 

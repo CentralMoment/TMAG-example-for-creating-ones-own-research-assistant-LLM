@@ -47,6 +47,8 @@ def test_cell_suppression_and_filter_validation():
     """A large overall base cannot authorize a tiny cell's percentage."""
     data = sample().assign(rating=["1"] + ["5"]*59)
     result = calculate(data, PROFILE, field="rating", statistic="distribution")
+    assert "value" not in result  # No ambiguous null scalar that could be mistaken for suppression.
+    assert result["status"] == "computed"
     assert result["cells"][0]["percent"] is None
     assert result["cells"][0]["caution"] == "Suppressed because n<20."
     assert result["reporting_rules"]["suppress_below_n"] == 20

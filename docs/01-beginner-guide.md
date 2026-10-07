@@ -78,7 +78,8 @@ uploading data or spending API credits.
 
 On macOS/Linux, use `python3 -m venv .venv`, then `.venv/bin/python` in place of
 `& '.\.venv\Scripts\python.exe'`. Use `cp` instead of `Copy-Item` below.
-Windows is the source project's platform; the other platforms are not validated here.
+Windows is the source project's interactive test platform. GitHub checks exercise
+Linux and Windows; a macOS installation has not been validated.
 
 ## 5. Configure your own API key
 
@@ -133,7 +134,8 @@ Press Ctrl+C in the terminal to stop. To restart, open the project folder and
 repeat the launch command. **Start a new conversation** clears chat history and
 the execution-container reference; it does not delete files uploaded to Anthropic.
 Refreshing/closing the browser may also reset session state. This app has no
-saved chat history. Use the provider's file-management API for remote deletion;
+saved chat history. Download evidence and use **Delete this session's remote files**
+before closing the browser. Deletion failures remain available for retry; see
 see [Files API documentation](https://platform.claude.com/docs/en/build-with-claude/files).
 
 Next: [reproduce SFO](02-reproduce-sfo.md) or [use your own data](03-customize-your-assistant.md).

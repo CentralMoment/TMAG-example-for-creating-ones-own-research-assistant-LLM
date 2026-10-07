@@ -1,0 +1,16 @@
+{
+  "scope": "Captured local-tool arithmetic only; question interpretation, hosted code, artifacts and prose require review.",
+  "checked": 1,
+  "failed": 0,
+  "checks": [
+    {
+      "trial": "SFO-05-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q7ALL",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    }
+  ]
+}

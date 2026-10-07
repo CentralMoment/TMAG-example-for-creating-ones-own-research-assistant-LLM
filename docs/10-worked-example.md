@@ -116,6 +116,9 @@ suppression and caution rules explicit in separate output fields and strengthene
 the prompt to preserve dictionary labels. Numerical regression trials and the
 follow-up example were then rerun. The validation report keeps baseline findings
 separate from revised trials so the original mistakes remain visible.
+The [completed scorecard](../evaluation/published/scorecard.md) also shows failures
+in broader synthesis and exported files. A working interface and correct headline
+arithmetic are necessary ingredients, but do not complete research validation.
 
 ## 7. Reproduce and adapt
 

@@ -1,0 +1,142 @@
+{
+  "scope": "Captured local-tool arithmetic only; question interpretation, hosted code, artifacts and prose require review.",
+  "checked": 15,
+  "failed": 0,
+  "checks": [
+    {
+      "trial": "HIST-01-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q7ALL",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "HIST-01-trial-1",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "Q7ALL",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "HIST-02-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q7ALL",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "HIST-02-trial-1",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "NETPRO",
+      "statistic": "nps",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "HIST-02-trial-1",
+      "turn": "turn-1",
+      "calculation": 2,
+      "field": "Q7WIFI",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "HIST-02-trial-1",
+      "turn": "turn-1",
+      "calculation": 3,
+      "field": "Q7ROADS",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "HIST-02-trial-1",
+      "turn": "turn-1",
+      "calculation": 4,
+      "field": "Q7FOOD",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "HIST-02-trial-1",
+      "turn": "turn-1",
+      "calculation": 5,
+      "field": "Q7STORE",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "HIST-02-trial-1",
+      "turn": "turn-1",
+      "calculation": 6,
+      "field": "Q7PARK",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "HIST-02-trial-1",
+      "turn": "turn-1",
+      "calculation": 7,
+      "field": "Q7LTPARKING",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "HIST-02-trial-1",
+      "turn": "turn-1",
+      "calculation": 8,
+      "field": "Q7RENTAL",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "HIST-02-trial-1",
+      "turn": "turn-1",
+      "calculation": 9,
+      "field": "Q9Restroom",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "HIST-02-trial-1",
+      "turn": "turn-1",
+      "calculation": 10,
+      "field": "Q7FOOD",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "HIST-02-trial-1",
+      "turn": "turn-1",
+      "calculation": 11,
+      "field": "Q7STORE",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "HIST-02-trial-1",
+      "turn": "turn-1",
+      "calculation": 12,
+      "field": "Q7WIFI",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    }
+  ]
+}

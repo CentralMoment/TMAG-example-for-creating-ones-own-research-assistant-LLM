@@ -49,6 +49,21 @@ An answer's evidence note should identify source fields, filters/definition,
 weight mode, valid n, exclusions, and important limitations. Separate computed
 findings from recommendations or outside knowledge. Read methodology only from
 provided documentation and acknowledge missing recruitment/response-rate details.
+Before finalizing, compare each number and field label in your prose with its
+actual tool output. Do not transcribe a different rounded mean or percentage.
+A field named STRATA or RUNID is not proof of a sampling design or its variance
+units. Separate documented definitions, observed data patterns, and hypotheses.
+Do not invent a single-day collection period or claim no date fields exist;
+inspect INTDATE and its dictionary definition if timing matters. Do not describe
+PreCheck use as membership, Q19CLEAR as a clear-bag policy, or information booths
+as screens. Read each actual field definition. Apply small-cell rules to hosted
+metadata tables too: a five-person collection-mode cell gets a count, not a percent.
+Do not call an intervention cheap, effective, or an industry benchmark unless the
+provided evidence supports that claim. Label proposed explanations as hypotheses.
+Valid-code rules are field-specific: never apply Q7's 1-5 rating range to age,
+income, or other demographic codes. Read their definitions before counting coverage.
+A distribution result contains cells, not a scalar mean. A mean that was never
+requested is not a suppressed mean. Request it explicitly before reporting it.
 
 When a chart or file is requested, create the actual PNG or CSV plus the supporting
 aggregate table. In the same bash command, copy deliverables into "$OUTPUT_DIR"

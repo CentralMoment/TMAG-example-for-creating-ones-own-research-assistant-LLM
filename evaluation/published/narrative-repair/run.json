@@ -1,0 +1,64 @@
+{
+  "model": "claude-opus-5",
+  "commit": "4cce29adcbe448bccbcf54c9bbd833811a46334e",
+  "working_tree_modified": true,
+  "hashes": {
+    "prompts/sfo.md": "fbd39c880ce491de63028cfec836c5d5ef1ff4b7944804d3e3fa0aba38461bc5",
+    "data/private/2018 SFO Customer Survey.csv": "8d8e368dffb048679044159486bf89c5b838c7dbff731304ba02d4a8a2099c8b",
+    "data/private/2018 SFO Customer Survey Data Dictionary.xlsx": "63b264f9215516c012991f13b08a4567d54166751997efd592e1a3962d65fbe2",
+    "profiles/sfo.json": "1240cff6abc71272b2bf04eb5eb62d3fca21da9ed317d01b597ecd04f07cc929",
+    "config.sfo.json": "c237c455fa7856322189ee6040904e82782558dfb29f0f52cecfff6d1260ad27",
+    "prompts/research-policy.md": "360670fddc355f18036f9257754bf38bb00f2e8373448b63d6b3e671dfd43185",
+    "research_assistant/__init__.py": "651cb746a5f082fb6b90960abc7b01bda3d460afd274ddeb7c7ed024ea989e3d",
+    "research_assistant/data.py": "8a2e3fe7c45808eeb698ccd5b560ae0a8cdba1e08c4dc82b13e54d99215f6a68",
+    "research_assistant/engine.py": "314b8bc4786de2d8026c9f6719a81c42baea9ed10bb5ff3c6e706624a2820e31",
+    "research_assistant/statistics.py": "2db45efd26e87c5b7a00c5200885b9a95c99ebfbe8ce9291c84f1a9b8d8f239e"
+  },
+  "trials": [
+    {
+      "id": "SFO-07-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 112.733,
+      "artifact_count": 0,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 147503,
+          "output_tokens": 9168
+        }
+      ]
+    },
+    {
+      "id": "SFO-17-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 53.983,
+      "artifact_count": 0,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 68845,
+          "output_tokens": 4238
+        }
+      ]
+    },
+    {
+      "id": "SFO-25-trial-1",
+      "execution": "completed",
+      "grade": "NOT REVIEWED",
+      "elapsed_seconds": 65.694,
+      "artifact_count": 0,
+      "usage": [
+        {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 104754,
+          "output_tokens": 4899
+        }
+      ]
+    }
+  ]
+}

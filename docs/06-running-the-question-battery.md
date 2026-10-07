@@ -190,8 +190,10 @@ a serious failure in a small but important category.
 
 Classify each failure: data/dictionary, prompt, computation, interpretation,
 interface, or infrastructure. Make the smallest relevant correction. Rerun failed
-cases and nearby cases that could regress, then run the full suite before sharing
-a revised release. Save a new run record with the new commit and prompt hashes.
+cases and nearby cases that could regress, then run the full suite before accepting
+a revised system for operational research. A teaching snapshot may preserve a
+baseline plus targeted repairs, but must clearly say which final-version cases
+have not been rerun. Save a new run record with the new commit and prompt hashes.
 Never overwrite the original failing evidence.
 
 For your own assistant, keep the ten categories but replace SFO-specific wording
