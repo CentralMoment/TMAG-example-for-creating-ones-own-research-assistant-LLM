@@ -1,0 +1,14 @@
+gender,Q7ALL_code,Q7ALL_label,unweighted_n,weighted_pct_within_gender,status
+Male,1,Unacceptable,1,,suppressed (n<50)
+Male,2,2,21,1.81,computed (small cell n<50)
+Male,3,3,229,18.27,computed
+Male,4,4,639,55.65,computed
+Male,5,Outstanding,250,24.16,computed
+Male,TOTAL_VALID,,1140,100.0,computed
+Female,1,Unacceptable,3,,suppressed (n<50)
+Female,2,2,19,,suppressed (n<50)
+Female,3,3,256,16.99,computed
+Female,4,4,711,54.04,computed
+Female,5,Outstanding,345,27.45,computed
+Female,TOTAL_VALID,,1334,100.0,computed
+Non-binary,ALL,,8,,suppressed (n<20: raw count only)

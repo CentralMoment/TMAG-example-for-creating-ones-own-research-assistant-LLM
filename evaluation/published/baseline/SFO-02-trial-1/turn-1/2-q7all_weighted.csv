@@ -1,0 +1,8 @@
+code,label,unweighted_n,weighted_frequency,weighted_percent,status
+1,1 Unacceptable,6,SUPPRESSED,SUPPRESSED,suppressed
+2,2,46,43.37,1.66,computed
+3,3,514,462.7549,17.67,computed
+4,4,1428,1433.135,54.73,computed
+5,5 Outstanding,631,674.5079,25.76,computed
+TOTAL,valid responses,2625,2618.6699184,100.0,computed
+EXCLUDED,code 6 N/A + 0/blank,184,,,excluded

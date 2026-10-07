@@ -1,0 +1,456 @@
+{
+  "question": "Does using TSA PreCheck cause higher satisfaction with SFO overall?",
+  "model": "claude-opus-5",
+  "started_utc": "2026-10-07T01:26:06.283396+00:00",
+  "hashes": {
+    "prompts/sfo.md": "3c5e7ee48acf0ad55765b7682e5416155b68b7d4f2c1392b9ce3fd94fad8942e",
+    "data/private/2018 SFO Customer Survey.csv": "8d8e368dffb048679044159486bf89c5b838c7dbff731304ba02d4a8a2099c8b",
+    "data/private/2018 SFO Customer Survey Data Dictionary.xlsx": "63b264f9215516c012991f13b08a4567d54166751997efd592e1a3962d65fbe2",
+    "profiles/sfo.json": "1240cff6abc71272b2bf04eb5eb62d3fca21da9ed317d01b597ecd04f07cc929",
+    "config.sfo.json": "c237c455fa7856322189ee6040904e82782558dfb29f0f52cecfff6d1260ad27",
+    "prompts/research-policy.md": "0201b06b622c023ad8f995b878c60cee83706d892c8b733b2dab41e55c79ddd5"
+  },
+  "status": "completed",
+  "elapsed_seconds": 56.751,
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 85094,
+    "output_tokens": 4457
+  },
+  "calculations": [
+    {
+      "field": "Q11TSAPRE",
+      "statistic": "distribution",
+      "weighted": false,
+      "filters": [],
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "selected_n": 2809,
+      "valid_n": 2582,
+      "excluded_n": 227,
+      "denominator": "valid answers after filters",
+      "sum_weights": 2582.0,
+      "dictionary_reference": "Code List!A434:C439",
+      "value": null,
+      "status": "computed",
+      "caution": "",
+      "cells": [
+        {
+          "code": 1,
+          "n": 1005,
+          "percent": 38.92331525948877,
+          "weighted_frequency": 1005.0,
+          "status": "computed",
+          "caution": ""
+        },
+        {
+          "code": 2,
+          "n": 1275,
+          "percent": 49.380325329202165,
+          "weighted_frequency": 1275.0,
+          "status": "computed",
+          "caution": ""
+        },
+        {
+          "code": 3,
+          "n": 141,
+          "percent": 5.460883036405887,
+          "weighted_frequency": 141.0,
+          "status": "computed",
+          "caution": ""
+        },
+        {
+          "code": 4,
+          "n": 161,
+          "percent": 6.235476374903176,
+          "weighted_frequency": 161.0,
+          "status": "computed",
+          "caution": ""
+        }
+      ]
+    },
+    {
+      "field": "Q7ALL",
+      "statistic": "mean",
+      "weighted": false,
+      "filters": [
+        {
+          "field": "Q11TSAPRE",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "selected_n": 1005,
+      "valid_n": 934,
+      "excluded_n": 71,
+      "denominator": "valid answers after filters",
+      "sum_weights": 934.0,
+      "dictionary_reference": "Code List!A234:C255",
+      "value": 4.0214132762312635,
+      "status": "computed",
+      "caution": ""
+    },
+    {
+      "field": "Q7ALL",
+      "statistic": "mean",
+      "weighted": false,
+      "filters": [
+        {
+          "field": "Q11TSAPRE",
+          "codes": [
+            2
+          ]
+        }
+      ],
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "selected_n": 1275,
+      "valid_n": 1221,
+      "excluded_n": 54,
+      "denominator": "valid answers after filters",
+      "sum_weights": 1221.0,
+      "dictionary_reference": "Code List!A234:C255",
+      "value": 3.9926289926289926,
+      "status": "computed",
+      "caution": ""
+    },
+    {
+      "field": "Q7ALL",
+      "statistic": "distribution",
+      "weighted": false,
+      "filters": [
+        {
+          "field": "Q11TSAPRE",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "selected_n": 1005,
+      "valid_n": 934,
+      "excluded_n": 71,
+      "denominator": "valid answers after filters",
+      "sum_weights": 934.0,
+      "dictionary_reference": "Code List!A234:C255",
+      "value": null,
+      "status": "computed",
+      "caution": "",
+      "cells": [
+        {
+          "code": 1,
+          "n": 2,
+          "percent": null,
+          "weighted_frequency": null,
+          "status": "suppressed",
+          "caution": "Small cell (n<50)."
+        },
+        {
+          "code": 2,
+          "n": 13,
+          "percent": null,
+          "weighted_frequency": null,
+          "status": "suppressed",
+          "caution": "Small cell (n<50)."
+        },
+        {
+          "code": 3,
+          "n": 170,
+          "percent": 18.201284796573873,
+          "weighted_frequency": 170.0,
+          "status": "computed",
+          "caution": ""
+        },
+        {
+          "code": 4,
+          "n": 527,
+          "percent": 56.42398286937902,
+          "weighted_frequency": 527.0,
+          "status": "computed",
+          "caution": ""
+        },
+        {
+          "code": 5,
+          "n": 222,
+          "percent": 23.768736616702355,
+          "weighted_frequency": 222.0,
+          "status": "computed",
+          "caution": ""
+        }
+      ]
+    },
+    {
+      "field": "Q7ALL",
+      "statistic": "distribution",
+      "weighted": false,
+      "filters": [
+        {
+          "field": "Q11TSAPRE",
+          "codes": [
+            2
+          ]
+        }
+      ],
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "selected_n": 1275,
+      "valid_n": 1221,
+      "excluded_n": 54,
+      "denominator": "valid answers after filters",
+      "sum_weights": 1221.0,
+      "dictionary_reference": "Code List!A234:C255",
+      "value": null,
+      "status": "computed",
+      "caution": "",
+      "cells": [
+        {
+          "code": 1,
+          "n": 2,
+          "percent": null,
+          "weighted_frequency": null,
+          "status": "suppressed",
+          "caution": "Small cell (n<50)."
+        },
+        {
+          "code": 2,
+          "n": 25,
+          "percent": 2.0475020475020473,
+          "weighted_frequency": 25.0,
+          "status": "computed",
+          "caution": "Small cell (n<50)."
+        },
+        {
+          "code": 3,
+          "n": 243,
+          "percent": 19.901719901719904,
+          "weighted_frequency": 243.0,
+          "status": "computed",
+          "caution": ""
+        },
+        {
+          "code": 4,
+          "n": 661,
+          "percent": 54.13595413595414,
+          "weighted_frequency": 661.0,
+          "status": "computed",
+          "caution": ""
+        },
+        {
+          "code": 5,
+          "n": 290,
+          "percent": 23.75102375102375,
+          "weighted_frequency": 290.0,
+          "status": "computed",
+          "caution": ""
+        }
+      ]
+    },
+    {
+      "field": "NETPRO",
+      "statistic": "nps",
+      "weighted": false,
+      "filters": [
+        {
+          "field": "Q11TSAPRE",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "valid_codes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "selected_n": 1005,
+      "valid_n": 965,
+      "excluded_n": 40,
+      "denominator": "valid answers after filters",
+      "sum_weights": 965.0,
+      "dictionary_reference": "Code List!A579:C591",
+      "value": 39.067357512953365,
+      "status": "computed",
+      "caution": ""
+    },
+    {
+      "field": "NETPRO",
+      "statistic": "nps",
+      "weighted": false,
+      "filters": [
+        {
+          "field": "Q11TSAPRE",
+          "codes": [
+            2
+          ]
+        }
+      ],
+      "valid_codes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "selected_n": 1275,
+      "valid_n": 1228,
+      "excluded_n": 47,
+      "denominator": "valid answers after filters",
+      "sum_weights": 1228.0,
+      "dictionary_reference": "Code List!A579:C591",
+      "value": 26.791530944625407,
+      "status": "computed",
+      "caution": ""
+    },
+    {
+      "field": "Q17LIVE",
+      "statistic": "distribution",
+      "weighted": false,
+      "filters": [
+        {
+          "field": "Q11TSAPRE",
+          "codes": [
+            1
+          ]
+        }
+      ],
+      "valid_codes": [
+        1,
+        2,
+        3
+      ],
+      "selected_n": 1005,
+      "valid_n": 972,
+      "excluded_n": 33,
+      "denominator": "valid answers after filters",
+      "sum_weights": 972.0,
+      "dictionary_reference": "Code List!A592:C596",
+      "value": null,
+      "status": "computed",
+      "caution": "",
+      "cells": [
+        {
+          "code": 1,
+          "n": 395,
+          "percent": 40.63786008230453,
+          "weighted_frequency": 395.0,
+          "status": "computed",
+          "caution": ""
+        },
+        {
+          "code": 2,
+          "n": 51,
+          "percent": 5.246913580246913,
+          "weighted_frequency": 51.0,
+          "status": "computed",
+          "caution": ""
+        },
+        {
+          "code": 3,
+          "n": 526,
+          "percent": 54.11522633744856,
+          "weighted_frequency": 526.0,
+          "status": "computed",
+          "caution": ""
+        }
+      ]
+    },
+    {
+      "field": "Q17LIVE",
+      "statistic": "distribution",
+      "weighted": false,
+      "filters": [
+        {
+          "field": "Q11TSAPRE",
+          "codes": [
+            2
+          ]
+        }
+      ],
+      "valid_codes": [
+        1,
+        2,
+        3
+      ],
+      "selected_n": 1275,
+      "valid_n": 1238,
+      "excluded_n": 37,
+      "denominator": "valid answers after filters",
+      "sum_weights": 1238.0,
+      "dictionary_reference": "Code List!A592:C596",
+      "value": null,
+      "status": "computed",
+      "caution": "",
+      "cells": [
+        {
+          "code": 1,
+          "n": 414,
+          "percent": 33.44103392568659,
+          "weighted_frequency": 414.0,
+          "status": "computed",
+          "caution": ""
+        },
+        {
+          "code": 2,
+          "n": 74,
+          "percent": 5.977382875605816,
+          "weighted_frequency": 74.0,
+          "status": "computed",
+          "caution": ""
+        },
+        {
+          "code": 3,
+          "n": 750,
+          "percent": 60.58158319870759,
+          "weighted_frequency": 750.0,
+          "status": "computed",
+          "caution": ""
+        }
+      ]
+    }
+  ],
+  "artifacts": [],
+  "artifact_errors": []
+}

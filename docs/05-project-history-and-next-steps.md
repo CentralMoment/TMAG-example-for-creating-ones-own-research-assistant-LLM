@@ -26,14 +26,18 @@ The source planning document proposed Render hosting. The observed current app
 is a local Streamlit application; this tutorial does not claim that hosting was
 completed. Historical R-engine results do not establish correctness of this app.
 
-## Suggested next development steps
+## Teaching release improvements
 
-1. Run live API checks against the fictional data and record model access and cost.
-2. Validate the SFO source downloads and independently compute reference results.
-3. Evaluate SFO questions against the current app, including follow-up turns.
-4. Decide on a software license and intended repository visibility.
-5. Add enforceable statistical checks where prompt compliance is insufficient.
-6. Add authenticated hosting only after data handling and usage controls are designed.
+The repository now includes verified source downloading, an input audit, independent
+numerical references, a reviewed local statistics tool, generated-file retrieval,
+evidence export, remote-file cleanup and an automated live battery runner. Code
+and original documentation are licensed under Apache 2.0. The completed research
+brief and statistical policy explain the decisions behind these changes.
+
+See [validation](VALIDATION.md) for observed results and unresolved limitations.
+Future work includes independent human review, inferential survey methods where
+the design is documented, and authenticated hosting after data handling and usage
+controls are designed. A passing local test suite is not a production release gate.
 
 ## Technical references
 

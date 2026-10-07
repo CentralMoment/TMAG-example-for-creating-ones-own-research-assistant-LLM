@@ -1,0 +1,145 @@
+{
+  "hashes": {
+    "prompts/sfo.md": "fbd39c880ce491de63028cfec836c5d5ef1ff4b7944804d3e3fa0aba38461bc5",
+    "data/private/2018 SFO Customer Survey.csv": "8d8e368dffb048679044159486bf89c5b838c7dbff731304ba02d4a8a2099c8b",
+    "data/private/2018 SFO Customer Survey Data Dictionary.xlsx": "63b264f9215516c012991f13b08a4567d54166751997efd592e1a3962d65fbe2",
+    "profiles/sfo.json": "1240cff6abc71272b2bf04eb5eb62d3fca21da9ed317d01b597ecd04f07cc929",
+    "config.sfo.json": "c237c455fa7856322189ee6040904e82782558dfb29f0f52cecfff6d1260ad27",
+    "prompts/research-policy.md": "a3449966f7411d30647335fce2ef40c84870604dfc7ce2eef71b33f65e0cf8ee",
+    "research_assistant/__init__.py": "651cb746a5f082fb6b90960abc7b01bda3d460afd274ddeb7c7ed024ea989e3d",
+    "research_assistant/data.py": "8a2e3fe7c45808eeb698ccd5b560ae0a8cdba1e08c4dc82b13e54d99215f6a68",
+    "research_assistant/engine.py": "e4461fbd81ee9ea830f046a46e732990bfa9870ef1270605d399f413adc31099",
+    "research_assistant/statistics.py": "2db45efd26e87c5b7a00c5200885b9a95c99ebfbe8ce9291c84f1a9b8d8f239e"
+  },
+  "audit": {
+    "status": "PASS",
+    "rows": 2809,
+    "columns": 97,
+    "errors": [],
+    "warnings": [
+      "Columns not explicitly named in dictionary: ['Q15A']"
+    ],
+    "fields": {
+      "Q7ART": {
+        "valid_n": 2160,
+        "missing_or_inapplicable_n": 649,
+        "unexpected_codes": []
+      },
+      "Q7FOOD": {
+        "valid_n": 2342,
+        "missing_or_inapplicable_n": 467,
+        "unexpected_codes": []
+      },
+      "Q7STORE": {
+        "valid_n": 2277,
+        "missing_or_inapplicable_n": 532,
+        "unexpected_codes": []
+      },
+      "Q7SIGN": {
+        "valid_n": 2648,
+        "missing_or_inapplicable_n": 161,
+        "unexpected_codes": []
+      },
+      "Q7WALKWAY": {
+        "valid_n": 2537,
+        "missing_or_inapplicable_n": 272,
+        "unexpected_codes": []
+      },
+      "Q7SCREENS": {
+        "valid_n": 2611,
+        "missing_or_inapplicable_n": 198,
+        "unexpected_codes": []
+      },
+      "Q7INFODOWN": {
+        "valid_n": 1518,
+        "missing_or_inapplicable_n": 1291,
+        "unexpected_codes": []
+      },
+      "Q7INFOUP": {
+        "valid_n": 1529,
+        "missing_or_inapplicable_n": 1280,
+        "unexpected_codes": []
+      },
+      "Q7WIFI": {
+        "valid_n": 2074,
+        "missing_or_inapplicable_n": 735,
+        "unexpected_codes": []
+      },
+      "Q7ROADS": {
+        "valid_n": 1772,
+        "missing_or_inapplicable_n": 1037,
+        "unexpected_codes": []
+      },
+      "Q7PARK": {
+        "valid_n": 1065,
+        "missing_or_inapplicable_n": 1744,
+        "unexpected_codes": []
+      },
+      "Q7AIRTRAIN": {
+        "valid_n": 1309,
+        "missing_or_inapplicable_n": 1500,
+        "unexpected_codes": []
+      },
+      "Q7LTPARKING": {
+        "valid_n": 649,
+        "missing_or_inapplicable_n": 2160,
+        "unexpected_codes": []
+      },
+      "Q7RENTAL": {
+        "valid_n": 910,
+        "missing_or_inapplicable_n": 1899,
+        "unexpected_codes": []
+      },
+      "Q7ALL": {
+        "valid_n": 2625,
+        "missing_or_inapplicable_n": 184,
+        "unexpected_codes": []
+      },
+      "Q9Restroom": {
+        "valid_n": 2589,
+        "missing_or_inapplicable_n": 220,
+        "unexpected_codes": []
+      },
+      "NETPRO": {
+        "valid_n": 2650,
+        "missing_or_inapplicable_n": 159,
+        "unexpected_codes": []
+      },
+      "Q17LIVE": {
+        "valid_n": 2668,
+        "missing_or_inapplicable_n": 141,
+        "unexpected_codes": []
+      },
+      "Q11TSAPRE": {
+        "valid_n": 2582,
+        "missing_or_inapplicable_n": 227,
+        "unexpected_codes": []
+      },
+      "Q19Clear": {
+        "valid_n": 2377,
+        "missing_or_inapplicable_n": 432,
+        "unexpected_codes": []
+      },
+      "Q21Gender": {
+        "valid_n": 2639,
+        "missing_or_inapplicable_n": 170,
+        "unexpected_codes": []
+      }
+    },
+    "weights": {
+      "invalid_n": 0,
+      "sum": 2808.9971911000002
+    },
+    "dictionary": {
+      "sheet": "Code List",
+      "columns_not_named": [
+        "Q15A"
+      ]
+    },
+    "skip_review": {
+      "precheck_rating_without_reported_precheck_use_n": 0,
+      "action": "Review eligibility; do not silently delete these records."
+    },
+    "scope": "Configured fields only; not a full survey-methodology or disclosure audit."
+  }
+}

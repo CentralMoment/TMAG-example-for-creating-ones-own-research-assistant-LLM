@@ -1,0 +1,18 @@
+{
+  "retrieved_utc": "2026-10-07T01:13:31.258828+00:00",
+  "sources": [
+    {
+      "filename": "2018 SFO Customer Survey.csv",
+      "url": "https://data.sfgov.org/api/views/3w8r-nuxp/rows.csv?accessType=DOWNLOAD",
+      "bytes": 774566,
+      "sha256": "8d8e368dffb048679044159486bf89c5b838c7dbff731304ba02d4a8a2099c8b"
+    },
+    {
+      "filename": "2018 SFO Customer Survey Data Dictionary.xlsx",
+      "url": "https://data.sfgov.org/api/views/wkh6-n369/files/82de4bdd-daee-4546-a086-5622f2d01122?download=true",
+      "bytes": 65946,
+      "sha256": "63b264f9215516c012991f13b08a4567d54166751997efd592e1a3962d65fbe2"
+    }
+  ],
+  "note": "Publisher terms apply. Byte hashes can differ across exports; compare normalized contents."
+}

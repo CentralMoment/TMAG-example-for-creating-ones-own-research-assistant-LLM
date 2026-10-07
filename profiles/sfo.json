@@ -1,0 +1,438 @@
+{
+  "name": "SFO 2018 reviewed descriptive fields",
+  "id_field": "RESPNUM",
+  "weight_field": "WEIGHT",
+  "expected_shape": [
+    2809,
+    97
+  ],
+  "fields": {
+    "Q7ART": {
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "missing_codes": [
+        "",
+        "0",
+        "6",
+        "BLANK"
+      ],
+      "statistics": [
+        "mean",
+        "percentage",
+        "distribution"
+      ],
+      "dictionary_reference": "Code List!A234:C255"
+    },
+    "Q7FOOD": {
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "missing_codes": [
+        "",
+        "0",
+        "6",
+        "BLANK"
+      ],
+      "statistics": [
+        "mean",
+        "percentage",
+        "distribution"
+      ],
+      "dictionary_reference": "Code List!A234:C255"
+    },
+    "Q7STORE": {
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "missing_codes": [
+        "",
+        "0",
+        "6",
+        "BLANK"
+      ],
+      "statistics": [
+        "mean",
+        "percentage",
+        "distribution"
+      ],
+      "dictionary_reference": "Code List!A234:C255"
+    },
+    "Q7SIGN": {
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "missing_codes": [
+        "",
+        "0",
+        "6",
+        "BLANK"
+      ],
+      "statistics": [
+        "mean",
+        "percentage",
+        "distribution"
+      ],
+      "dictionary_reference": "Code List!A234:C255"
+    },
+    "Q7WALKWAY": {
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "missing_codes": [
+        "",
+        "0",
+        "6",
+        "BLANK"
+      ],
+      "statistics": [
+        "mean",
+        "percentage",
+        "distribution"
+      ],
+      "dictionary_reference": "Code List!A234:C255"
+    },
+    "Q7SCREENS": {
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "missing_codes": [
+        "",
+        "0",
+        "6",
+        "BLANK"
+      ],
+      "statistics": [
+        "mean",
+        "percentage",
+        "distribution"
+      ],
+      "dictionary_reference": "Code List!A234:C255"
+    },
+    "Q7INFODOWN": {
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "missing_codes": [
+        "",
+        "0",
+        "6",
+        "BLANK"
+      ],
+      "statistics": [
+        "mean",
+        "percentage",
+        "distribution"
+      ],
+      "dictionary_reference": "Code List!A234:C255"
+    },
+    "Q7INFOUP": {
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "missing_codes": [
+        "",
+        "0",
+        "6",
+        "BLANK"
+      ],
+      "statistics": [
+        "mean",
+        "percentage",
+        "distribution"
+      ],
+      "dictionary_reference": "Code List!A234:C255"
+    },
+    "Q7WIFI": {
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "missing_codes": [
+        "",
+        "0",
+        "6",
+        "BLANK"
+      ],
+      "statistics": [
+        "mean",
+        "percentage",
+        "distribution"
+      ],
+      "dictionary_reference": "Code List!A234:C255"
+    },
+    "Q7ROADS": {
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "missing_codes": [
+        "",
+        "0",
+        "6",
+        "BLANK"
+      ],
+      "statistics": [
+        "mean",
+        "percentage",
+        "distribution"
+      ],
+      "dictionary_reference": "Code List!A234:C255"
+    },
+    "Q7PARK": {
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "missing_codes": [
+        "",
+        "0",
+        "6",
+        "BLANK"
+      ],
+      "statistics": [
+        "mean",
+        "percentage",
+        "distribution"
+      ],
+      "dictionary_reference": "Code List!A234:C255"
+    },
+    "Q7AIRTRAIN": {
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "missing_codes": [
+        "",
+        "0",
+        "6",
+        "BLANK"
+      ],
+      "statistics": [
+        "mean",
+        "percentage",
+        "distribution"
+      ],
+      "dictionary_reference": "Code List!A234:C255"
+    },
+    "Q7LTPARKING": {
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "missing_codes": [
+        "",
+        "0",
+        "6",
+        "BLANK"
+      ],
+      "statistics": [
+        "mean",
+        "percentage",
+        "distribution"
+      ],
+      "dictionary_reference": "Code List!A234:C255"
+    },
+    "Q7RENTAL": {
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "missing_codes": [
+        "",
+        "0",
+        "6",
+        "BLANK"
+      ],
+      "statistics": [
+        "mean",
+        "percentage",
+        "distribution"
+      ],
+      "dictionary_reference": "Code List!A234:C255"
+    },
+    "Q7ALL": {
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "missing_codes": [
+        "",
+        "0",
+        "6",
+        "BLANK"
+      ],
+      "statistics": [
+        "mean",
+        "percentage",
+        "distribution"
+      ],
+      "dictionary_reference": "Code List!A234:C255"
+    },
+    "Q9Restroom": {
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "missing_codes": [
+        "",
+        "0",
+        "6",
+        "BLANK"
+      ],
+      "statistics": [
+        "mean",
+        "percentage",
+        "distribution"
+      ],
+      "dictionary_reference": "Code List!A376:C389; 1=Dirty, 5=Clean"
+    },
+    "NETPRO": {
+      "valid_codes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "missing_codes": [
+        "",
+        "11",
+        "BLANK"
+      ],
+      "statistics": [
+        "mean",
+        "percentage",
+        "distribution",
+        "nps"
+      ],
+      "dictionary_reference": "Code List!A579:C591"
+    },
+    "Q17LIVE": {
+      "valid_codes": [
+        1,
+        2,
+        3
+      ],
+      "missing_codes": [
+        "",
+        "0"
+      ],
+      "statistics": [
+        "percentage",
+        "distribution"
+      ],
+      "dictionary_reference": "Code List!A592:C596"
+    },
+    "Q11TSAPRE": {
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "missing_codes": [
+        "",
+        "0"
+      ],
+      "statistics": [
+        "percentage",
+        "distribution"
+      ],
+      "dictionary_reference": "Code List!A434:C439"
+    },
+    "Q19Clear": {
+      "valid_codes": [
+        1,
+        2
+      ],
+      "missing_codes": [
+        "",
+        "0"
+      ],
+      "statistics": [
+        "percentage",
+        "distribution"
+      ],
+      "dictionary_reference": "Code List!A625:C628"
+    },
+    "Q21Gender": {
+      "valid_codes": [
+        1,
+        2,
+        3
+      ],
+      "missing_codes": [
+        "",
+        "0"
+      ],
+      "statistics": [
+        "percentage",
+        "distribution"
+      ],
+      "dictionary_reference": "Code List!A638:C642"
+    }
+  }
+}

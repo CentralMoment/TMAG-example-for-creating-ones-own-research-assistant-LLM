@@ -1,0 +1,1636 @@
+{
+  "scope": "Captured local-tool arithmetic only; question interpretation, hosted code, artifacts and prose require review.",
+  "checked": 181,
+  "failed": 0,
+  "checks": [
+    {
+      "trial": "SFO-01-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q9Restroom",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-01-trial-1",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "Q9Restroom",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-02-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q7ALL",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-03-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q7WIFI",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-03-trial-1",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "Q7WIFI",
+      "statistic": "percentage",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-04-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q9Restroom",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-04-trial-1",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "Q9Restroom",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-05-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q7ALL",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-05-trial-1",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "Q7ALL",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-06-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q7ALL",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-06-trial-1",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "Q7ART",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-06-trial-1",
+      "turn": "turn-1",
+      "calculation": 2,
+      "field": "Q7FOOD",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-06-trial-1",
+      "turn": "turn-1",
+      "calculation": 3,
+      "field": "Q7STORE",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-06-trial-1",
+      "turn": "turn-1",
+      "calculation": 4,
+      "field": "Q7SIGN",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-06-trial-1",
+      "turn": "turn-1",
+      "calculation": 5,
+      "field": "Q7WALKWAY",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-06-trial-1",
+      "turn": "turn-1",
+      "calculation": 6,
+      "field": "Q7SCREENS",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-06-trial-1",
+      "turn": "turn-1",
+      "calculation": 7,
+      "field": "Q7INFODOWN",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-06-trial-1",
+      "turn": "turn-1",
+      "calculation": 8,
+      "field": "Q7INFOUP",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-06-trial-1",
+      "turn": "turn-1",
+      "calculation": 9,
+      "field": "Q7WIFI",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-06-trial-1",
+      "turn": "turn-1",
+      "calculation": 10,
+      "field": "Q7ROADS",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-06-trial-1",
+      "turn": "turn-1",
+      "calculation": 11,
+      "field": "Q7PARK",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-06-trial-1",
+      "turn": "turn-1",
+      "calculation": 12,
+      "field": "Q7AIRTRAIN",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-06-trial-1",
+      "turn": "turn-1",
+      "calculation": 13,
+      "field": "Q7LTPARKING",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-06-trial-1",
+      "turn": "turn-1",
+      "calculation": 14,
+      "field": "Q7RENTAL",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-06-trial-1",
+      "turn": "turn-1",
+      "calculation": 15,
+      "field": "Q9Restroom",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-06-trial-1",
+      "turn": "turn-1",
+      "calculation": 16,
+      "field": "NETPRO",
+      "statistic": "nps",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-07-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q7ALL",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-07-trial-1",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "Q7ART",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-07-trial-1",
+      "turn": "turn-1",
+      "calculation": 2,
+      "field": "Q7FOOD",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-07-trial-1",
+      "turn": "turn-1",
+      "calculation": 3,
+      "field": "Q7STORE",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-07-trial-1",
+      "turn": "turn-1",
+      "calculation": 4,
+      "field": "Q7SIGN",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-07-trial-1",
+      "turn": "turn-1",
+      "calculation": 5,
+      "field": "Q7WALKWAY",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-07-trial-1",
+      "turn": "turn-1",
+      "calculation": 6,
+      "field": "Q7SCREENS",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-07-trial-1",
+      "turn": "turn-1",
+      "calculation": 7,
+      "field": "Q7INFODOWN",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-07-trial-1",
+      "turn": "turn-1",
+      "calculation": 8,
+      "field": "Q7INFOUP",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-07-trial-1",
+      "turn": "turn-1",
+      "calculation": 9,
+      "field": "Q7WIFI",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-07-trial-1",
+      "turn": "turn-1",
+      "calculation": 10,
+      "field": "Q7ROADS",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-07-trial-1",
+      "turn": "turn-1",
+      "calculation": 11,
+      "field": "Q7PARK",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-07-trial-1",
+      "turn": "turn-1",
+      "calculation": 12,
+      "field": "Q7AIRTRAIN",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-07-trial-1",
+      "turn": "turn-1",
+      "calculation": 13,
+      "field": "Q7LTPARKING",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-07-trial-1",
+      "turn": "turn-1",
+      "calculation": 14,
+      "field": "Q7RENTAL",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-07-trial-1",
+      "turn": "turn-1",
+      "calculation": 15,
+      "field": "Q9Restroom",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-07-trial-1",
+      "turn": "turn-1",
+      "calculation": 16,
+      "field": "NETPRO",
+      "statistic": "nps",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-07-trial-1",
+      "turn": "turn-1",
+      "calculation": 17,
+      "field": "Q7FOOD",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-07-trial-1",
+      "turn": "turn-1",
+      "calculation": 18,
+      "field": "Q7STORE",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-08-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q7ALL",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-08-trial-1",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "Q7ALL",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-08-trial-1",
+      "turn": "turn-1",
+      "calculation": 2,
+      "field": "NETPRO",
+      "statistic": "nps",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-08-trial-1",
+      "turn": "turn-1",
+      "calculation": 3,
+      "field": "Q9Restroom",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-08-trial-1",
+      "turn": "turn-1",
+      "calculation": 4,
+      "field": "Q7ART",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-08-trial-1",
+      "turn": "turn-1",
+      "calculation": 5,
+      "field": "Q7FOOD",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-08-trial-1",
+      "turn": "turn-1",
+      "calculation": 6,
+      "field": "Q7STORE",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-08-trial-1",
+      "turn": "turn-1",
+      "calculation": 7,
+      "field": "Q7SIGN",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-08-trial-1",
+      "turn": "turn-1",
+      "calculation": 8,
+      "field": "Q7WALKWAY",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-08-trial-1",
+      "turn": "turn-1",
+      "calculation": 9,
+      "field": "Q7SCREENS",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-08-trial-1",
+      "turn": "turn-1",
+      "calculation": 10,
+      "field": "Q7INFODOWN",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-08-trial-1",
+      "turn": "turn-1",
+      "calculation": 11,
+      "field": "Q7INFOUP",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-08-trial-1",
+      "turn": "turn-1",
+      "calculation": 12,
+      "field": "Q7WIFI",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-08-trial-1",
+      "turn": "turn-1",
+      "calculation": 13,
+      "field": "Q7ROADS",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-08-trial-1",
+      "turn": "turn-1",
+      "calculation": 14,
+      "field": "Q7PARK",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-08-trial-1",
+      "turn": "turn-1",
+      "calculation": 15,
+      "field": "Q7AIRTRAIN",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-08-trial-1",
+      "turn": "turn-1",
+      "calculation": 16,
+      "field": "Q7LTPARKING",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-08-trial-1",
+      "turn": "turn-1",
+      "calculation": 17,
+      "field": "Q7RENTAL",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-08-trial-1",
+      "turn": "turn-1",
+      "calculation": 18,
+      "field": "NETPRO",
+      "statistic": "percentage",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-08-trial-1",
+      "turn": "turn-1",
+      "calculation": 19,
+      "field": "Q7FOOD",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-08-trial-1",
+      "turn": "turn-1",
+      "calculation": 20,
+      "field": "Q7STORE",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-09-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q7ALL",
+      "statistic": "percentage",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-09-trial-1",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "Q7ALL",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-10-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "NETPRO",
+      "statistic": "nps",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-10-trial-1",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "NETPRO",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-10-trial-1",
+      "turn": "turn-1",
+      "calculation": 2,
+      "field": "NETPRO",
+      "statistic": "nps",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-10-trial-1",
+      "turn": "turn-1",
+      "calculation": 3,
+      "field": "NETPRO",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-11-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q7WIFI",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-11-trial-1",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "Q7WIFI",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-11-trial-1",
+      "turn": "turn-1",
+      "calculation": 2,
+      "field": "Q7ART",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-11-trial-1",
+      "turn": "turn-1",
+      "calculation": 3,
+      "field": "Q7FOOD",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-11-trial-1",
+      "turn": "turn-1",
+      "calculation": 4,
+      "field": "Q7STORE",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-11-trial-1",
+      "turn": "turn-1",
+      "calculation": 5,
+      "field": "Q7SIGN",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-11-trial-1",
+      "turn": "turn-1",
+      "calculation": 6,
+      "field": "Q7WALKWAY",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-11-trial-1",
+      "turn": "turn-1",
+      "calculation": 7,
+      "field": "Q7SCREENS",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-11-trial-1",
+      "turn": "turn-1",
+      "calculation": 8,
+      "field": "Q7INFODOWN",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-11-trial-1",
+      "turn": "turn-1",
+      "calculation": 9,
+      "field": "Q7INFOUP",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-11-trial-1",
+      "turn": "turn-1",
+      "calculation": 10,
+      "field": "Q7ROADS",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-11-trial-1",
+      "turn": "turn-1",
+      "calculation": 11,
+      "field": "Q7PARK",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-11-trial-1",
+      "turn": "turn-1",
+      "calculation": 12,
+      "field": "Q7AIRTRAIN",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-11-trial-1",
+      "turn": "turn-1",
+      "calculation": 13,
+      "field": "Q7LTPARKING",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-11-trial-1",
+      "turn": "turn-1",
+      "calculation": 14,
+      "field": "Q7RENTAL",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-11-trial-1",
+      "turn": "turn-1",
+      "calculation": 15,
+      "field": "Q7ALL",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-12-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q7ALL",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-12-trial-1",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "Q7ALL",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-12-trial-1",
+      "turn": "turn-1",
+      "calculation": 2,
+      "field": "Q7ALL",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-12-trial-1",
+      "turn": "turn-1",
+      "calculation": 3,
+      "field": "Q7ALL",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-12-trial-1",
+      "turn": "turn-1",
+      "calculation": 4,
+      "field": "NETPRO",
+      "statistic": "nps",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-12-trial-1",
+      "turn": "turn-1",
+      "calculation": 5,
+      "field": "NETPRO",
+      "statistic": "nps",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-12-trial-1",
+      "turn": "turn-1",
+      "calculation": 6,
+      "field": "Q7FOOD",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-12-trial-1",
+      "turn": "turn-1",
+      "calculation": 7,
+      "field": "Q7FOOD",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-12-trial-1",
+      "turn": "turn-1",
+      "calculation": 8,
+      "field": "Q7STORE",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-12-trial-1",
+      "turn": "turn-1",
+      "calculation": 9,
+      "field": "Q7STORE",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-12-trial-1",
+      "turn": "turn-1",
+      "calculation": 10,
+      "field": "Q7WIFI",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-12-trial-1",
+      "turn": "turn-1",
+      "calculation": 11,
+      "field": "Q7WIFI",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-12-trial-1",
+      "turn": "turn-1",
+      "calculation": 12,
+      "field": "Q7SIGN",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-12-trial-1",
+      "turn": "turn-1",
+      "calculation": 13,
+      "field": "Q7SIGN",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-12-trial-1",
+      "turn": "turn-1",
+      "calculation": 14,
+      "field": "Q7PARK",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-12-trial-1",
+      "turn": "turn-1",
+      "calculation": 15,
+      "field": "Q7PARK",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-12-trial-1",
+      "turn": "turn-1",
+      "calculation": 16,
+      "field": "Q9Restroom",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-12-trial-1",
+      "turn": "turn-1",
+      "calculation": 17,
+      "field": "Q9Restroom",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-13-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q11TSAPRE",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-13-trial-1",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "NETPRO",
+      "statistic": "nps",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-13-trial-1",
+      "turn": "turn-1",
+      "calculation": 2,
+      "field": "NETPRO",
+      "statistic": "nps",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-13-trial-1",
+      "turn": "turn-1",
+      "calculation": 3,
+      "field": "NETPRO",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-13-trial-1",
+      "turn": "turn-1",
+      "calculation": 4,
+      "field": "NETPRO",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-13-trial-1",
+      "turn": "turn-1",
+      "calculation": 5,
+      "field": "NETPRO",
+      "statistic": "nps",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-13-trial-1",
+      "turn": "turn-1",
+      "calculation": 6,
+      "field": "NETPRO",
+      "statistic": "nps",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-14-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q19Clear",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-14-trial-1",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "Q7ALL",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-14-trial-1",
+      "turn": "turn-1",
+      "calculation": 2,
+      "field": "Q7ALL",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-14-trial-1",
+      "turn": "turn-1",
+      "calculation": 3,
+      "field": "Q7ALL",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-14-trial-1",
+      "turn": "turn-1",
+      "calculation": 4,
+      "field": "Q7ALL",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-14-trial-1",
+      "turn": "turn-1",
+      "calculation": 5,
+      "field": "NETPRO",
+      "statistic": "nps",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-14-trial-1",
+      "turn": "turn-1",
+      "calculation": 6,
+      "field": "NETPRO",
+      "statistic": "nps",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-14-trial-1",
+      "turn": "turn-1",
+      "calculation": 7,
+      "field": "Q9Restroom",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-14-trial-1",
+      "turn": "turn-1",
+      "calculation": 8,
+      "field": "Q9Restroom",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-14-trial-1",
+      "turn": "turn-1",
+      "calculation": 9,
+      "field": "Q11TSAPRE",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-14-trial-1",
+      "turn": "turn-1",
+      "calculation": 10,
+      "field": "Q11TSAPRE",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-15-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q7STORE",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-15-trial-1",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "Q7FOOD",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-15-trial-1",
+      "turn": "turn-1",
+      "calculation": 2,
+      "field": "Q7STORE",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-15-trial-1",
+      "turn": "turn-1",
+      "calculation": 3,
+      "field": "Q7FOOD",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-16-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q11TSAPRE",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-17-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q11TSAPRE",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-17-trial-1",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "Q7ALL",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-17-trial-1",
+      "turn": "turn-1",
+      "calculation": 2,
+      "field": "Q7ALL",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-17-trial-1",
+      "turn": "turn-1",
+      "calculation": 3,
+      "field": "Q7ALL",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-17-trial-1",
+      "turn": "turn-1",
+      "calculation": 4,
+      "field": "Q7ALL",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-17-trial-1",
+      "turn": "turn-1",
+      "calculation": 5,
+      "field": "NETPRO",
+      "statistic": "nps",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-17-trial-1",
+      "turn": "turn-1",
+      "calculation": 6,
+      "field": "NETPRO",
+      "statistic": "nps",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-17-trial-1",
+      "turn": "turn-1",
+      "calculation": 7,
+      "field": "Q17LIVE",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-17-trial-1",
+      "turn": "turn-1",
+      "calculation": 8,
+      "field": "Q17LIVE",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-18-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q7ALL",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-18-trial-1",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "NETPRO",
+      "statistic": "nps",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-20-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q7ALL",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-20-trial-1",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "Q7ALL",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-20-trial-1",
+      "turn": "turn-1",
+      "calculation": 2,
+      "field": "NETPRO",
+      "statistic": "nps",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-21-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q7ALL",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-21-trial-1",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "Q7ALL",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-21-trial-1",
+      "turn": "turn-1",
+      "calculation": 2,
+      "field": "NETPRO",
+      "statistic": "nps",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-21-trial-1",
+      "turn": "turn-1",
+      "calculation": 3,
+      "field": "NETPRO",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-22-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "NETPRO",
+      "statistic": "nps",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-22-trial-1",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "Q7ALL",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-22-trial-1",
+      "turn": "turn-1",
+      "calculation": 2,
+      "field": "Q7WIFI",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-22-trial-1",
+      "turn": "turn-1",
+      "calculation": 3,
+      "field": "Q7STORE",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-22-trial-1",
+      "turn": "turn-1",
+      "calculation": 4,
+      "field": "Q7FOOD",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-22-trial-1",
+      "turn": "turn-1",
+      "calculation": 5,
+      "field": "Q7ART",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-22-trial-1",
+      "turn": "turn-1",
+      "calculation": 6,
+      "field": "Q9Restroom",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-22-trial-1",
+      "turn": "turn-1",
+      "calculation": 7,
+      "field": "Q7SCREENS",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-22-trial-1",
+      "turn": "turn-1",
+      "calculation": 8,
+      "field": "Q7LTPARKING",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-22-trial-1",
+      "turn": "turn-1",
+      "calculation": 9,
+      "field": "NETPRO",
+      "statistic": "nps",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-22-trial-1",
+      "turn": "turn-1",
+      "calculation": 10,
+      "field": "NETPRO",
+      "statistic": "nps",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-22-trial-1",
+      "turn": "turn-1",
+      "calculation": 11,
+      "field": "NETPRO",
+      "statistic": "nps",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-22-trial-1",
+      "turn": "turn-1",
+      "calculation": 12,
+      "field": "NETPRO",
+      "statistic": "nps",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-22-trial-1",
+      "turn": "turn-1",
+      "calculation": 13,
+      "field": "NETPRO",
+      "statistic": "nps",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-22-trial-1",
+      "turn": "turn-1",
+      "calculation": 14,
+      "field": "NETPRO",
+      "statistic": "nps",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-22-trial-1",
+      "turn": "turn-1",
+      "calculation": 15,
+      "field": "Q7ALL",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-22-trial-1",
+      "turn": "turn-1",
+      "calculation": 16,
+      "field": "Q11TSAPRE",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-23-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q7ALL",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-24-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q17LIVE",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-24-trial-1",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "NETPRO",
+      "statistic": "nps",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-24-trial-1",
+      "turn": "turn-1",
+      "calculation": 2,
+      "field": "NETPRO",
+      "statistic": "nps",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-24-trial-1",
+      "turn": "turn-1",
+      "calculation": 3,
+      "field": "Q7ALL",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-24-trial-1",
+      "turn": "turn-1",
+      "calculation": 4,
+      "field": "Q7ALL",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-24-trial-1",
+      "turn": "turn-1",
+      "calculation": 5,
+      "field": "Q11TSAPRE",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-24-trial-1",
+      "turn": "turn-1",
+      "calculation": 6,
+      "field": "Q11TSAPRE",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-26-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q7ART",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-27-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "NETPRO",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-31-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q7ALL",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-32-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q7ALL",
+      "statistic": "mean",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-32-trial-1",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "Q7ALL",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-33-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q7ART",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-34-trial-1",
+      "turn": "turn-1",
+      "calculation": 0,
+      "field": "Q21Gender",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-34-trial-1",
+      "turn": "turn-1",
+      "calculation": 1,
+      "field": "Q7ALL",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    },
+    {
+      "trial": "SFO-34-trial-1",
+      "turn": "turn-1",
+      "calculation": 2,
+      "field": "Q7ALL",
+      "statistic": "distribution",
+      "arithmetic": "PASS",
+      "errors": []
+    }
+  ]
+}

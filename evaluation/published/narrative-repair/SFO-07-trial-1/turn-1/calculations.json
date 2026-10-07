@@ -1,0 +1,840 @@
+{
+  "question": "Based on this survey, what would you tell SFO's leadership team is the single biggest opportunity for improvement?",
+  "model": "claude-opus-5",
+  "started_utc": "2026-10-07T01:37:07.746885+00:00",
+  "hashes": {
+    "prompts/sfo.md": "fbd39c880ce491de63028cfec836c5d5ef1ff4b7944804d3e3fa0aba38461bc5",
+    "data/private/2018 SFO Customer Survey.csv": "8d8e368dffb048679044159486bf89c5b838c7dbff731304ba02d4a8a2099c8b",
+    "data/private/2018 SFO Customer Survey Data Dictionary.xlsx": "63b264f9215516c012991f13b08a4567d54166751997efd592e1a3962d65fbe2",
+    "profiles/sfo.json": "1240cff6abc71272b2bf04eb5eb62d3fca21da9ed317d01b597ecd04f07cc929",
+    "config.sfo.json": "c237c455fa7856322189ee6040904e82782558dfb29f0f52cecfff6d1260ad27",
+    "prompts/research-policy.md": "360670fddc355f18036f9257754bf38bb00f2e8373448b63d6b3e671dfd43185",
+    "research_assistant/__init__.py": "651cb746a5f082fb6b90960abc7b01bda3d460afd274ddeb7c7ed024ea989e3d",
+    "research_assistant/data.py": "8a2e3fe7c45808eeb698ccd5b560ae0a8cdba1e08c4dc82b13e54d99215f6a68",
+    "research_assistant/engine.py": "314b8bc4786de2d8026c9f6719a81c42baea9ed10bb5ff3c6e706624a2820e31",
+    "research_assistant/statistics.py": "2db45efd26e87c5b7a00c5200885b9a95c99ebfbe8ce9291c84f1a9b8d8f239e"
+  },
+  "status": "completed",
+  "elapsed_seconds": 112.733,
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 147503,
+    "output_tokens": 9168
+  },
+  "calculations": [
+    {
+      "field": "Q7ALL",
+      "statistic": "distribution",
+      "weighted": false,
+      "filters": [],
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "selected_n": 2809,
+      "valid_n": 2625,
+      "excluded_n": 184,
+      "denominator": "valid answers after filters",
+      "sum_weights": 2625.0,
+      "dictionary_reference": "Code List!A234:C255",
+      "value": null,
+      "reporting_rules": {
+        "suppress_below_n": 20,
+        "strong_caution_below_n": 30,
+        "caution_below_n": 50
+      },
+      "status": "computed",
+      "caution": "",
+      "cells": [
+        {
+          "code": 1,
+          "n": 6,
+          "percent": null,
+          "weighted_frequency": null,
+          "status": "suppressed",
+          "caution": "Suppressed because n<20."
+        },
+        {
+          "code": 2,
+          "n": 46,
+          "percent": 1.7523809523809524,
+          "weighted_frequency": 46.0,
+          "status": "computed",
+          "caution": "Small cell (n<50)."
+        },
+        {
+          "code": 3,
+          "n": 514,
+          "percent": 19.580952380952382,
+          "weighted_frequency": 514.0,
+          "status": "computed",
+          "caution": ""
+        },
+        {
+          "code": 4,
+          "n": 1428,
+          "percent": 54.400000000000006,
+          "weighted_frequency": 1428.0,
+          "status": "computed",
+          "caution": ""
+        },
+        {
+          "code": 5,
+          "n": 631,
+          "percent": 24.038095238095238,
+          "weighted_frequency": 631.0,
+          "status": "computed",
+          "caution": ""
+        }
+      ]
+    },
+    {
+      "field": "NETPRO",
+      "statistic": "nps",
+      "weighted": false,
+      "filters": [],
+      "valid_codes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "selected_n": 2809,
+      "valid_n": 2650,
+      "excluded_n": 159,
+      "denominator": "valid answers after filters",
+      "sum_weights": 2650.0,
+      "dictionary_reference": "Code List!A579:C591",
+      "value": 30.9811320754717,
+      "reporting_rules": {
+        "suppress_below_n": 20,
+        "strong_caution_below_n": 30,
+        "caution_below_n": 50
+      },
+      "status": "computed",
+      "caution": ""
+    },
+    {
+      "field": "Q7ART",
+      "statistic": "mean",
+      "weighted": false,
+      "filters": [],
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "selected_n": 2809,
+      "valid_n": 2160,
+      "excluded_n": 649,
+      "denominator": "valid answers after filters",
+      "sum_weights": 2160.0,
+      "dictionary_reference": "Code List!A234:C255",
+      "value": 3.950925925925926,
+      "reporting_rules": {
+        "suppress_below_n": 20,
+        "strong_caution_below_n": 30,
+        "caution_below_n": 50
+      },
+      "status": "computed",
+      "caution": ""
+    },
+    {
+      "field": "Q7FOOD",
+      "statistic": "mean",
+      "weighted": false,
+      "filters": [],
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "selected_n": 2809,
+      "valid_n": 2342,
+      "excluded_n": 467,
+      "denominator": "valid answers after filters",
+      "sum_weights": 2342.0,
+      "dictionary_reference": "Code List!A234:C255",
+      "value": 3.562339880444065,
+      "reporting_rules": {
+        "suppress_below_n": 20,
+        "strong_caution_below_n": 30,
+        "caution_below_n": 50
+      },
+      "status": "computed",
+      "caution": ""
+    },
+    {
+      "field": "Q7STORE",
+      "statistic": "mean",
+      "weighted": false,
+      "filters": [],
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "selected_n": 2809,
+      "valid_n": 2277,
+      "excluded_n": 532,
+      "denominator": "valid answers after filters",
+      "sum_weights": 2277.0,
+      "dictionary_reference": "Code List!A234:C255",
+      "value": 3.54852876592007,
+      "reporting_rules": {
+        "suppress_below_n": 20,
+        "strong_caution_below_n": 30,
+        "caution_below_n": 50
+      },
+      "status": "computed",
+      "caution": ""
+    },
+    {
+      "field": "Q7SIGN",
+      "statistic": "mean",
+      "weighted": false,
+      "filters": [],
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "selected_n": 2809,
+      "valid_n": 2648,
+      "excluded_n": 161,
+      "denominator": "valid answers after filters",
+      "sum_weights": 2648.0,
+      "dictionary_reference": "Code List!A234:C255",
+      "value": 4.038141993957704,
+      "reporting_rules": {
+        "suppress_below_n": 20,
+        "strong_caution_below_n": 30,
+        "caution_below_n": 50
+      },
+      "status": "computed",
+      "caution": ""
+    },
+    {
+      "field": "Q7WALKWAY",
+      "statistic": "mean",
+      "weighted": false,
+      "filters": [],
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "selected_n": 2809,
+      "valid_n": 2537,
+      "excluded_n": 272,
+      "denominator": "valid answers after filters",
+      "sum_weights": 2537.0,
+      "dictionary_reference": "Code List!A234:C255",
+      "value": 4.112731572723689,
+      "reporting_rules": {
+        "suppress_below_n": 20,
+        "strong_caution_below_n": 30,
+        "caution_below_n": 50
+      },
+      "status": "computed",
+      "caution": ""
+    },
+    {
+      "field": "Q7SCREENS",
+      "statistic": "mean",
+      "weighted": false,
+      "filters": [],
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "selected_n": 2809,
+      "valid_n": 2611,
+      "excluded_n": 198,
+      "denominator": "valid answers after filters",
+      "sum_weights": 2611.0,
+      "dictionary_reference": "Code List!A234:C255",
+      "value": 4.091535810034469,
+      "reporting_rules": {
+        "suppress_below_n": 20,
+        "strong_caution_below_n": 30,
+        "caution_below_n": 50
+      },
+      "status": "computed",
+      "caution": ""
+    },
+    {
+      "field": "Q7INFODOWN",
+      "statistic": "mean",
+      "weighted": false,
+      "filters": [],
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "selected_n": 2809,
+      "valid_n": 1518,
+      "excluded_n": 1291,
+      "denominator": "valid answers after filters",
+      "sum_weights": 1518.0,
+      "dictionary_reference": "Code List!A234:C255",
+      "value": 3.847826086956522,
+      "reporting_rules": {
+        "suppress_below_n": 20,
+        "strong_caution_below_n": 30,
+        "caution_below_n": 50
+      },
+      "status": "computed",
+      "caution": ""
+    },
+    {
+      "field": "Q7INFOUP",
+      "statistic": "mean",
+      "weighted": false,
+      "filters": [],
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "selected_n": 2809,
+      "valid_n": 1529,
+      "excluded_n": 1280,
+      "denominator": "valid answers after filters",
+      "sum_weights": 1529.0,
+      "dictionary_reference": "Code List!A234:C255",
+      "value": 3.8718116415958144,
+      "reporting_rules": {
+        "suppress_below_n": 20,
+        "strong_caution_below_n": 30,
+        "caution_below_n": 50
+      },
+      "status": "computed",
+      "caution": ""
+    },
+    {
+      "field": "Q7WIFI",
+      "statistic": "mean",
+      "weighted": false,
+      "filters": [],
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "selected_n": 2809,
+      "valid_n": 2074,
+      "excluded_n": 735,
+      "denominator": "valid answers after filters",
+      "sum_weights": 2074.0,
+      "dictionary_reference": "Code List!A234:C255",
+      "value": 3.98457087753134,
+      "reporting_rules": {
+        "suppress_below_n": 20,
+        "strong_caution_below_n": 30,
+        "caution_below_n": 50
+      },
+      "status": "computed",
+      "caution": ""
+    },
+    {
+      "field": "Q7ROADS",
+      "statistic": "mean",
+      "weighted": false,
+      "filters": [],
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "selected_n": 2809,
+      "valid_n": 1772,
+      "excluded_n": 1037,
+      "denominator": "valid answers after filters",
+      "sum_weights": 1772.0,
+      "dictionary_reference": "Code List!A234:C255",
+      "value": 3.9367945823927766,
+      "reporting_rules": {
+        "suppress_below_n": 20,
+        "strong_caution_below_n": 30,
+        "caution_below_n": 50
+      },
+      "status": "computed",
+      "caution": ""
+    },
+    {
+      "field": "Q7PARK",
+      "statistic": "mean",
+      "weighted": false,
+      "filters": [],
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "selected_n": 2809,
+      "valid_n": 1065,
+      "excluded_n": 1744,
+      "denominator": "valid answers after filters",
+      "sum_weights": 1065.0,
+      "dictionary_reference": "Code List!A234:C255",
+      "value": 3.831924882629108,
+      "reporting_rules": {
+        "suppress_below_n": 20,
+        "strong_caution_below_n": 30,
+        "caution_below_n": 50
+      },
+      "status": "computed",
+      "caution": ""
+    },
+    {
+      "field": "Q7AIRTRAIN",
+      "statistic": "mean",
+      "weighted": false,
+      "filters": [],
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "selected_n": 2809,
+      "valid_n": 1309,
+      "excluded_n": 1500,
+      "denominator": "valid answers after filters",
+      "sum_weights": 1309.0,
+      "dictionary_reference": "Code List!A234:C255",
+      "value": 4.049656226126815,
+      "reporting_rules": {
+        "suppress_below_n": 20,
+        "strong_caution_below_n": 30,
+        "caution_below_n": 50
+      },
+      "status": "computed",
+      "caution": ""
+    },
+    {
+      "field": "Q7LTPARKING",
+      "statistic": "mean",
+      "weighted": false,
+      "filters": [],
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "selected_n": 2809,
+      "valid_n": 649,
+      "excluded_n": 2160,
+      "denominator": "valid answers after filters",
+      "sum_weights": 649.0,
+      "dictionary_reference": "Code List!A234:C255",
+      "value": 3.782742681047766,
+      "reporting_rules": {
+        "suppress_below_n": 20,
+        "strong_caution_below_n": 30,
+        "caution_below_n": 50
+      },
+      "status": "computed",
+      "caution": ""
+    },
+    {
+      "field": "Q7RENTAL",
+      "statistic": "mean",
+      "weighted": false,
+      "filters": [],
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "selected_n": 2809,
+      "valid_n": 910,
+      "excluded_n": 1899,
+      "denominator": "valid answers after filters",
+      "sum_weights": 910.0,
+      "dictionary_reference": "Code List!A234:C255",
+      "value": 3.8230769230769233,
+      "reporting_rules": {
+        "suppress_below_n": 20,
+        "strong_caution_below_n": 30,
+        "caution_below_n": 50
+      },
+      "status": "computed",
+      "caution": ""
+    },
+    {
+      "field": "Q9Restroom",
+      "statistic": "mean",
+      "weighted": false,
+      "filters": [],
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "selected_n": 2809,
+      "valid_n": 2589,
+      "excluded_n": 220,
+      "denominator": "valid answers after filters",
+      "sum_weights": 2589.0,
+      "dictionary_reference": "Code List!A376:C389; 1=Dirty, 5=Clean",
+      "value": 4.011973735032831,
+      "reporting_rules": {
+        "suppress_below_n": 20,
+        "strong_caution_below_n": 30,
+        "caution_below_n": 50
+      },
+      "status": "computed",
+      "caution": ""
+    },
+    {
+      "field": "Q7FOOD",
+      "statistic": "distribution",
+      "weighted": false,
+      "filters": [],
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "selected_n": 2809,
+      "valid_n": 2342,
+      "excluded_n": 467,
+      "denominator": "valid answers after filters",
+      "sum_weights": 2342.0,
+      "dictionary_reference": "Code List!A234:C255",
+      "value": null,
+      "reporting_rules": {
+        "suppress_below_n": 20,
+        "strong_caution_below_n": 30,
+        "caution_below_n": 50
+      },
+      "status": "computed",
+      "caution": "",
+      "cells": [
+        {
+          "code": 1,
+          "n": 36,
+          "percent": 1.5371477369769428,
+          "weighted_frequency": 36.0,
+          "status": "computed",
+          "caution": "Small cell (n<50)."
+        },
+        {
+          "code": 2,
+          "n": 229,
+          "percent": 9.77796754910333,
+          "weighted_frequency": 229.0,
+          "status": "computed",
+          "caution": ""
+        },
+        {
+          "code": 3,
+          "n": 810,
+          "percent": 34.585824081981215,
+          "weighted_frequency": 810.0,
+          "status": "computed",
+          "caution": ""
+        },
+        {
+          "code": 4,
+          "n": 916,
+          "percent": 39.11187019641332,
+          "weighted_frequency": 916.0,
+          "status": "computed",
+          "caution": ""
+        },
+        {
+          "code": 5,
+          "n": 351,
+          "percent": 14.987190435525191,
+          "weighted_frequency": 351.0,
+          "status": "computed",
+          "caution": ""
+        }
+      ]
+    },
+    {
+      "field": "Q7STORE",
+      "statistic": "distribution",
+      "weighted": false,
+      "filters": [],
+      "valid_codes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "selected_n": 2809,
+      "valid_n": 2277,
+      "excluded_n": 532,
+      "denominator": "valid answers after filters",
+      "sum_weights": 2277.0,
+      "dictionary_reference": "Code List!A234:C255",
+      "value": null,
+      "reporting_rules": {
+        "suppress_below_n": 20,
+        "strong_caution_below_n": 30,
+        "caution_below_n": 50
+      },
+      "status": "computed",
+      "caution": "",
+      "cells": [
+        {
+          "code": 1,
+          "n": 27,
+          "percent": 1.185770750988142,
+          "weighted_frequency": 27.0,
+          "status": "computed",
+          "caution": "Very small cell (n<30)."
+        },
+        {
+          "code": 2,
+          "n": 202,
+          "percent": 8.871321914800175,
+          "weighted_frequency": 202.0,
+          "status": "computed",
+          "caution": ""
+        },
+        {
+          "code": 3,
+          "n": 880,
+          "percent": 38.64734299516908,
+          "weighted_frequency": 880.0,
+          "status": "computed",
+          "caution": ""
+        },
+        {
+          "code": 4,
+          "n": 831,
+          "percent": 36.49538866930172,
+          "weighted_frequency": 831.0,
+          "status": "computed",
+          "caution": ""
+        },
+        {
+          "code": 5,
+          "n": 337,
+          "percent": 14.800175669740886,
+          "weighted_frequency": 337.0,
+          "status": "computed",
+          "caution": ""
+        }
+      ]
+    },
+    {
+      "field": "NETPRO",
+      "statistic": "nps",
+      "weighted": false,
+      "filters": [
+        {
+          "field": "Q7FOOD",
+          "codes": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "valid_codes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "selected_n": 1075,
+      "valid_n": 1012,
+      "excluded_n": 63,
+      "denominator": "valid answers after filters",
+      "sum_weights": 1012.0,
+      "dictionary_reference": "Code List!A579:C591",
+      "value": 1.8774703557312253,
+      "reporting_rules": {
+        "suppress_below_n": 20,
+        "strong_caution_below_n": 30,
+        "caution_below_n": 50
+      },
+      "status": "computed",
+      "caution": ""
+    },
+    {
+      "field": "NETPRO",
+      "statistic": "nps",
+      "weighted": false,
+      "filters": [
+        {
+          "field": "Q7FOOD",
+          "codes": [
+            4,
+            5
+          ]
+        }
+      ],
+      "valid_codes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "selected_n": 1267,
+      "valid_n": 1214,
+      "excluded_n": 53,
+      "denominator": "valid answers after filters",
+      "sum_weights": 1214.0,
+      "dictionary_reference": "Code List!A579:C591",
+      "value": 56.836902800658976,
+      "reporting_rules": {
+        "suppress_below_n": 20,
+        "strong_caution_below_n": 30,
+        "caution_below_n": 50
+      },
+      "status": "computed",
+      "caution": ""
+    },
+    {
+      "field": "NETPRO",
+      "statistic": "nps",
+      "weighted": false,
+      "filters": [
+        {
+          "field": "Q7STORE",
+          "codes": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "valid_codes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "selected_n": 1109,
+      "valid_n": 1050,
+      "excluded_n": 59,
+      "denominator": "valid answers after filters",
+      "sum_weights": 1050.0,
+      "dictionary_reference": "Code List!A579:C591",
+      "value": 5.0476190476190474,
+      "reporting_rules": {
+        "suppress_below_n": 20,
+        "strong_caution_below_n": 30,
+        "caution_below_n": 50
+      },
+      "status": "computed",
+      "caution": ""
+    },
+    {
+      "field": "NETPRO",
+      "statistic": "nps",
+      "weighted": false,
+      "filters": [
+        {
+          "field": "Q7STORE",
+          "codes": [
+            4,
+            5
+          ]
+        }
+      ],
+      "valid_codes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "selected_n": 1168,
+      "valid_n": 1113,
+      "excluded_n": 55,
+      "denominator": "valid answers after filters",
+      "sum_weights": 1113.0,
+      "dictionary_reference": "Code List!A579:C591",
+      "value": 56.8733153638814,
+      "reporting_rules": {
+        "suppress_below_n": 20,
+        "strong_caution_below_n": 30,
+        "caution_below_n": 50
+      },
+      "status": "computed",
+      "caution": ""
+    }
+  ],
+  "artifacts": [],
+  "artifact_errors": []
+}

@@ -46,6 +46,9 @@ Edit `config.json` with a text editor. For example:
   "title": "My customer research assistant",
   "description": "Customer survey, one wave, 2026",
   "prompt_file": "prompts/my-research.md",
+  "profile_file": "profiles/my-research.json",
+  "data_file": "data/private/my-survey.csv",
+  "dictionary_file": "data/private/my-dictionary.md",
   "files": ["data/private/my-survey.csv", "data/private/my-dictionary.md"]
 }
 ```
@@ -56,6 +59,10 @@ Avoid giving two files the same basename. The prompt should describe the files
 actually selected, not a dataset from an earlier version of the project.
 
 Stop and restart the app after changing files, configuration, or instructions.
+Copy `profiles/practice.json` as a starting profile and review every field, valid
+code, missing code, allowed statistic, ID column, weight column and expected shape.
+Remove or update the SFO-specific paragraph in the shared `prompts/research-policy.md`
+for a non-SFO dataset. Do not assume copying the SFO prompt alone customizes the app.
 This avoids mixing old uploads/conversation context with a new dataset. Run the
 setup checker again, then independently validate at least three statistics for
 your new data. Its built-in numerical assertions cover only the practice fixture.

@@ -5,5 +5,8 @@
   "files": [
     "data/private/2018 SFO Customer Survey.csv",
     "data/private/2018 SFO Customer Survey Data Dictionary.xlsx"
-  ]
+  ],
+  "profile_file": "profiles/sfo.json",
+  "data_file": "data/private/2018 SFO Customer Survey.csv",
+  "dictionary_file": "data/private/2018 SFO Customer Survey Data Dictionary.xlsx"
 }

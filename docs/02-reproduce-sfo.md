@@ -18,10 +18,21 @@ The source project's documented DataSF identifiers are:
 - Survey: [2018 SFO Customer Survey, 3w8r-nuxp](https://data.sfgov.org/d/3w8r-nuxp)
 - Dictionary: [wkh6-n369](https://data.sfgov.org/d/wkh6-n369)
 
-Open the survey page and export the full dataset as CSV. Obtain the Excel data
+Use the reproducible downloader from the repository root:
+
+```powershell
+& '.\.venv\Scripts\python.exe' scripts/fetch_sfo.py
+& '.\.venv\Scripts\python.exe' scripts/check_setup.py --config config.sfo.json --output output/data-audit.json
+& '.\.venv\Scripts\python.exe' scripts/build_reference.py
+```
+
+The downloader refuses to overwrite existing source files and records retrieval
+URLs, time and SHA256 hashes. Both downloads were verified against the original
+workspace files for this release; see [validation notes](VALIDATION.md).
+
+Alternatively, open the survey page and export the full dataset as CSV. Obtain the Excel data
 dictionary from the dictionary page or its attachments. The portal may change;
-these identifiers come from the source project and the downloads have not been
-independently verified for this starter. If a link fails, search DataSF for the
+these identifiers come from the source project. If a link fails, search DataSF for the
 exact survey title and year. Do not substitute a screening-checkpoint survey or
 another year without updating the prompt and validating its definitions.
 
@@ -76,7 +87,9 @@ Copy-Item config.sfo.json config.json
 Read `prompts/sfo.md`. It is adapted from the source app, with unsupported claims
 about this being the latest available survey removed and methodology guessing
 tightened. Review its small-sample rules and weighting defaults for your use case.
-They are prompt instructions, not hard enforcement in Python.
+The reviewed local calculator enforces valid-code and small-cell rules for its
+own results. Hosted computations and model prose still require review. The
+[statistical policy](08-statistical-policy.md) makes this boundary explicit.
 
 ## 6. Validate the research behavior
 

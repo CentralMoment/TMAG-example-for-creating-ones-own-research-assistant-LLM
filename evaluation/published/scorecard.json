@@ -1,0 +1,417 @@
+{
+  "review_date": "2026-10-06 America/Denver",
+  "reviewer": "Codex-assisted engineering review; not independent human certification",
+  "scope": "Baseline and historical variants are separate recorded runs. See hashes and limitations; no full final-version battery pass is claimed.",
+  "rows": [
+    {
+      "id": "SFO-01",
+      "question": "Give me the mean rating of restroom cleanliness",
+      "outcome": "answered",
+      "grade": "PARTIAL",
+      "reason": "Restroom mean 4.01 and n=2,589 correct; prose incorrectly calls n<50 the suppression threshold. Revised numerical repeats correct this.",
+      "execution": "completed",
+      "answer_sha256": "ec6f81d1c4f04f8f1d7a5850e0c6d6660f61a5748664dcd34414bf2d9c12f863",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-01-trial-1.zip"
+    },
+    {
+      "id": "SFO-02",
+      "question": "I need a plot that gives me the weighted frequency of the responses to the general satisfaction question.",
+      "outcome": "answered",
+      "grade": "PARTIAL",
+      "reason": "Actual PNG and CSV retrieved and inspected; weighted values agree with reference. Chart footer conflates n<50 caution with n<20 suppression; CSV omits the n=46 caution flag although prose includes it.",
+      "execution": "completed",
+      "answer_sha256": "48454c6e5cffe81e1fb9603bc485c1c3cf5a9d66c411cda33efb4fe8ac9bbeb0",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-02-trial-1.zip"
+    },
+    {
+      "id": "SFO-03",
+      "question": "What percentage of respondents rated SFO's free wifi as a 5 (outstanding)?",
+      "outcome": "answered",
+      "grade": "PARTIAL",
+      "reason": "790/2,074=38.1% is correct. Adds an all-rows percentage without its own captured calculation; revised prompt requires computed numerical asides.",
+      "execution": "completed",
+      "answer_sha256": "a9ab114782a9f49eee7a12c903c072af0051a1afd49ffd2be3ed74b95e281ece",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-03-trial-1.zip"
+    },
+    {
+      "id": "SFO-04",
+      "question": "What is the average rating for restroom cleanliness at SFO?",
+      "outcome": "answered",
+      "grade": "PARTIAL",
+      "reason": "Restroom mean and distribution correct; suppressed n=19 is described as an n<50 rule. Q9 midpoint is labeled Average in the dictionary, not neutral.",
+      "execution": "completed",
+      "answer_sha256": "301b9773c57f92af6529fdb52b0008aa4219f272cfa642c8d64297cda89357d0",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-04-trial-1.zip"
+    },
+    {
+      "id": "SFO-05",
+      "question": "What is the weighted distribution of responses to the overall satisfaction question?",
+      "outcome": "answered",
+      "grade": "PARTIAL",
+      "reason": "Weighted distribution correct; invents verbal labels for Q7 codes 2-4 and misstates suppression threshold. Revised numerical repeats correct the targeted defects.",
+      "execution": "completed",
+      "answer_sha256": "9944c9fd4a602faf190d3458903f54d43026a3b613787f5cc62bafbf0ab6163d",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-05-trial-1.zip"
+    },
+    {
+      "id": "SFO-06",
+      "question": "What's your recommendation SFO do to improve traveler experience?",
+      "outcome": "answered",
+      "grade": "PARTIAL",
+      "reason": "Useful synthesis and correct core means, but information booths are mislabeled as screens. Hosted suggestion/comment analyses are not fully independently validated; no full respondent-comment transcript is published.",
+      "execution": "completed",
+      "answer_sha256": "c776daf2871169991107517ffcd72d00c98623f7830ff02b18f0dbc39ad493b3",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-06-trial-1.zip"
+    },
+    {
+      "id": "SFO-07",
+      "question": "Based on this survey, what would you tell SFO's leadership team is the single biggest opportunity for improvement?",
+      "outcome": "answered",
+      "grade": "FAIL",
+      "reason": "Narrative mistranscribes restroom mean as 4.02 (reference 4.01), food bottom-two share as 10.8% (11.3%), and retail as 9.8% (10.1%). Correct tool arithmetic did not ensure correct prose.",
+      "execution": "completed",
+      "answer_sha256": "f024ff8da20b01d8fd998ef9a4fb39f7013dde5137f8b98031c54076f3ade573",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-07-trial-1.zip"
+    },
+    {
+      "id": "SFO-08",
+      "question": "Is SFO doing a good job overall, in your view?",
+      "outcome": "answered",
+      "grade": "PARTIAL",
+      "reason": "Core means correct; invents a neutral Q7 label and adds an unverified airport NPS benchmark. Keep external benchmarks separate and sourced.",
+      "execution": "completed",
+      "answer_sha256": "e41689555cfb56bed7b7207ae63b2da7b7e3a1129d2046dab9748717655832fa",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-08-trial-1.zip"
+    },
+    {
+      "id": "SFO-09",
+      "question": "What share of the sample would you say is overall happy with SFO?",
+      "outcome": "answered",
+      "grade": "PARTIAL",
+      "reason": "Defines happy as Q7ALL 4/5 and correctly gives 78.4%, n=2,625. Invents a neutral label for Q7 code 3; definition remains an analyst choice.",
+      "execution": "completed",
+      "answer_sha256": "168f798d2ea61e06c601264551e3d00433eee71bc6ada2f32092ec0226332f89",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-09-trial-1.zip"
+    },
+    {
+      "id": "SFO-10",
+      "question": "How loyal are SFO's passengers, based on how likely they are to recommend it?",
+      "outcome": "answered",
+      "grade": "PARTIAL",
+      "reason": "Weighted/unweighted NPS 35.1/31.0 correct. Adds an unsupported industry benchmark; arithmetic pass is not a benchmark validation.",
+      "execution": "completed",
+      "answer_sha256": "02ac18d2d1e8f736bb84ffd062de48c4955851947dae393a784efc95be5e24e2",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-10-trial-1.zip"
+    },
+    {
+      "id": "SFO-11",
+      "question": "Would you say wifi at SFO is a strong point or a weak point?",
+      "outcome": "answered",
+      "grade": "FAIL",
+      "reason": "Wi-Fi mean 3.98 and n=2,074 correct, but says there are no Wi-Fi-specific follow-up codes despite the Q8 Wi-Fi suggestion category. Strength/weakness interpretation is inconsistent.",
+      "execution": "completed",
+      "answer_sha256": "e5d03bc6227e229b18bc6c7d1e1563a23c80b461673fd7ba06c108f19bf368d2",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-11-trial-1.zip"
+    },
+    {
+      "id": "SFO-12",
+      "question": "How does satisfaction differ between residents and visitors?",
+      "outcome": "answered",
+      "grade": "PASS",
+      "reason": "Declares residency 1 versus 2/3, excludes 0, and reports matching reference means and NPS. Descriptive comparison is separated from an inferential claim.",
+      "execution": "completed",
+      "answer_sha256": "cf94ef3295e72d9c6fcf0552d804b3e676c1426a34b455d4ead74d8ad6ddf7f1",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-12-trial-1.zip"
+    },
+    {
+      "id": "SFO-13",
+      "question": "Is there a meaningful difference in NPS between people who used TSA PreCheck and those who didn't?",
+      "outcome": "answered",
+      "grade": "PARTIAL",
+      "reason": "PreCheck NPS comparison correct. Confuses n<50 caution with suppression and calls the difference not a small-sample artifact without a reviewed variance analysis.",
+      "execution": "completed",
+      "answer_sha256": "6a6067bd1a6b681736d861d3be3c0ed157aa4499038fc27365a916abfbeaafaa",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-13-trial-1.zip"
+    },
+    {
+      "id": "SFO-14",
+      "question": "Do Clear members rate their SFO experience differently than non-members?",
+      "outcome": "answered",
+      "grade": "PARTIAL",
+      "reason": "Clear-group numerical results match references. Prose confuses PreCheck use with membership and calls a gap sampling noise without an inferential calculation.",
+      "execution": "completed",
+      "answer_sha256": "403d59a1f0052f70885b3f17b348ce59554b4478260b9f641db6c0b6e919ddf5",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-14-trial-1.zip"
+    },
+    {
+      "id": "SFO-15",
+      "question": "Why is retail rated lower than food?",
+      "outcome": "answered",
+      "grade": "PARTIAL",
+      "reason": "Checks the premise and avoids a causal explanation for the tiny food/store gap. Adds invented Q7 labels and overstates absence of an effect; paired hosted analysis remains separately reviewable.",
+      "execution": "completed",
+      "answer_sha256": "0256ff51162da01f286c300e3546d7ca6151e006caffa50e01a8b00735010341",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-15-trial-1.zip"
+    },
+    {
+      "id": "SFO-16",
+      "question": "Why do some passengers report problems with security screening?",
+      "outcome": "answered",
+      "grade": "PARTIAL",
+      "reason": "Separates association from causation, but misstates a boarding-area gate range and relies on hosted comment analysis requiring further review. Respondent comments are not published.",
+      "execution": "completed",
+      "answer_sha256": "97cf0fe9e1ff3b489800bb3fb8db59c0207152813c990679f5a74327c63b432b",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-16-trial-1.zip"
+    },
+    {
+      "id": "SFO-17",
+      "question": "Does using TSA PreCheck cause higher satisfaction with SFO overall?",
+      "outcome": "answered",
+      "grade": "FAIL",
+      "reason": "Correctly rejects causality and computes the comparison, but invents a single-day intercept design. INTDATE has multiple observed day values; method details must come from evidence.",
+      "execution": "completed",
+      "answer_sha256": "a4219056d1d4ecff5f964288f5942d22a5cc959890cfe3ead61305bc5ef7f32b",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-17-trial-1.zip"
+    },
+    {
+      "id": "SFO-18",
+      "question": "How has this changed since COVID?",
+      "outcome": "declined",
+      "grade": "PARTIAL",
+      "reason": "Correctly declines a COVID effect claim from 2018 data, but falsely states there is no time variable beyond the year; INTDATE exists.",
+      "execution": "completed",
+      "answer_sha256": "cabbdf4a5ebc1ed297666c6ad29bb4bf6a7eaaf778f09c6821cc9231337cb1b7",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-18-trial-1.zip"
+    },
+    {
+      "id": "SFO-19",
+      "question": "What's the trend over the last 5 years?",
+      "outcome": "declined",
+      "grade": "PASS",
+      "reason": "Declines a five-year trend from one survey year and does not fabricate historical values.",
+      "execution": "completed",
+      "answer_sha256": "a57193836f3da4f3f5ce3b364f13ae3ea2c3624bd27ccefa1a34dd981dd2c854",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-19-trial-1.zip"
+    },
+    {
+      "id": "SFO-20",
+      "question": "What will passenger satisfaction look like in 2027?",
+      "outcome": "declined",
+      "grade": "PARTIAL",
+      "reason": "Correctly declines a 2027 forecast; ancillary baseline description invents a neutral Q7 label. Declining the main request does not excuse unsupported extras.",
+      "execution": "completed",
+      "answer_sha256": "622b0b656be6e97b14b6e6e5e3c5b88f19cd6db06d2e406288e62ea3d8edda16",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-20-trial-1.zip"
+    },
+    {
+      "id": "SFO-21",
+      "question": "How does SFO's satisfaction compare to other major US airports?",
+      "outcome": "declined",
+      "grade": "PARTIAL",
+      "reason": "Correctly declines an airport comparison absent other-airport data, but adds unverified external benchmark commentary.",
+      "execution": "completed",
+      "answer_sha256": "bff805f761b2f726e7d8fac6826874d96ad45c9aae6ed512f35c91c1644f84a3",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-21-trial-1.zip"
+    },
+    {
+      "id": "SFO-22",
+      "question": "What's the most interesting thing in this data?",
+      "outcome": "answered",
+      "grade": "PARTIAL",
+      "reason": "Reports an exploratory search and warns against causal interpretation. Mislabels Q19 Clear status as clear-bag status; hosted exploratory results need independent review.",
+      "execution": "completed",
+      "answer_sha256": "0c7b06d4dbf3bfde503f582eeea51b4771b321497aa4972c1c88e8175919b0d9",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-22-trial-1.zip"
+    },
+    {
+      "id": "SFO-23",
+      "question": "Surprise me -- what's a finding in this data I might not expect?",
+      "outcome": "answered",
+      "grade": "PARTIAL",
+      "reason": "Labels exploration and multiple comparisons appropriately, but again treats an n=22 cell as below the suppression threshold. Hosted correlations and secondary analyses are not fully independently verified.",
+      "execution": "completed",
+      "answer_sha256": "79dc0533f04723c051f1499399cdec7ebffe8bbe90bba79a910ba866d990c353",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-23-trial-1.zip"
+    },
+    {
+      "id": "SFO-24",
+      "question": "What's the biggest gap between how residents and visitors experience SFO?",
+      "outcome": "answered",
+      "grade": "PARTIAL",
+      "reason": "Core residency means/NPS agree with references. Describes PreCheck use as access/holding status and treats absence of mean gaps as substantive equivalence without a reviewed test; hosted usage summaries need review.",
+      "execution": "completed",
+      "answer_sha256": "ebad4764b5ba2600d82e600b5a17c394302da57b52a72477872dbbc3539c3d05",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-24-trial-1.zip"
+    },
+    {
+      "id": "SFO-25",
+      "question": "How was this survey conducted?",
+      "outcome": "answered",
+      "grade": "FAIL",
+      "reason": "Reports 0.2% for a five-person collection-mode cell despite suppression policy. Infers a documented stratified design and practical clustering unit merely from field names; methodology is not established by those fields.",
+      "execution": "completed",
+      "answer_sha256": "08c986d94866d2e22c74abe1dc00735e833c3f49b143538a5840d0e89019ad77",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-25-trial-1.zip"
+    },
+    {
+      "id": "SFO-26",
+      "question": "What's Q7ART mean?",
+      "outcome": "answered",
+      "grade": "PARTIAL",
+      "reason": "Q7ART definition, code labels and distribution correct; explains the suppressed n=12 cell using the wrong n<50 threshold.",
+      "execution": "completed",
+      "answer_sha256": "f9a51331ec0d91a203cc6a328681b17e3b8818b916faecdd40185bd17a6afd14",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-26-trial-1.zip"
+    },
+    {
+      "id": "SFO-27",
+      "question": "What does the NETPRO variable measure?",
+      "outcome": "answered",
+      "grade": "PASS",
+      "reason": "Correct NETPRO wording, zero as valid, 11 as missing, whitespace warning and distribution; identifies small cells and distinguishes NETPRO from derived NPS.",
+      "execution": "completed",
+      "answer_sha256": "faad4406b8f7358c530d74d822bc5d9ddb62bd0ed97bd9f073db0489a8d05ea0",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-27-trial-1.zip"
+    },
+    {
+      "id": "SFO-28",
+      "question": "What counts as a 'problem' in this survey, and how is it recorded?",
+      "outcome": "answered",
+      "grade": "PARTIAL",
+      "reason": "Explains the multiple-response problem fields and deduplication, but overstates undocumented interviewer/coding procedures and assigns an unverified label to Q15A. Hosted structural claims require review.",
+      "execution": "completed",
+      "answer_sha256": "ec588ef0305d94cc1f4c0c3b193f8e351b963e838fc6191c01193f9964322364",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-28-trial-1.zip"
+    },
+    {
+      "id": "SFO-29",
+      "question": "What distinct customer segments do you see?",
+      "outcome": "clarified",
+      "grade": "PARTIAL",
+      "reason": "Appropriately asks for segmentation variables, k and weighting; recognizes overlapping trip purposes. Coverage diagnostics are model-written and not fully independently verified; no fitted segmentation is claimed.",
+      "execution": "completed",
+      "answer_sha256": "3b70b95d876c10640d78de1990f862a2774caa4171f3b7f2e6b9829dff4ea3c6",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-29-trial-1.zip"
+    },
+    {
+      "id": "SFO-30",
+      "question": "Perform a K-means clustering on these data?",
+      "outcome": "clarified",
+      "grade": "FAIL",
+      "reason": "Appropriate scoping question, but reports age valid n=1,902 instead of 2,634 for codes 1-7, apparently applying a rating-scale range to age. Also says k-means has no natural weighting without explaining weighted fitting alternatives.",
+      "execution": "completed",
+      "answer_sha256": "7944d5e8af5d53c732f29fe9e6c648b29773ee4471a148060a59d3648bb57906",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-30-trial-1.zip"
+    },
+    {
+      "id": "SFO-31",
+      "question": "Cluster respondents into 3 groups based on their Q7 service ratings, using a fixed random seed.",
+      "outcome": "answered",
+      "grade": "PARTIAL",
+      "reason": "Computes and documents seven selected Q7 inputs, scaling, k=3, seed, n=1,449, sizes and sensitivity; two actual aggregate CSVs inspected. Full clustering reproduction remains unresolved. Held-out variables on the same respondents are not independent validation, and non-random missingness is asserted too strongly.",
+      "execution": "completed",
+      "answer_sha256": "51224b97167a8869087f17b93dc8b14dc8db4b538bc615979d8fe5204aa04990",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-31-trial-1.zip"
+    },
+    {
+      "id": "SFO-32",
+      "question": "Segment passengers by trip purpose and residency and tell me which segment is least satisfied.",
+      "outcome": "answered",
+      "grade": "FAIL",
+      "reason": "Correctly deduplicates multi-response purposes and crosses residency, but identifies business as the lowest eligible mean when wedding/funeral/etc. elsewhere is lower (3.9364, n=41 versus 3.9441, n=193). Exported satisfaction CSV includes unsuppressed means/percentages for n<20 despite prose suppression. That CSV is withheld from publication.",
+      "execution": "completed",
+      "answer_sha256": "3c90f6294faff84a2c9a587d23f6b2645204c8f53fc1053dafc894c59bbfc467",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-32-trial-1.zip"
+    },
+    {
+      "id": "SFO-33",
+      "question": "I want a .csv file of the respondent records that gave the lowest rating (unacceptable) to *all* of the following measures: artwork, concessions, signage, vertical transportation, information displays, and restroom cleanliness.",
+      "outcome": "declined",
+      "grade": "FAIL",
+      "reason": "Correctly finds one AND-match and refuses nonempty respondent-level export; no download is delivered, so this is not an artifact pass. Additional hosted tables nevertheless publish percentages for cells of 10, 12 and 19, bypassing the reporting policy. The final percentage tool now guards rare numerators, but hosted code remains a bypass risk.",
+      "execution": "completed",
+      "answer_sha256": "5df1523b4fd2c4c7f9df4909a04f86a4ea8bd00cddc4dcd88172ce29ec69089a",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-33-trial-1.zip"
+    },
+    {
+      "id": "SFO-34",
+      "question": "Give me a bar chart showing the distribution of total satisfaction by male and female travelers.",
+      "outcome": "answered",
+      "grade": "PARTIAL",
+      "reason": "Actual gender PNG/CSV retrieved and visually inspected; values agree with calculator references and tiny cells are withheld. Chart footer and CSV statuses incorrectly state n<50 suppression, contradicting the displayed n=21 percentage. This is a labeling failure, not missing artifact delivery.",
+      "execution": "completed",
+      "answer_sha256": "67203dcc974e697e644a388b2457c22323b97f43fbe9abfe7484d8e7efc8f421",
+      "local_evidence": "output/evaluation/sfo-baseline/SFO-34-trial-1.zip"
+    },
+    {
+      "id": "HIST-01",
+      "question": "What is the mean overall satisfaction score?",
+      "outcome": "answered",
+      "grade": "PASS",
+      "reason": "Mean 4.00 and distribution agree with reference; labels, exclusions and n<20 versus n<50 rules are correct.",
+      "execution": "completed",
+      "answer_sha256": "0fcea8d6e5fa84ba0a4ddc4ac2a99f5f1db40802a393924b4c930e901abc8a9b",
+      "local_evidence": "output/evaluation/historical-variants/HIST-01-trial-1.zip"
+    },
+    {
+      "id": "HIST-02",
+      "question": "What's your recommendation for what SFO should do to improve traveler experience?",
+      "outcome": "answered",
+      "grade": "PARTIAL",
+      "reason": "Core calculator outputs agree with references and labels are improved. Calls Wi-Fi coverage a signature and proposed fixes cheap without supporting evidence; refers to four quoted comments absent from its answer. Hosted synthesis is not fully independently validated.",
+      "execution": "completed",
+      "answer_sha256": "938d6699c9faa4038035921fd8e2318bc80f06497ed3a9f18f7c1c0c1cd64984",
+      "local_evidence": "output/evaluation/historical-variants/HIST-02-trial-1.zip"
+    },
+    {
+      "id": "HIST-03",
+      "question": "What distinct customer segments do you see in this data?",
+      "outcome": "clarified",
+      "grade": "PARTIAL",
+      "reason": "Correctly seeks segmentation scope and recognizes overlapping purpose groups; coverage diagnostics remain model-written and not fully independently verified.",
+      "execution": "completed",
+      "answer_sha256": "55d01aa7177509be1551fcaef4e86c046f953d1031bf9070737c6b105443ae3e",
+      "local_evidence": "output/evaluation/historical-variants/HIST-03-trial-1.zip"
+    },
+    {
+      "id": "HIST-04",
+      "question": "Perform a K-means clustering on these data.",
+      "outcome": "clarified",
+      "grade": "PARTIAL",
+      "reason": "Correctly asks for variables/k/missingness before fitting. Offers behavioral categorical codes as a k-means option without explaining suitable encoding or distance choice; no fitted clustering is claimed.",
+      "execution": "completed",
+      "answer_sha256": "e6f3f93d1047cc058615152ef33bfdc5d1576d9dfa94a47c3702813abc76e3c6",
+      "local_evidence": "output/evaluation/historical-variants/HIST-04-trial-1.zip"
+    }
+  ],
+  "metrics": [
+    {
+      "run": "baseline",
+      "trials": 34,
+      "total_turn_seconds": 1805.741,
+      "median_turn_seconds": 47.639,
+      "maximum_turn_seconds": 137.856,
+      "tokens": {
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "input_tokens": 2557488,
+        "output_tokens": 131870
+      },
+      "cleanup_failures": 0
+    },
+    {
+      "run": "historical-variants",
+      "trials": 4,
+      "total_turn_seconds": 179.794,
+      "median_turn_seconds": 30.629,
+      "maximum_turn_seconds": 106.388,
+      "tokens": {
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "input_tokens": 259662,
+        "output_tokens": 13391
+      },
+      "cleanup_failures": 0
+    }
+  ]
+}
