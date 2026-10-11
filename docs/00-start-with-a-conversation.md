@@ -81,6 +81,21 @@ restrict it. Ask the workspace owner about enabling user-created skills. Claude
 documents skill use in both chat and Cowork. See
 [Anthropic's installation instructions](https://support.claude.com/en/articles/12512180-use-skills-in-claude).
 
+### Claude Code and plan mode
+
+For Claude users, `grill-with-docs` works well in the **Claude Code command
+line interface (CLI)**: put the extracted `grill-with-docs` folder in your
+project's `.claude/skills/` directory (or `~/.claude/skills/` for all projects),
+start `claude`, and ask it to use `grill-with-docs` with the interview prompt
+below. In the Claude app, the skill takes the few extra setup steps above.
+
+**Alternative in the Claude app: use `/plan` mode.** Type `/plan` (or switch
+to plan mode), then send the interview prompt below. In plan mode, Claude asks
+clarifying questions and proposes a plan before changing anything, so it can
+serve as a built-in substitute for this design conversation with no skill to
+install. Still ask for **one question at a time**, and ask it to include the
+brief, glossary, and decision records in its final plan.
+
 The spoken experience described here is **ChatGPT Voice**. Installing the skill
 in Claude does not install ChatGPT Voice; you can conduct the same interview in
 Cowork using text or the input features your Claude app provides.

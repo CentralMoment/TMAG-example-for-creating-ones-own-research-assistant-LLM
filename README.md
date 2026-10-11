@@ -21,6 +21,8 @@ That experience can feel almost surreal: you talk through a rough idea while the
 assistant challenges assumptions and helps turn your answers into a clear plan.
 The opening chapter includes skill setup for ChatGPT Work and Claude Cowork,
 a downloadable skill, and the exact kind of prompt attendees can try themselves.
+Claude users: the skill works well in the Claude Code CLI; in the Claude app,
+`/plan` mode is a simpler alternative that needs no skill setup.
 
 Ready to build? Continue to [the step-by-step app setup](docs/01-beginner-guide.md).
 
