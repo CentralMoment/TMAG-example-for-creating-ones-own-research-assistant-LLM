@@ -2,7 +2,7 @@
 
 My first step was to open the ChatGPT app and talk through what I wanted to build.
 I used a planning interview and ChatGPT's voice mode to have the conversation.
-This guide now uses my **TMAG-LLM-grill-skill** (`tmag-llm-grill-skill`) to help
+This guide uses my **TMAG-LLM-grill-skill** (`tmag-llm-grill-skill`) to help
 you define your own research assistant. The instruction that made the conversation
 work was simple:
 **Ask me one question at a time, and wait for my answer.**

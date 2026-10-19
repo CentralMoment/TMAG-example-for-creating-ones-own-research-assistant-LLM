@@ -2,12 +2,10 @@
 
 Brent began by using the ChatGPT app and ChatGPT Voice to talk through the idea
 one question at a time. The [opening chapter](00-start-with-a-conversation.md)
-now teaches that workflow using Brent's **TMAG-LLM-grill-skill**
+teaches that workflow using Brent's **TMAG-LLM-grill-skill**
 (`tmag-llm-grill-skill`), a self-contained skill for market research and market
 intelligence professionals. It includes the skill source and downloadable ZIP.
-The skill was added to this tutorial on 2026-10-19. The implementation history
-below describes the code found in the source workspace; it does not imply
-that this new skill produced the original implementation.
+The implementation history below describes the code found in the source workspace.
 
 The source workspace contains an earlier R/plumber analytics engine and a current
 Python/Streamlit app. The R engine is explicitly marked retired on 2026-09-04.

@@ -16,7 +16,7 @@ and [validation report](docs/VALIDATION.md). They show the data checks, independ
 calculations, observed model behavior, and remaining limitations without installation.
 
 The project began with a planning conversation in the ChatGPT app. To try that
-workflow now, use **TMAG-LLM-grill-skill** (`tmag-llm-grill-skill`), turn on
+workflow, use **TMAG-LLM-grill-skill** (`tmag-llm-grill-skill`), turn on
 ChatGPT Voice, and ask it to interview you **one question at a time**.
 That experience can feel almost surreal: you talk through a rough idea while the
 assistant challenges assumptions and helps turn your answers into a clear plan.
