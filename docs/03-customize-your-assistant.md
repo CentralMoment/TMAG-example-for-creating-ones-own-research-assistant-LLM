@@ -2,6 +2,11 @@
 
 ## 1. Write a small research brief
 
+For a guided interview, use [TMAG-LLM-grill-skill](00-start-with-a-conversation.md).
+Review its research brief, data and methods, assistant specification, evaluation
+plan, and glossary before implementation. Reuse those decisions in the steps
+below; adapt the technical approach if your research needs differ from SFO.
+
 In a local note, answer: who will use this, what decisions will it support, what
 five questions must it answer, and what must it decline? Identify the unit of
 analysis (person, transaction, study, observation), dates, population, and coverage.

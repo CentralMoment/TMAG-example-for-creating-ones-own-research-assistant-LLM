@@ -15,14 +15,18 @@ the first walkthrough; adapting the statistics requires subject-matter judgment.
 and [validation report](docs/VALIDATION.md). They show the data checks, independent
 calculations, observed model behavior, and remaining limitations without installation.
 
-The project began with a conversation in the ChatGPT app: use `grill-with-docs`,
-turn on ChatGPT Voice, and ask it to interview you **one question at a time**.
+The project began with a planning conversation in the ChatGPT app. To try that
+workflow now, use **TMAG-LLM-grill-skill** (`tmag-llm-grill-skill`), turn on
+ChatGPT Voice, and ask it to interview you **one question at a time**.
 That experience can feel almost surreal: you talk through a rough idea while the
 assistant challenges assumptions and helps turn your answers into a clear plan.
 The opening chapter includes skill setup for ChatGPT Work and Claude Cowork,
-a downloadable skill, and the exact kind of prompt attendees can try themselves.
-Claude users: the skill works well in the Claude Code CLI; in the Claude app,
-`/plan` mode is a simpler alternative that needs no skill setup.
+the [skill source](skills/tmag-llm-grill-skill/SKILL.md), a
+[downloadable ZIP](downloads/tmag-llm-grill-skill.zip), and a prompt attendees can
+try themselves. The skill helps market researchers define data and methods, an
+assistant specification, and an independent evaluation plan before implementation.
+Claude users: the guide also covers Claude Code CLI setup and a plan-mode
+alternative. Supply the skill instructions to retain its methodological guidance.
 
 Ready to build? Continue to [the step-by-step app setup](docs/01-beginner-guide.md).
 
@@ -54,7 +58,7 @@ may need document retrieval, page citations, and a different evaluation design.
 
 ## Read in order
 
-0. [Begin with the voice interview and install grill-with-docs](docs/00-start-with-a-conversation.md)
+0. [Begin with the voice interview and install tmag-llm-grill-skill](docs/00-start-with-a-conversation.md)
 1. [Install, configure, and run the practice example](docs/01-beginner-guide.md)
 2. [Repeat the SFO project steps](docs/02-reproduce-sfo.md)
 3. [Create your own assistant](docs/03-customize-your-assistant.md)

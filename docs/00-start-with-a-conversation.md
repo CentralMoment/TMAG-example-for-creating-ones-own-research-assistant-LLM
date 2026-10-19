@@ -1,8 +1,10 @@
-# How I began: ChatGPT, grill-with-docs, and voice
+# Begin with TMAG-LLM-grill-skill and a conversation
 
 My first step was to open the ChatGPT app and talk through what I wanted to build.
-I used `grill-with-docs` to help interrogate the idea and ChatGPT's voice mode to
-have the conversation. The instruction that made it work was simple:
+I used a planning interview and ChatGPT's voice mode to have the conversation.
+This guide now uses my **TMAG-LLM-grill-skill** (`tmag-llm-grill-skill`) to help
+you define your own research assistant. The instruction that made the conversation
+work was simple:
 **Ask me one question at a time, and wait for my answer.**
 
 It is almost surreal. You say what you are thinking, hear a thoughtful follow-up,
@@ -17,24 +19,28 @@ The prompts below are reusable examples, not a verbatim historical transcript.
 
 ## What the skill adds
 
-A skill is a reusable set of instructions. `grill-with-docs` combines an exacting
-planning interview with documentation: define the terms, clarify the decisions,
-and capture the plan as it develops. Voice makes the interview conversational;
-the written documents give you something concrete to carry into the build.
+A skill is a reusable set of instructions. This skill helps market research and
+market intelligence professionals turn research questions, data, and methodological
+judgment into a testable specification. It assumes research expertise, without
+requiring programming or machine-learning expertise.
 
-The original local skill is a short wrapper that invokes `grilling` and
-`domain-modeling`. The original grilling component normally asks questions in
-rounds; **one question at a time is the deliberate override for this workflow**.
-The [conference version](../skills/grill-with-docs/SKILL.md) combines the behavior
-in one portable file and makes that pacing the default. It is an adaptation,
-not a claim that the original wrapper works unchanged in every application.
+The [complete skill](../skills/tmag-llm-grill-skill/SKILL.md) is self-contained:
+it requires no other skills, particular provider, paid service, or example project.
+One focused question and one decision per turn is its default. It inspects available
+source material, challenges assumptions, distinguishes proposals from agreements,
+and records the plan as decisions become clear.
+
+Relevant branches cover surveys, listings and observational records, interviews
+and open-ended responses, reports, and multiple studies or waves. It separates
+reproducible calculations from retrieved examples and asks how answers will be
+checked independently. It does not prescribe this tutorial's technical stack.
 
 ## Get the skill
 
-Download [grill-with-docs.zip](../downloads/grill-with-docs.zip). On GitHub, open
+Download [tmag-llm-grill-skill.zip](../downloads/tmag-llm-grill-skill.zip). On GitHub, open
 that file and choose **Download raw file**. Or download and extract the whole
 repository; the ZIP is in `downloads/` and its readable source is in
-`skills/grill-with-docs/SKILL.md`.
+`skills/tmag-llm-grill-skill/SKILL.md`.
 
 The skill contains instructions only: no API keys, executable scripts, connector
 requirements, or other skill dependencies. You do not need Python or the research
@@ -46,19 +52,21 @@ ChatGPT or Claude features through your own account.
 Use the **ChatGPT desktop app** for this walkthrough. Standalone skill support
 differs from plugin distribution and from ordinary file attachments.
 
-1. Open a Work conversation. Attach `skills/grill-with-docs/SKILL.md` from your
+1. Open a Work conversation. Attach `skills/tmag-llm-grill-skill/SKILL.md` from your
    extracted repository (or paste its contents).
 2. Select `@skill-creator` and send the setup prompt below.
 3. Review the generated skill and complete the installation/enable step offered
-   by the app. Open **Skills** in the sidebar and confirm `grill-with-docs` appears.
-4. Start a new Work conversation, type `@`, and select `grill-with-docs`. Send the
+   by the app. Open **Skills** in the sidebar and confirm `tmag-llm-grill-skill` appears.
+4. Start a new Work conversation, type `@`, and select `tmag-llm-grill-skill`. Send the
    interview prompt in the next section. Check that it asks only one question.
 
 ```text
-@skill-creator Set up a reusable, instruction-only skill named grill-with-docs
+@skill-creator Set up a reusable, instruction-only skill named tmag-llm-grill-skill
 from the attached SKILL.md. Preserve its one-question-at-a-time interview,
-research brief, glossary, and decision-record behavior. Help me install and
-enable it in this app, then explain how to select it in a new Work conversation.
+research brief, data and methods, assistant specification, evaluation plan,
+glossary, and selective decision-record behavior. Preserve the supplied
+instructions and metadata. Help me install and enable it in this app, then
+explain how to select it in a new Work conversation.
 ```
 
 This uses the documented creator workflow rather than assuming that attaching
@@ -71,9 +79,9 @@ See [OpenAI's skill setup guide](https://learn.chatgpt.com/docs/build-skills).
 
 1. Open Claude and go to **Customize → Skills**.
 2. Click **+**, then **Create skill**, then **Upload a skill**.
-3. Select `downloads/grill-with-docs.zip` and complete the upload.
+3. Select `downloads/tmag-llm-grill-skill.zip` and complete the upload.
 4. Ensure the skill is enabled. Start a Cowork task and ask it to use
-   `grill-with-docs`, with the interview prompt below.
+   `tmag-llm-grill-skill`, with the interview prompt below.
 5. Confirm it asks a single question and can describe the documents it will maintain.
 
 If upload or creation is missing, your organization's settings or role may
@@ -83,10 +91,10 @@ documents skill use in both chat and Cowork. See
 
 ### Claude Code and plan mode
 
-For Claude users, `grill-with-docs` works well in the **Claude Code command
-line interface (CLI)**: put the extracted `grill-with-docs` folder in your
+To use `tmag-llm-grill-skill` in the **Claude Code command line interface
+(CLI)**, put the extracted `tmag-llm-grill-skill` folder in your
 project's `.claude/skills/` directory (or `~/.claude/skills/` for all projects),
-start `claude`, and ask it to use `grill-with-docs` with the interview prompt
+start `claude`, and ask it to use `tmag-llm-grill-skill` with the interview prompt
 below. In the Claude app, the skill takes the few extra setup steps above.
 
 **Alternative in the Claude app: use `/plan` mode.** Type `/plan` (or switch
@@ -94,7 +102,10 @@ to plan mode), then send the interview prompt below. In plan mode, Claude asks
 clarifying questions and proposes a plan before changing anything, so it can
 serve as a built-in substitute for this design conversation with no skill to
 install. Still ask for **one question at a time**, and ask it to include the
-brief, glossary, and decision records in its final plan.
+research brief, data and methods, assistant specification, evaluation plan,
+glossary, and any warranted decision records in its final plan. To follow the
+specific methodology in this skill, supply its instructions using the fallback
+below; plan mode alone does not include them.
 
 The spoken experience described here is **ChatGPT Voice**. Installing the skill
 in Claude does not install ChatGPT Voice; you can conduct the same interview in
@@ -106,16 +117,19 @@ Describe your rough idea. Attach an approved data dictionary or a small example
 if available; an incomplete idea is enough to start. Try this prompt:
 
 ```text
-Use grill-with-docs to help me design my own research assistant.
+Use tmag-llm-grill-skill to help me design my own research assistant.
 I want people to ask questions about my research data and receive answers
 grounded in the evidence. I am still figuring out the details.
 
 Ask me ONE question at a time, then wait for my answer. Do not give me a list
 of questions. Challenge my assumptions and help me define vague terms.
-Keep spoken replies short. Record agreed requirements in a research brief,
-definitions in a glossary, and consequential tradeoffs in decision records.
-Distinguish my decisions from your suggestions. Start with the most important
-question about what I want this assistant to help people do.
+Keep spoken replies short. Document the research brief, data and methods,
+assistant specification, evaluation plan, and glossary as decisions become clear.
+Create decision records only when warranted. Distinguish agreed decisions from
+proposals, observations, unverified assumptions, and open or deferred questions.
+Do not choose technology or begin implementation before we have reviewed the
+specification. Start with the next unresolved question about the research use,
+using any context I have already provided.
 ```
 
 ## Turn on ChatGPT Voice
@@ -138,18 +152,36 @@ Wait until I answer before asking the next one.”**
 When the discussion has clarified the idea, ask:
 
 ```text
-Summarize the plan we agreed on. Give me the research-assistant brief, the
-glossary, any significant decision records, and the questions still unresolved.
-Label suggestions that I have not accepted. Show me the documents so I can
-check them before we begin building.
+Summarize the plan we agreed on. Show me the Research Assistant Brief, Data
+and Methods, Assistant Specification, Evaluation Plan, CONTEXT glossary, and
+any warranted decision records. Identify unresolved questions, their next
+actions, and which ones block implementation. Label suggestions I have not
+accepted. Ask me to confirm that the specification reflects our shared
+understanding before we begin building.
 ```
 
-Look for an audience, useful example questions, available evidence, exclusions,
-an agreed meaning of a good answer, and a way to check it independently.
-The glossary should explain research concepts; decision records should explain
-meaningful choices. Review names, field codes, dates, and numbers that may have
-been misheard. When file writing is available, save the documents into your
-project; otherwise copy the Markdown drafts from chat.
+The skill's default outputs are:
+
+| Document | What to review |
+|---|---|
+| `docs/Research Assistant Brief.md` | Audience, decisions supported, first-version outcomes, questions, scope, exclusions, and constraints |
+| `docs/Data and Methods.md` | Sources, units, populations, weights, bases, missingness, duplicates, comparability, permissions, and limitations as relevant |
+| `docs/Assistant Specification.md` | Question-to-data/method/evidence/test mapping, answer behavior, outputs, justified technical choices, and blockers |
+| `docs/Evaluation Plan.md` | Independent references, test cases, scoring criteria, approved acceptance thresholds, and evaluation ownership |
+| `CONTEXT.md` | A glossary of canonical terms and distinctions |
+| `docs/adr/NNNN-descriptive-title.md` | A decision record only for a consequential choice with genuine alternatives |
+
+These are files the interview will create for your project, not existing files
+in this tutorial. The skill adapts to an existing documentation structure.
+Statements should be labeled **Agreed**, **Proposed**, **Observed**, **Unverified**,
+or **Open/Deferred** as appropriate. Review field codes, dates, numbers, and any
+consequential decision that could have been misheard. If file writing is
+unavailable, obtain copyable Markdown in chat; do not assume it has been saved.
+
+A finished specification does not mean the assistant has passed evaluation.
+Review the documents before implementation. Scoping allows inspection and
+documentation; data uploads, paid batch processing, and deployment require their
+own authorization.
 
 The conversation can feel extraordinary, but the useful result is a plan you
 understand and can inspect. Use that plan to guide the next stage:
@@ -157,12 +189,13 @@ understand and can inspect. Use that plan to guide the next stage:
 
 ## If you cannot install skills yet
 
-Open the [skill source](../skills/grill-with-docs/SKILL.md), copy the instructions
+Open the [skill source](../skills/tmag-llm-grill-skill/SKILL.md), copy the instructions
 below its opening metadata, and paste them into a conversation. Ask the assistant
 to follow them for this session, then send the interview prompt. This reproduces
 the interview instructions for that conversation; it is not a persistent skill
 installation. You can still try the one-question-at-a-time method.
 
 Installation guidance was checked against the linked official documentation on
-2026-09-26. The archive structure was validated locally; installation in attendees'
+2026-10-19 for ChatGPT skill setup and Claude skill upload. The archive structure
+was validated locally; installation in attendees'
 ChatGPT Work and Claude Cowork accounts has not been tested.
